@@ -10,20 +10,33 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 So, without further ado, here's the current list:
 
 # Ad Blockers & local DNS
-- [AdGuard Home](apps/ad-blockers/adguard-home.md)
+- [AdGuard Home](apps/ad-blockers/adguard.md)
 - [PiHole](apps/ad-blockers/pihole.md)
-- [Block Lists](apps/ad-blockers/block-lists.md)
+- [Block Lists](apps/ad-blockers/lists.md)
+
+
+# Blogging
+- [AnchorCMS](https://github.com/anchorcms/anchor-cms#installation)
+- [Ghost](https://ghost.org/docs/install/docker/)
+- [Hugo](https://gohugo.io/)
+- [Kirby](https://getkirby.com/)
+- [Metalsmith](https://metalsmith.io/)
+- [Pagekit](https://pagekit.com/docs/getting-started/installation)
+- [Pelican](https://docs.getpelican.com/en/stable/quickstart.html#installation)
+- [PostLeaf](https://www.postleaf.org/installing)
+- [Textpattern](https://docs.textpattern.com/installation/)
+- [WriteFreely](https://github.com/writeas/writefreely)
 
 # Bookmarks
-- Shaarli
-- Shiori
-- Shaark
+- [Shaarli](apps/bookmarks/shaarli.md)
+- [Shiori](apps/bookmarks/shiori.md)
+- [Shaark](apps/bookmarks/shaark.md)
 
 # Cloud
-- FileRun
-- NextCloud
-- Pydio
-- Seafile
+- [FileRun](apps/cloud/filerun.md)
+- [NextCloud](apps/cloud/nextcloud.md)
+- [Pydio](apps/cloud/pydio.md)
+- [Seafile](apps/cloud/seafile.md)
 
 # Dashboard
 - DashMachine

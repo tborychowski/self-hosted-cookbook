@@ -6,8 +6,8 @@
 - [disconnect.me/simple_ad](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt)
 - [hosts-file.net/ad_servers](https://hosts-file.net/ad_servers.txt)
 - [ookangzheng/dbl-oisd-nl](https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/dbl.txt)
-- [more lists](blacklists.txt)
+- [more lists](lists-black.txt)
 
 # Whitelists
 - [raghavdua1995/DNSlock-PiHole-whitelist](https://raw.githubusercontent.com/raghavdua1995/DNSlock-PiHole-whitelist/master/whitelist.list)
-- [another one](whitelist.txt)
+- [another one](lists-white.txt)

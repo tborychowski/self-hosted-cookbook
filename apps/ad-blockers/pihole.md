@@ -1,12 +1,12 @@
 # PiHole
 
 ## Overview
-
 - [Homepage](https://pi-hole.net/)
 - [Pihole Docker github repo](https://github.com/pi-hole/docker-pi-hole)
 - [Docs](https://docs.pi-hole.net/)
-- [Github](https://github.com/pi-hole)
-- [DockerHub](https://hub.docker.com/r/pihole/pihole)
+- [Github repo](https://github.com/pi-hole)
+- [DockerHub repo](https://hub.docker.com/r/pihole/pihole)
+
 
 ## `docker-compose.yml`
 ```yml

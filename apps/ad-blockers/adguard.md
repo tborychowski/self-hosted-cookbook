@@ -4,8 +4,9 @@
 
 - [Homepage](https://adguard.com/en/adguard-home/overview.html)
 - [Overview blog post](https://adguard.com/en/blog/in-depth-review-adguard-home.html)
-- [Github](https://github.com/AdguardTeam/AdguardHome)
-- [DockerHub](https://hub.docker.com/r/adguard/adguardhome)
+- [Github repo](https://github.com/AdguardTeam/AdguardHome)
+- [DockerHub repo](https://hub.docker.com/r/adguard/adguardhome)
+
 
 ## `docker-compose.yml`
 ```yml
