@@ -1,5 +1,9 @@
 # FileRun
-Mobile apps are just webdav clients.
+- Mobile apps are just webdav clients.
+- Nice dark theme.
+- Doesn't seem to support heic files out-of-the-box nicely
+- Sharing as "image gallery" doesn't display videos (only their img thumbs)
+- Sharing as "grid" doesn't allow for the nice gallery navigation
 
 <br>
 
@@ -51,3 +55,11 @@ services:
       - ./data/html:/var/www/html
       - ./data/user-files:/user-files
 ```
+
+## Running
+Create the folders first:
+```sh
+mkdir /data /data/html /data/user-files
+```
+
+The default FileRun credentials are: superuser:superuser
