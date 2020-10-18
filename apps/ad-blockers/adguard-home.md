@@ -32,7 +32,7 @@ services:
       - ./data:/opt/adguardhome/work
       - ./certs:/opt/adguardhome/certs  # remember to put this path in the UI too
 ```
-Admin panel should be available at <https://<serverIP>:9002>
+Admin panel should be available at https://localhost:9002
 
 
 ## Tips & tricks
