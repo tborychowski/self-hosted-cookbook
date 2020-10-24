@@ -80,3 +80,46 @@ services:
 ```sh
 openssl rand -base64 32
 ```
+
+### Enable HEIC & MOV previews
+
+1. Make sure that Preview Generator app is installed
+2. Add this section to the `config.php`
+  ```php
+    'enable_previews' => true,
+    'enabledPreviewProviders' => [
+      'OC\Preview\PNG',
+      'OC\Preview\JPEG',
+      'OC\Preview\GIF',
+      'OC\Preview\HEIC',
+      'OC\Preview\BMP',
+      'OC\Preview\XBitmap',
+      'OC\Preview\MP3',
+      'OC\Preview\TXT',
+      'OC\Preview\MarkDown',
+      'OC\Preview\OpenDocument',
+      'OC\Preview\Krita',
+      'OC\Preview\Movie',
+      'OC\Preview\MKV',
+      'OC\Preview\MP4',
+      'OC\Preview\AVI',
+      'OC\Preview\MSOffice2003',
+      'OC\Preview\MSOffice2007',
+      'OC\Preview\MSOfficeDoc',
+      'OC\Preview\PDF',
+      'OC\Preview\SVG',
+    ],
+  ```
+
+3. If you don't see the previews, try running this command:
+```sh
+docker-compose exec -u www-data app bash -c ."/occ preview:generate-all -vvv"
+```
+
+4. For video previews you need to install ffmpeg, like so:
+```sh
+docker-compose exec app bash -c "apt update && apt upgrade -y && apt install -y ffmpeg"
+# optionally add imagemagick and ghostscript
+```
+5. This will not persist so it must be run every time the container restarts...
+6. Alternative is to manually build docker image :-|

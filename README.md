@@ -16,16 +16,16 @@ So, without further ado, here's the current list:
 
 
 # Blogging
-- [AnchorCMS](https://github.com/anchorcms/anchor-cms#installation)
-- [Ghost](https://ghost.org/docs/install/docker/)
-- [Hugo](https://gohugo.io/)
-- [Kirby](https://getkirby.com/)
-- [Metalsmith](https://metalsmith.io/)
-- [Pagekit](https://pagekit.com/docs/getting-started/installation)
-- [Pelican](https://docs.getpelican.com/en/stable/quickstart.html#installation)
-- [PostLeaf](https://www.postleaf.org/installing)
-- [Textpattern](https://docs.textpattern.com/installation/)
-- [WriteFreely](https://github.com/writeas/writefreely)
+- [AnchorCMS](https://github.com/anchorcms/anchor-cms#installation)  [external]
+- [Ghost](https://ghost.org/docs/install/docker/)  [external]
+- [Hugo](https://gohugo.io/)  [external]
+- [Kirby](https://getkirby.com/)  [external]
+- [Metalsmith](https://metalsmith.io/)  [external]
+- [Pagekit](https://pagekit.com/docs/getting-started/installation)  [external]
+- [Pelican](https://docs.getpelican.com/en/stable/quickstart.html#installation)  [external]
+- [PostLeaf](https://www.postleaf.org/installing)  [external]
+- [Textpattern](https://docs.textpattern.com/installation/)  [external]
+- [WriteFreely](https://github.com/writeas/writefreely)  [external]
 
 # Bookmarks
 - [Shaarli](apps/bookmarks/shaarli.md)
@@ -39,9 +39,11 @@ So, without further ado, here's the current list:
 - [Seafile](apps/cloud/seafile.md)
 
 # Dashboard
-- DashMachine
-- Homer
-- SUI
+- [DashMachine](apps/dashboard/dashmachine.md)
+- [Homer](apps/dashboard/homer.md)
+- [SUI](apps/dashboard/sui.md)
+- [Organizr](https://github.com/causefx/Organizr) [external]
+- [Heimdall](https://github.com/linuxserver/Heimdall)
 
 # Docker Managers
 - Diun
