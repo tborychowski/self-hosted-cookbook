@@ -46,13 +46,13 @@ So, without further ado, here's the current list:
 - [Heimdall](https://github.com/linuxserver/Heimdall)
 
 # Docker Managers
-- Diun
-- WatchTower
+- [Diun](apps/docker/diun.md)
+- [WatchTower](apps/docker/watch-tower.md)
 
 # Download Managers
-- Deluge
-- qbittorrent
-- Transmission
+- [Deluge](apps/downloads/deluge.md)
+- [qbittorrent](apps/downloads/qbit.md)
+- [Transmission](apps/downloads/transmission.md)
 
 # E-mail
 - Clients (webmail)
