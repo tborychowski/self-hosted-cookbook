@@ -1,10 +1,13 @@
 # Homer
-- [Github repo](https://github.com/bastienwirtz/homer)
-- [DockerHub repo]()
-
 - arduous configuration (with large number of apps)
 - clear and pretty configurable
 - nice features: filter, top links
+
+<br>
+
+- [Github repo](https://github.com/bastienwirtz/homer)
+- [DockerHub repo]()
+
 
 ![Screenshot](homer.png)
 
@@ -223,5 +226,3 @@ services:
         logo: "assets/white/alexa.png"
         url: "https://alexa.amazon.co.uk/"
 ```
-
-## Tips & Tricks

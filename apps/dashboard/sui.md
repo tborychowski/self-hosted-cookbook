@@ -1,11 +1,14 @@
 # SUI
-- [Github repo](https://github.com/jeroenpardon/sui/)
-
 - A bit of a pain to configure
 - Couple of issues (submitted a PR)
 - Looks pretty, has several themes
 - Very simple and minimalistic
--
+
+<br>
+
+- [Github repo](https://github.com/jeroenpardon/sui/)
+
+
 ![Screenshot](sui.png)
 
 
