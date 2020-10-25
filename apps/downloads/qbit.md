@@ -50,4 +50,4 @@ networks:
 - find the docker container IP, e.g. in /data/qbittorrent/logs
 - in the settings, in WebUI/Authentication - enter the net mask, e.g.: `192.168.80.0/24`
 
-![Screenshot](qbit.png)
+![Screenshot](qbit-settings.png)

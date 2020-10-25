@@ -9,6 +9,11 @@ Hence - this repo.<br>
 The aims is to provide a ready-to-run recipes that you can just copy, paste and run.<br>
 So, without further ado, here's the current list:
 
+# General Information
+- How to setup docker?
+- Troubleshooting
+
+
 # Ad Blockers & local DNS
 - [AdGuard Home](apps/ad-blockers/adguard.md)
 - [PiHole](apps/ad-blockers/pihole.md)
@@ -43,7 +48,7 @@ So, without further ado, here's the current list:
 - [Homer](apps/dashboard/homer.md)
 - [SUI](apps/dashboard/sui.md)
 - [Organizr](https://github.com/causefx/Organizr) [external]
-- [Heimdall](https://github.com/linuxserver/Heimdall)
+- [Heimdall](https://github.com/linuxserver/Heimdall) [external]
 
 # Docker Managers
 - [Diun](apps/docker/diun.md)
@@ -63,7 +68,7 @@ So, without further ado, here's the current list:
 - Tools
 
 # Home Automation
-- HomeAssistant
+- [HomeAssistant](apps/home-automation/home-assistant.md)
 
 # Media Managers
 - Calibre (e-books)
@@ -79,20 +84,53 @@ So, without further ado, here's the current list:
 - Youtube downloader
 
 # Monitors
-- Cachet
-- Dockprom
-- Statping
+## Self-hosted
+- [Cachet](apps/monitors/cachet.md)
+- [Dockprom](apps/monitors/dockprom.md)
+- [PhpServerMonitor](apps/monitors/php-server-monitor.md)
+- [Statping](apps/monitors/statping.md)
+
+## Other, not-fully tested
+- [Staytus](https://github.com/adamcooke/staytus) [external] - service status is updated manually!
+- [cstate](https://cstate.mnts.lt/) [external] - weird...
+- [Glances](https://glances.readthedocs.io/en/stable/install.html)  [external] - resource hog
+- [Netdata](https://hub.docker.com/r/netdata/netdata)  [external] - lots of stuff, nothing relevant
+- [LibreNMS](https://github.com/librenms/docker)  [external] - ugly
+
+## Hosted
+- [statuspage.io](https://www.atlassian.com/software/statuspage)  [external] - same - manual process!
+- [updown](https://updown.io)  [external] - doesn't seem to have a page with multiple services' statuses...
+- [healthchecks](https://healthchecks.io)  [external] - cron-based monitoring, no public status page, just badges
+- [uptimerobot](https://uptimerobot.com)  [external] - free is very basic, constantly nags for upgrade to paid...
+
+## Useful links
+- [awesome-sysadmin: monitoring](https://github.com/n1trux/awesome-sysadmin#monitoring)
+- [reddit thread](https://www.reddit.com/r/selfhosted/comments/epzt3f/im_looking_for_a_lean_monitoring_and_altert/)
+- [reddit thread](https://www.reddit.com/r/selfhosted/comments/gwe18p/looking_for_a_neat_status_page_like/)
+
+
 
 # Notifications
-- Pushover
-- Synology-notifications
-- Synology-sms-relay
+- [Notifiers by service](apps/notifications/notifiers-by-service.md) - comparison table
+- [Pushover](apps/notifications/pushover.md)
+- [Synology-sms-relay](apps/notifications/synology-sms-relay.md)
+
+
+## Other
+- [apprise](https://github.com/caronc/apprise)
+- [Synapse](https://github.com/matrix-org/synapse#synapse-installation)
+- [Gotify](https://github.com/gotify/server) - notification server
+- [pushover](https://pushover.net/)
+- [unifi event monitor](https://github.com/tborychowski/unifi-event-monitor)
+
+
 
 # Photos
 - PhotoPrism
 - PhotoView
 - Piwigo
 - Pixelfed
+
 
  # Project Management
 - Jira
@@ -101,6 +139,7 @@ So, without further ado, here's the current list:
 - Planka
 - Vikunja
 - Wekan
+
 
 # Reverse proxy & SSO
 - Authelia
