@@ -19,6 +19,8 @@ So, without further ado, here's the current list:
 - [PiHole](apps/ad-blockers/pihole.md)
 - [Block Lists](apps/ad-blockers/lists.md)
 
+# Antivirus
+- [MalwareMultiScan](https://github.com/mindcollapse/MalwareMultiScan)
 
 # Blogging
 - [AnchorCMS](https://github.com/anchorcms/anchor-cms#installation)  [external]
@@ -70,40 +72,43 @@ So, without further ado, here's the current list:
 # Home Automation
 - [HomeAssistant](apps/home-automation/home-assistant.md)
 
+
 # Media Managers
-- Calibre (e-books)
-- Deemix
-- Komga (comics)
-- Navidrome
-- Readerr (ebooks & comics)
-- Sonarr (tv shows)
-- Radarr (movies)
-- Bazaar (subtitles)
-- Jackett (search engine proxy/adapter)
-- Tautulli
-- Youtube downloader
+- [Bazarr (subtitles)](apps/media/bazarr.md)
+- [Calibre (e-books)](apps/media/calibre.md)
+- [Deemix](apps/media/deemix.md)
+- [Jackett (search engine proxy/adapter)](apps/media/jackett.md)
+- [Komga (comics)](apps/media/komga.md)
+- [Navidrome](apps/media/navidrome.md)
+- [Radarr (movies)](apps/media/radarr.md)
+- [Readerr (ebooks & comics)](apps/media/readerr.md)
+- [Sonarr (tv shows)](apps/media/sonarr.md)
+- [Tautulli](apps/media/tautulli.md)
+- [Ubooquity](http://vaemendis.net/ubooquity) [external] - Another Ebook & Comics server. Didn't work properly.
+- [Youtube downloader](apps/media/youtube-downloader.md)
+
 
 # Monitors
-## Self-hosted
+### Self-hosted
 - [Cachet](apps/monitors/cachet.md)
 - [Dockprom](apps/monitors/dockprom.md)
 - [PhpServerMonitor](apps/monitors/php-server-monitor.md)
 - [Statping](apps/monitors/statping.md)
 
-## Other, not-fully tested
+### Other, not-fully tested
 - [Staytus](https://github.com/adamcooke/staytus) [external] - service status is updated manually!
 - [cstate](https://cstate.mnts.lt/) [external] - weird...
 - [Glances](https://glances.readthedocs.io/en/stable/install.html)  [external] - resource hog
 - [Netdata](https://hub.docker.com/r/netdata/netdata)  [external] - lots of stuff, nothing relevant
 - [LibreNMS](https://github.com/librenms/docker)  [external] - ugly
 
-## Hosted
+### Hosted
 - [statuspage.io](https://www.atlassian.com/software/statuspage)  [external] - same - manual process!
 - [updown](https://updown.io)  [external] - doesn't seem to have a page with multiple services' statuses...
 - [healthchecks](https://healthchecks.io)  [external] - cron-based monitoring, no public status page, just badges
 - [uptimerobot](https://uptimerobot.com)  [external] - free is very basic, constantly nags for upgrade to paid...
 
-## Useful links
+### Useful links
 - [awesome-sysadmin: monitoring](https://github.com/n1trux/awesome-sysadmin#monitoring)
 - [reddit thread](https://www.reddit.com/r/selfhosted/comments/epzt3f/im_looking_for_a_lean_monitoring_and_altert/)
 - [reddit thread](https://www.reddit.com/r/selfhosted/comments/gwe18p/looking_for_a_neat_status_page_like/)
@@ -116,7 +121,7 @@ So, without further ado, here's the current list:
 - [Synology-sms-relay](apps/notifications/synology-sms-relay.md)
 
 
-## Other
+### Other
 - [apprise](https://github.com/caronc/apprise)
 - [Synapse](https://github.com/matrix-org/synapse#synapse-installation)
 - [Gotify](https://github.com/gotify/server) - notification server
@@ -145,8 +150,11 @@ So, without further ado, here's the current list:
 - Authelia
 - Traefik
 
+
  # RSS
- - Miniflux (rss)
+ - Miniflux
+ - Miniflux-filter
+
 
 # Search engines
 - Searx
@@ -158,6 +166,9 @@ So, without further ado, here's the current list:
 - HumHub
 - IM
 
+
 # Wiki
 - Confluence
+- Bookstack
+- Gollum https://github.com/gollum/gollum
 - Wiki.js
