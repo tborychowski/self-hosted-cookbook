@@ -151,12 +151,13 @@ So, without further ado, here's the current list:
 - [picapport](https://www.picapport.de/en/index.php) - weird
 
  # Project Management
-- Jira
-- Kanboard
-- OpenProject
-- Planka
-- Vikunja
-- Wekan
+- [Jira](apps/project-mgmt/jira.md)
+- [Kanboard](apps/project-mgmt/kanboard.md)
+- [OpenProject](apps/project-mgmt/open-project.md)
+- [Planka](apps/project-mgmt/planka.md)
+- [Vikunja](apps/project-mgmt/vikunja.md)
+- [Wekan](apps/project-mgmt/wekan.md)
+- [Taskcafe](https://github.com/JordanKnott/taskcafe) [external] - early stage, active development.
 
 
 # Reverse proxy & SSO
