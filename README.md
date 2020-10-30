@@ -20,7 +20,7 @@ So, without further ado, here's the current list:
 - [Block Lists](apps/ad-blockers/lists.md)
 
 # Antivirus
-- [MalwareMultiScan](https://github.com/mindcollapse/MalwareMultiScan)
+- [MalwareMultiScan](https://github.com/mindcollapse/MalwareMultiScan) [external]
 
 # Blogging
 - [AnchorCMS](https://github.com/anchorcms/anchor-cms#installation)  [external]
@@ -39,7 +39,7 @@ So, without further ado, here's the current list:
 - [Shiori](apps/bookmarks/shiori.md)
 - [Shaark](apps/bookmarks/shaark.md)
 
-# Cloud
+# Cloud & File Sharing
 - [FileRun](apps/cloud/filerun.md)
 - [NextCloud](apps/cloud/nextcloud.md)
 - [Pydio](apps/cloud/pydio.md)
@@ -71,6 +71,8 @@ So, without further ado, here's the current list:
 
 # Home Automation
 - [HomeAssistant](apps/home-automation/home-assistant.md)
+- [Huginn](https://github.com/huginn/huginn) [external]
+- [Node-RED](https://nodered.org/) [external]
 
 
 # Media Managers
@@ -122,11 +124,11 @@ So, without further ado, here's the current list:
 
 
 ### Other
-- [apprise](https://github.com/caronc/apprise)
-- [Synapse](https://github.com/matrix-org/synapse#synapse-installation)
-- [Gotify](https://github.com/gotify/server) - notification server
-- [pushover](https://pushover.net/)
-- [unifi event monitor](https://github.com/tborychowski/unifi-event-monitor)
+- [apprise](https://github.com/caronc/apprise) [external]
+- [Synapse](https://github.com/matrix-org/synapse#synapse-installation) [external]
+- [Gotify](https://github.com/gotify/server) [external] - notification server
+- [pushover](https://pushover.net/) [external]
+- [unifi event monitor](https://github.com/tborychowski/unifi-event-monitor) [external]
 
 
 
@@ -138,17 +140,17 @@ So, without further ado, here's the current list:
 - [Pixelfed](apps/photos/pixelfed.md)
 
 ## Other tested
-- [Chevereto](https://chevereto.com/) - quite nice. No video support.
-- [Lychee](https://lycheeorg.github.io/) - good looking, no video support.
-- [PhotoShow](https://github.com/thibaud-rohmer/PhotoShow/) - seems dead and doesn't work.
-- [Photosync](https://www.photosync-app.com/home.html) - paid, app, not really self-hosted, just sync.
-- [OwnPhotos](https://github.com/hooram/ownphotos) - limited features, ugly & dead.
-- [FileStash](https://github.com/mickael-kerjean/filestash) - old-time-dropbox-like file manager.
+- [Chevereto](https://chevereto.com/) [external] - quite nice. No video support.
+- [Lychee](https://lycheeorg.github.io/) [external] - good looking, no video support.
+- [PhotoShow](https://github.com/thibaud-rohmer/PhotoShow/) [external] - seems dead and doesn't work.
+- [Photosync](https://www.photosync-app.com/home.html) [external] - paid, app, not really self-hosted, just sync.
+- [OwnPhotos](https://github.com/hooram/ownphotos) [external] - limited features, ugly & dead.
+- [FileStash](https://github.com/mickael-kerjean/filestash) [external] - old-time-dropbox-like file manager.
 
 ## Untested
-- [pigallery2](https://github.com/bpatrik/pigallery2) - minimal feats
-- [photostructure](https://photostructure.com/) - too early
-- [picapport](https://www.picapport.de/en/index.php) - weird
+- [pigallery2](https://github.com/bpatrik/pigallery2) [external] - minimal feats
+- [photostructure](https://photostructure.com/) [external] - too early
+- [picapport](https://www.picapport.de/en/index.php) [external] - weird
 
  # Project Management
 - [Jira](apps/project-mgmt/jira.md)
