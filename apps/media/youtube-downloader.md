@@ -59,5 +59,5 @@ services:
             write_ytdl_config: 'true'
             ALLOW_CONFIG_MUTATIONS: 'true'
         volumes:
-			- ./downloads:/app/video
+          - ./downloads:/app/video
 ```
