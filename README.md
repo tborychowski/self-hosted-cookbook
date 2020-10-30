@@ -131,11 +131,24 @@ So, without further ado, here's the current list:
 
 
 # Photos
-- PhotoPrism
-- PhotoView
-- Piwigo
-- Pixelfed
+- [Comparison table](apps/photos/comparison.md)
+- [PhotoPrism](apps/photos/photoprism.md)
+- [PhotoView](apps/photos/photoview.md)
+- [Piwigo](apps/photos/piwigo.md)
+- [Pixelfed](apps/photos/pixelfed.md)
 
+## Other tested
+- [Chevereto](https://chevereto.com/) - quite nice. No video support.
+- [Lychee](https://lycheeorg.github.io/) - good looking, no video support.
+- [PhotoShow](https://github.com/thibaud-rohmer/PhotoShow/) - seems dead and doesn't work.
+- [Photosync](https://www.photosync-app.com/home.html) - paid, app, not really self-hosted, just sync.
+- [OwnPhotos](https://github.com/hooram/ownphotos) - limited features, ugly & dead.
+- [FileStash](https://github.com/mickael-kerjean/filestash) - old-time-dropbox-like file manager.
+
+## Untested
+- [pigallery2](https://github.com/bpatrik/pigallery2) - minimal feats
+- [photostructure](https://photostructure.com/) - too early
+- [picapport](https://www.picapport.de/en/index.php) - weird
 
  # Project Management
 - Jira
