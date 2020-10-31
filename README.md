@@ -163,8 +163,10 @@ So, without further ado, here's the current list:
 
 
 # Reverse proxy & SSO
-- Authelia
-- Traefik
+- [Authelia](apps/reverse-proxy-sso/authelia.md)
+- [Traefik](apps/reverse-proxy-sso/traefik.md)
+- [Caddy](https://caddyserver.com/) [external] - very good web server with reverse-proxy & automatic https.
+- [Nginx Proxy Manager](https://nginxproxymanager.com/) [external] - another nice solution based on the battle-tested & probably the most popular web-server - nginx. It has a pretty UI that allows to manage the services.
 
 
  # RSS
