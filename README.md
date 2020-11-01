@@ -170,8 +170,16 @@ So, without further ado, here's the current list:
 
 
  # RSS
- - Miniflux
- - Miniflux-filter
+ - [Miniflux](rss/../apps/rss/miniflux.md)
+ - [Miniflux-filter](rss/../apps/rss/miniflux-filter.md)
+ - [FreshRSS](https://www.freshrss.org/) [external] - second best :-)
+
+
+## RSS Tools
+- [PolitePol](https://github.com/taroved/pol) [external] - Create RSS where there was none
+- [FetchRSS](https://fetchrss.com/) [external] - Create RSS for FB, Twitter, YT, and websites
+- [rss-bridge](https://github.com/RSS-Bridge/rss-bridge) [external] - The RSS feed for websites missing it
+- [rss2full](https://github.com/feedocean/rss2full) [external] - Transform summary feeds into full-text
 
 
 # Search engines
