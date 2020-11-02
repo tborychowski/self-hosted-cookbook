@@ -139,7 +139,7 @@ So, without further ado, here's the current list:
 - [Piwigo](apps/photos/piwigo.md)
 - [Pixelfed](apps/photos/pixelfed.md)
 
-## Other tested
+### Other tested
 - [Chevereto](https://chevereto.com/) [external] - quite nice. No video support.
 - [Lychee](https://lycheeorg.github.io/) [external] - good looking, no video support.
 - [PhotoShow](https://github.com/thibaud-rohmer/PhotoShow/) [external] - seems dead and doesn't work.
@@ -200,7 +200,7 @@ So, without further ado, here's the current list:
 - [Wiki.js](apps/wiki/wikijs.md)
 - [XWiki](apps/wiki/xwiki.md)
 
-## Other
+### Other
 - [Pepperminty Wiki ](https://peppermint.mooncarrot.space/) [external] -
 - [Wreeto](https://github.com/chrisvel/wreeto_official) [external] - impossible to install
 - [Outline](https://github.com/chsasank/outline-wiki-docker-compose) [external] (Original docker was impossible to use. This one allegedly works.) - It looks cool, but requires Slack to use...
