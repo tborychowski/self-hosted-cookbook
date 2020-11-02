@@ -147,7 +147,7 @@ So, without further ado, here's the current list:
 - [OwnPhotos](https://github.com/hooram/ownphotos) [external] - limited features, ugly & dead.
 - [FileStash](https://github.com/mickael-kerjean/filestash) [external] - old-time-dropbox-like file manager.
 
-## Untested
+### Untested
 - [pigallery2](https://github.com/bpatrik/pigallery2) [external] - minimal feats
 - [photostructure](https://photostructure.com/) [external] - too early
 - [picapport](https://www.picapport.de/en/index.php) [external] - weird
@@ -176,7 +176,7 @@ So, without further ado, here's the current list:
  - [FreshRSS](https://www.freshrss.org/) [external] - second best :-)
 
 
-## RSS Tools
+### RSS Tools
 - [PolitePol](https://github.com/taroved/pol) [external] - Create RSS where there was none
 - [FetchRSS](https://fetchrss.com/) [external] - Create RSS for FB, Twitter, YT, and websites
 - [rss-bridge](https://github.com/RSS-Bridge/rss-bridge) [external] - The RSS feed for websites missing it
