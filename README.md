@@ -160,6 +160,7 @@ So, without further ado, here's the current list:
 - [Vikunja](apps/project-mgmt/vikunja.md)
 - [Wekan](apps/project-mgmt/wekan.md)
 - [Taskcafe](https://github.com/JordanKnott/taskcafe) [external] - early stage, active development.
+- [YouTrack](https://www.jetbrains.com/youtrack/) [external] - The project management tool designed for agile teams (from JetBrains).
 
 
 # Reverse proxy & SSO
@@ -194,7 +195,13 @@ So, without further ado, here's the current list:
 
 
 # Wiki
-- Confluence
-- Bookstack
-- Gollum https://github.com/gollum/gollum
-- Wiki.js
+- [Confluence](apps/wiki/confluence.md)
+- [Bookstack](apps/wiki/bookstack.md)
+- [Wiki.js](apps/wiki/wikijs.md)
+- [XWiki](apps/wiki/xwiki.md)
+
+## Other
+- [Pepperminty Wiki ](https://peppermint.mooncarrot.space/) [external] -
+- [Wreeto](https://github.com/chrisvel/wreeto_official) [external] - impossible to install
+- [Outline](https://github.com/chsasank/outline-wiki-docker-compose) [external] (Original docker was impossible to use. This one allegedly works.) - It looks cool, but requires Slack to use...
+- [Gollum](https://github.com/gollum/gollum) [external] - A simple, Git-powered wiki with a sweet API and local frontend.
