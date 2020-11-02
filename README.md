@@ -35,10 +35,15 @@ So, without further ado, here's the current list:
 - [Textpattern](https://docs.textpattern.com/installation/)  [external]
 - [WriteFreely](https://github.com/writeas/writefreely)  [external]
 
-# Bookmarks
+# Bookmarks & Read Later
 - [Shaarli](apps/bookmarks/shaarli.md)
 - [Shiori](apps/bookmarks/shiori.md)
 - [Shaark](apps/bookmarks/shaark.md)
+- [Wallabag](apps/bookmarks/wallabag.md)
+
+### Other
+- [Nunux Keeper](https://keeper.nunux.org/) [external] - similar to wallabag, but not as good (more complicated, less usable and doesn't have mobile apps).
+
 
 # Cloud & File Sharing
 - [FileRun](apps/cloud/filerun.md)
@@ -190,10 +195,14 @@ So, without further ado, here's the current list:
 
 
 # Social
-- Monica CRM
-- Etesync
-- HumHub
-- IM
+- [Monica](apps/social/monica.md)
+- [Etesync](apps/social/etesync.md)
+
+### Other untested
+- [HumHub](https://www.humhub.com/en) [external] - Free social network software and framework.
+- [RocketChat](https://docs.rocket.chat/installation/docker-containers/) [external] - The Ultimate Communication Hub.
+- [Snikket](https://snikket.org/) [external] - Chat that is simple, secure, and private.
+- [Jami](https://jami.net/) [external] - Audio & video calls, screen sharing, IM.
 
 
 # Wiki
@@ -202,8 +211,9 @@ So, without further ado, here's the current list:
 - [Wiki.js](apps/wiki/wikijs.md)
 - [XWiki](apps/wiki/xwiki.md)
 
+
 ### Other
-- [Pepperminty Wiki ](https://peppermint.mooncarrot.space/) [external] -
+- [Pepperminty Wiki](https://peppermint.mooncarrot.space/) [external] - wiki engine contained in a single file. Doesn't seem to have a structured navigation (tree-like menu). Subpages are supported though.
 - [Wreeto](https://github.com/chrisvel/wreeto_official) [external] - impossible to install
 - [Outline](https://github.com/chsasank/outline-wiki-docker-compose) [external] (Original docker was impossible to use. This one allegedly works.) - It looks cool, but requires Slack to use...
 - [Gollum](https://github.com/gollum/gollum) [external] - A simple, Git-powered wiki with a sweet API and local frontend.
