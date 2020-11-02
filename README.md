@@ -10,7 +10,8 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 So, without further ado, here's the current list:
 
 # General Information
-- How to setup docker?
+- How to setup docker & docker-compose?
+- How to use docker-compose
 - Troubleshooting
 
 
@@ -184,8 +185,9 @@ So, without further ado, here's the current list:
 
 
 # Search engines
-- Searx
-- Whoogle search
+- [Searx](apps/search/searx.md)
+- [Whoogle](apps/search/whoogle.md)
+
 
 # Social
 - Monica CRM

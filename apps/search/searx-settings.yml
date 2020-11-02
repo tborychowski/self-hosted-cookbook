@@ -1,0 +1,226 @@
+general:
+    debug : False # Debug mode, only for development
+    instance_name : "searx" # displayed name
+
+search:
+    safe_search : 1 # Filter results. 0: None, 1: Moderate, 2: Strict
+    autocomplete : "duckduckgo" # Existing autocomplete backends: "dbpedia", "duckduckgo", "google", "startpage", "swisscows", "qwant", "wikipedia" - leave blank to turn it off by default
+    default_lang : "" # Default search language - leave blank to detect from browser information or use codes from 'languages.py'
+    ban_time_on_fail : 5 # ban time in seconds after engine errors
+    max_ban_time_on_fail : 120 # max ban time in seconds after engine errors
+
+server:
+    port : 8888
+    bind_address : "127.0.0.1" # address to listen on
+    secret_key : "6dba0e8f736b4c9de99f3332e5ef6663d8d04cf9516dcd15ae15a97c0c25f" # change this!
+    base_url : https://searx.example.com/ # Set custom base_url. Possible values: False or "https://your.custom.host/location/"
+    image_proxy : True # Proxying image results through searx
+    http_protocol_version : "1.0"  # 1.0 and 1.1 are supported
+    method: "POST" # POST queries are more secure as they don't show up in history but may cause problems when using Firefox containers
+
+ui:
+    static_path : "" # Custom static path - leave it blank if you didn't change
+    templates_path : "" # Custom templates path - leave it blank if you didn't change
+    default_theme : oscar # ui theme
+    default_locale : "" # Default interface locale - leave blank to detect from browser information or use codes from the 'locales' config section
+    theme_args :
+        oscar_style : logicodev-dark # default style of oscar
+#   results_on_new_tab: False  # Open result links in a new tab by default
+#   categories_order :
+#     - general
+#     - files
+#     - map
+#     - it
+#     - science
+
+# searx supports result proxification using an external service: https://github.com/asciimoo/morty
+result_proxy:
+   url : https://morty.example.com
+   key : !!binary "Op0RgXik5oOpTpgvawHPMdw823KolwS1JWfZa2vpt+FXXI"
+
+
+outgoing: # communication with search engines
+    request_timeout : 2.0 # default timeout in seconds, can be override by engine
+    # max_request_timeout: 10.0 # the maximum timeout in seconds
+    useragent_suffix : "" # suffix of searx_useragent, could contain informations like an email address to the administrator
+    pool_connections : 100 # Number of different hosts
+    pool_maxsize : 10 # Number of simultaneous requests by host
+# uncomment below section if you want to use a proxy
+# see http://docs.python-requests.org/en/latest/user/advanced/#proxies
+# SOCKS proxies are also supported: see http://requests.readthedocs.io/en/master/user/advanced/#socks
+#    proxies :
+#        http : http://127.0.0.1:8080
+#        https: http://127.0.0.1:8080
+# uncomment below section only if you have more than one network interface
+# which can be the source of outgoing search requests
+#    source_ips:
+#        - 1.1.1.1
+#        - 1.1.1.2
+
+# External plugin configuration
+# See http://searx.github.io/searx/dev/plugins.html for more details
+#
+# plugins:
+#   - plugin1
+#   - plugin2
+#   - ...
+
+
+engines:
+  - name : wikipedia
+    engine : wikipedia
+    shortcut : wp
+    base_url : 'https://{language}.wikipedia.org/'
+
+  - name : bing images
+    engine : bing_images
+    shortcut : bii
+
+
+  - name : currency
+    engine : currency_convert
+    categories : general
+    shortcut : cc
+
+  - name : deezer
+    engine : deezer
+    shortcut : dz
+    disabled: True
+
+  - name : deviantart
+    engine : deviantart
+    shortcut : da
+    timeout: 3.0
+    disabled: True
+
+  - name : ddg definitions
+    engine : duckduckgo_definitions
+    shortcut : ddd
+    weight : 2
+    disabled : True
+
+  - name : wikidata
+    engine : wikidata
+    shortcut : wd
+    timeout : 3.0
+    weight : 2
+    disabled: True
+
+  - name : duckduckgo
+    engine : duckduckgo
+    shortcut : ddg
+
+  - name : duckduckgo images
+    engine : duckduckgo_images
+    shortcut : ddi
+    timeout: 3.0
+    disabled : True
+
+  - name : flickr
+    categories : images
+    shortcut : fl
+# You can use the engine using the official stable API, but you need an API key
+# See : https://www.flickr.com/services/apps/create/
+#    engine : flickr
+#    api_key: 'apikey' # required!
+# Or you can use the html non-stable engine, activated by default
+    engine : flickr_noapi
+    disabled: True
+
+  - name : github
+    engine : github
+    shortcut : gh
+
+  - name : google
+    engine : google
+    shortcut : go
+
+  - name : google images
+    engine : google_images
+    shortcut : goi
+
+  - name : library genesis
+    engine : xpath
+    search_url : https://libgen.is/search.php?req={query}
+    url_xpath : //a[contains(@href,"bookfi.net")]/@href
+    title_xpath : //a[contains(@href,"book/")]/text()[1]
+    content_xpath : //td/a[1][contains(@href,"=author")]/text()
+    categories : general
+    timeout : 7.0
+    disabled : True
+    shortcut : lg
+
+  - name : npm
+    engine : json_engine
+    paging : True
+    search_url : https://api.npms.io/v2/search?q={query}&size=25&from={pageno}
+    results_query : results
+    url_query : package/links/npm
+    title_query : package/name
+    content_query : package/description
+    page_size : 25
+    categories : it
+    disabled: True
+    timeout: 5.0
+    shortcut : npm
+
+  - name : openstreetmap
+    engine : openstreetmap
+    shortcut : osm
+    disabled : True
+
+
+  - name : reddit
+    engine : reddit
+    shortcut : re
+    page_size : 25
+    timeout : 10.0
+    disabled : True
+
+  - name : stackoverflow
+    engine : stackoverflow
+    shortcut : st
+
+  - name : startpage
+    engine : startpage
+    shortcut : sp
+    timeout : 6.0
+
+  - name : youtube
+    shortcut : yt
+    # You can use the engine using the official stable API, but you need an API key
+    # See : https://console.developers.google.com/project
+    #    engine : youtube_api
+    #    api_key: 'apikey' # required!
+    # Or you can use the html non-stable engine, activated by default
+    engine : youtube_noapi
+
+  - name : vimeo
+    engine : vimeo
+    shortcut : vm
+
+  - name : 1337x
+    engine : 1337x
+    shortcut : 1337x
+    disabled : True
+
+  - name : peertube
+    engine: peertube
+    shortcut: ptb
+    paging : True
+    base_url : https://peer.tube/
+    categories: videos
+    disabled : True
+
+
+locales:
+    en : English
+    pl : Polski (Polish)
+
+doi_resolvers :
+  oadoi.org : 'https://oadoi.org/'
+  doi.org : 'https://doi.org/'
+  doai.io  : 'https://dissem.in/'
+  sci-hub.tw : 'https://sci-hub.tw/'
+
+default_doi_resolver : 'sci-hub.tw'
