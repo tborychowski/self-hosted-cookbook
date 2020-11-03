@@ -1,4 +1,4 @@
-# Comparison of self-hosted proto apps
+# Comparison of self-hosted photo apps
 
 
 | App                    | UI        | Users      | Album Sharing              | Comments | UI upload | Video support                          |
