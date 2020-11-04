@@ -12,14 +12,14 @@ In my setup Roundcube is integrated with MailCow server.
 ### Plugins
 - [Carddav](carddav.md)
 - [Enigma](enigma.md)
-- [SMTP identity](https://plugins.roundcube.net/#/packages/elm/identity_smtp) [external] - Send emails from gmail account
-- [HTML5 Notifier](https://plugins.roundcube.net/#/packages/kitist/html5_notifier) [external]
-- [Easy unsubscribe](https://plugins.roundcube.net/#/packages/ss88/easy_unsubscribe) [external] - (composer require "ss88/easy_unsubscribe @dev")
-- [Automatic addressbook](https://plugins.roundcube.net/#/packages/sblaisot/automatic_addressbook) [external]
-- [Context menus](https://plugins.roundcube.net/#/packages/johndoh/contextmenu) [external]
-- [Plugin installer](https://plugins.roundcube.net/#/packages/roundcube/plugin-installer) [external]
-- [Folder size](https://plugins.roundcube.net/#/packages/jfcherng/show-folder-size) [external]
-- [Filters](https://plugins.roundcube.net/#/packages/roundcube/filters) [external]
+- [SMTP identity](https://plugins.roundcube.net/#/packages/elm/identity_smtp) 🔗 - Send emails from gmail account
+- [HTML5 Notifier](https://plugins.roundcube.net/#/packages/kitist/html5_notifier) 🔗
+- [Easy unsubscribe](https://plugins.roundcube.net/#/packages/ss88/easy_unsubscribe) 🔗 - (composer require "ss88/easy_unsubscribe @dev")
+- [Automatic addressbook](https://plugins.roundcube.net/#/packages/sblaisot/automatic_addressbook) 🔗
+- [Context menus](https://plugins.roundcube.net/#/packages/johndoh/contextmenu) 🔗
+- [Plugin installer](https://plugins.roundcube.net/#/packages/roundcube/plugin-installer) 🔗
+- [Folder size](https://plugins.roundcube.net/#/packages/jfcherng/show-folder-size) 🔗
+- [Filters](https://plugins.roundcube.net/#/packages/roundcube/filters) 🔗
 
 
 ## mailcow-dockerized/data/web/roundcube/config/config.inc.php
