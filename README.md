@@ -95,8 +95,14 @@ So, without further ado, here's the current list:
   - [Wildduck](https://wildduck.email/#/) [external]
     - has app passwords
     - doesn't seem to have contacts or other stuff (unless you'd use e.g. Roundcube)
-- [Hosted e-mail providers](apps/email/hosted-providers.md)
-- [SMTP Relays](apps/email/smtp-relays.md)
+- Hosted e-mail providers:
+  - [Migadu](https://www.migadu.com/) [external] - No calendar, just email with a contactbook. Swiss-based. From: $19/year.
+  - [Mailcheap](https://www.mailcheap.co/email-shared.html) [external] - Sogo & Afterlogic with calendar. USA based. No "delete account". From: $24/year.
+- SMTP Relays
+  - [SMTP2Go](https://www.smtp2go.com/pricing/) [external] - Free: 1k/month
+  - [Mailgun](https://www.mailgun.com/pricing/) [external] - PAYG: $8/10k/month
+  - [Sendgrid](https://sendgrid.com/pricing/) [external] - Free 100/day
+  - [MailJet](https://www.mailjet.com/pricing/) [external] - Free 6k/month
 - Anonymous emails - not self-hosted but important for privacy
   - [Reddit Thread](https://www.reddit.com/r/selfhosted/comments/isu8mw/selfhosted_throw_away_email_addresses_that_allow/) [external]
   - [burnermail.io](https://burnermail.io/) [external]
