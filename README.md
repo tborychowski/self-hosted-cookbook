@@ -14,6 +14,12 @@ So, without further ado, here's the current list:
 - How to use docker-compose
 - Troubleshooting
 
+# How to use this cookbook
+- There are certain things that some recipes need which cannot be filled in due to security reasons.
+  - `example.com` needs to be replaced with your own domain
+  - `username`, `password`, etc. - should be replaced by your username & password
+  - keys (like `APP_KEY`, `SECRET` etc.) should be regenerated using e.g. `openssl rand -base64 32`
+- Not all apps have been tested & described. These are marked as `[external]` (external links).
 
 # Ad Blockers & local DNS
 - [AdGuard Home](apps/ad-blockers/adguard.md)
@@ -68,12 +74,42 @@ So, without further ado, here's the current list:
 - [Transmission](apps/downloads/transmission.md)
 
 # E-mail
-- Clients (webmail)
-- Servers
-- Hosted e-mail providers
-- SMTP Relays
-- Anonymous emails
+- CLIENTS (webmail)
+  - [Roundcube](apps/email/roundcube.md)
+  - [Rainloop](http://www.rainloop.net/) [external]
+  - [Rainloop in MailCow](https://github.com/mailcow/mailcow-dockerized/issues/613) [external]
+  - [Mailpile](https://www.mailpile.is/) [external]
+  - [WebMail Lite](https://afterlogic.com/docs/webmail-lite-8/installation) [external]
+  - [Cypht](https://cypht.org/) [external]
+  - [Cypht docker](https://hub.docker.com/r/sailfrog/cypht-docker) [external]
+- SERVERS
+  - [Mailcow](apps/email/mailcow.md)
+  - [Mailu](https://github.com/Mailu/Mailu) [external]
+    - Can't send from roundcube as e.g. `username@gmail.com`
+  - [Mail-in-a-box](https://mailinabox.email/) [external]
+  - [Mailcare](https://gitlab.com/mailcare/mailcare) [external]
+    - open source disposable email address service.
+  - [Poste.io](https://poste.io/doc/getting-started) [external]
+    - doesn't allow fetching from other imap servers
+    - keeps pushing the pro version
+  - [Wildduck](https://wildduck.email/#/) [external]
+    - has app passwords
+    - doesn't seem to have contacts or other stuff (unless you'd use e.g. Roundcube)
+- [Hosted e-mail providers](apps/email/hosted-providers.md)
+- [SMTP Relays](apps/email/smtp-relays.md)
+- Anonymous emails - not self-hosted but important for privacy
+  - [Reddit Thread](https://www.reddit.com/r/selfhosted/comments/isu8mw/selfhosted_throw_away_email_addresses_that_allow/) [external]
+  - [burnermail.io](https://burnermail.io/) [external]
+  - [anonaddy.com](https://anonaddy.com/#pricing) [external]
+  - [simplelogin.io](https://simplelogin.io/) [external]
+  - [simplelogin.io github repo](https://github.com/simple-login/app) [external]
 - Tools
+  - [verify domain for google](https://postmaster.google.com/managedomains) [external]
+  - [remove IP from spam house](https://www.spamhaus.org/lookup/) [external]
+  - [check dns & reverse dns](https://mxtoolbox.com/) [external]
+  - [reverse-dns-check](https://www.debouncer.com/reverse-dns-check) [external]
+  - [DNS Records checker](https://www.digwebinterface.com/) [external]
+  - [Domain security checker](https://www.hardenize.com/) [external]
 
 # Home Automation
 - [HomeAssistant](apps/home-automation/home-assistant.md)
