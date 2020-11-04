@@ -84,17 +84,11 @@ So, without further ado, here's the current list:
   - [Cypht docker](https://hub.docker.com/r/sailfrog/cypht-docker) 🔗
 - SERVERS
   - [Mailcow](apps/email/mailcow.md)
-  - [Mailu](https://github.com/Mailu/Mailu) 🔗
-    - Can't send from roundcube as e.g. `username@gmail.com`
+  - [Mailu](https://github.com/Mailu/Mailu) 🔗 - Can't send from roundcube as e.g. `username@gmail.com`
   - [Mail-in-a-box](https://mailinabox.email/) 🔗
-  - [Mailcare](https://gitlab.com/mailcare/mailcare) 🔗
-    - open source disposable email address service.
-  - [Poste.io](https://poste.io/doc/getting-started) 🔗
-    - doesn't allow fetching from other imap servers
-    - keeps pushing the pro version
-  - [Wildduck](https://wildduck.email/#/) 🔗
-    - has app passwords
-    - doesn't seem to have contacts or other stuff (unless you'd use e.g. Roundcube)
+  - [Mailcare](https://gitlab.com/mailcare/mailcare) 🔗 - open source disposable email address service.
+  - [Poste.io](https://poste.io/doc/getting-started) 🔗 - doesn't allow fetching from other imap servers, keeps pushing the pro version
+  - [Wildduck](https://wildduck.email/#/) 🔗 - has app passwords, doesn't seem to have contacts or other stuff (unless you'd use e.g. Roundcube)
 - Hosted e-mail providers:
   - [Migadu](https://www.migadu.com/) 🔗 - No calendar, just email with a contactbook. Swiss-based. From: $19/year.
   - [Mailcheap](https://www.mailcheap.co/email-shared.html) 🔗 - Sogo & Afterlogic with calendar. USA based. No "delete account". From: $24/year.
