@@ -9,17 +9,19 @@ Hence - this repo.<br>
 The aims is to provide a ready-to-run recipes that you can just copy, paste and run.<br>
 So, without further ado, here's the current list:
 
-# General Information
-- How to setup docker & docker-compose?
-- How to use docker-compose
-- Troubleshooting
-
 # How to use this cookbook
 - There are certain things that some recipes need which cannot be filled in due to security reasons.
   - `example.com` needs to be replaced with your own domain
   - `username`, `password`, etc. - should be replaced by your username & password
   - keys (like `APP_KEY`, `SECRET` etc.) should be regenerated using e.g. `openssl rand -base64 32`
 - Not all apps have been tested & described. These are marked as 🔗 (external links).
+
+
+# General Information
+- How to setup docker & docker-compose?
+- How to use docker-compose
+- Troubleshooting
+
 
 # Ad Blockers & local DNS
 - [AdGuard Home](apps/ad-blockers/adguard.md)
@@ -28,6 +30,10 @@ So, without further ado, here's the current list:
 
 # Antivirus
 - [MalwareMultiScan](https://github.com/mindcollapse/MalwareMultiScan) 🔗
+
+# Backup
+- Duplicati
+- Elkar Backup
 
 # Blogging
 - [AnchorCMS](https://github.com/anchorcms/anchor-cms#installation) 🔗

@@ -123,3 +123,8 @@ docker-compose exec app bash -c "apt update && apt upgrade -y && apt install -y 
 ```
 5. This will not persist so it must be run every time the container restarts...
 6. Alternative is to manually build docker image :-|
+
+
+### Bookmarks previews
+For bookmarks previews it's required to have a screenshotting service.
+[Screenly](screenly.md) can be easily self-hosted.
