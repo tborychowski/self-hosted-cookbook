@@ -12,3 +12,4 @@
 | NextCloud Photos       | ⭐️⭐️⭐️⭐️   | ✅         | links, passwords           | ✅       | ✅        | ✅                                     |
 | Synology Moments       | ⭐️⭐️⭐️⭐️   | ✅         | links                      | ⛔️       | ✅        | ✅                                     |
 | Synology Photo Station | ⭐️⭐️⭐️     | ✅         | links, passwords           | ✅       | ✅        | ✅                                     |
+| [PhotoStructure](https://photostructure.com/) |       |           |            |         |          |                                       |
