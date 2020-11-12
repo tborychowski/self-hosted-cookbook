@@ -24,7 +24,7 @@ services:
       - "9001:80/tcp"
       - "9002:443/tcp"
       - "9003:3000/tcp"
-    #  not sure what this is for,but everything works without it
+    #  Therese 3 are required if you want to use AdGuard as a DHCP server
     #  - "67:67/udp"
     #  - "68:68/tcp"
     #  - "68:68/udp"
