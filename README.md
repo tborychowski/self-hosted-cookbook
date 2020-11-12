@@ -63,6 +63,11 @@ So, without further ado, here's the current list:
 - [Pydio](apps/cloud/pydio.md)
 - [Seafile](apps/cloud/seafile.md)
 
+
+# Cookbook
+- [NextCloud Cookbook](https://apps.nextcloud.com/apps/cookbook) 🔗 - quite good. Can import from URL (some pages), but manually editing longer recipes is a bit of a pain (you need to add and paste every single ingredient & preparation step one-by-one).
+- [recipes](https://github.com/vabene1111/recipes) 🔗 - a bit complex, but feature rich food processing manager for your home (from shopping to the table). Importing doesn't seem to work as good as in the NextCloud's Cookbook (for some pages at least).
+
 # Dashboard
 - [DashMachine](apps/dashboard/dashmachine.md)
 - [Homer](apps/dashboard/homer.md)
