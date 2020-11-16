@@ -6,7 +6,7 @@
 - [Homepage](https://nextcloud.com/)
 - [Github repo](https://github.com/nextcloud)
 - [DockerHub repo](https://hub.docker.com/_/nextcloud/)
-- [Breeze dark theme](https://github.com/mwalbeck/nextcloud-breeze-dark) - some stuff doesn't work
+- [Breeze dark theme](https://github.com/mwalbeck/nextcloud-breeze-dark)
 - [Docs](https://docs.nextcloud.com/server/20/admin_manual/)
 - [Demo](https://try.nextcloud.com/)
 
