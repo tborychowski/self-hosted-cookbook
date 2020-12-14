@@ -11,6 +11,10 @@
 - [Full MDI icons](https://cdn.materialdesignicons.com/5.2.45/)
 - [DubhAd/Home-AssistantConfig](https://github.com/DubhAd/Home-AssistantConfig)
 - [compatible devices](https://www.hadevices.com/)
+- [presence monitoring](https://community.home-assistant.io/t/monitor-reliable-multi-user-distributed-bluetooth-occupancy-presence-detection/68505)
+- [touch panel](https://singlebox.tv/how-to-all-in-one-home-assistant-and-touch-panel/)
+- [reddit thread guide](https://www.reddit.com/r/homeautomation/comments/ejo7zg/i_built_an_allinone_touch_panel_to_control_my/)
+
 
 ## Integrations
 - [hacs](https://github.com/hacs/integration)
@@ -139,3 +143,9 @@ media_player.lgtv:
 ```
 
 ## Tips & Tricks
+
+### Nest integration
+- [HA Integration guide](https://www.home-assistant.io/integrations/nest/#device-access-registration)
+- [Acc auth manual](https://developers.google.com/nest/device-access/authorize)
+- [nest console](https://console.nest.google.com/device-access/project-list)
+- [devs console](https://console.developers.google.com/)

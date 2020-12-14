@@ -22,6 +22,11 @@ So, without further ado, here's the current list:
 - How to use docker-compose
 - Troubleshooting
 
+# Other self-hosted sources
+- [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+- [r/selfhosted](https://www.reddit.com/r/selfhosted/)
+- [Homelab OS](https://homelabos.com/docs/#available-software)
+
 
 # Ad Blockers & local DNS
 - [AdGuard Home](apps/ad-blockers/adguard.md)
@@ -32,8 +37,10 @@ So, without further ado, here's the current list:
 - [MalwareMultiScan](https://github.com/mindcollapse/MalwareMultiScan) 🔗
 
 # Backup
-- Duplicati
-- Elkar Backup
+- [Duplicati](apps/backup/duplicati.md)
+- [Elkar Backup](apps/backup/elkar-backup.md)
+- [websync](https://furier.github.io/websync/) 🔗 - an rsync task manager, where tasks can be added, scheduled and maintained in a sane manner
+
 
 # Blogging
 - [AnchorCMS](https://github.com/anchorcms/anchor-cms#installation) 🔗
@@ -122,10 +129,19 @@ So, without further ado, here's the current list:
   - [DNS Records checker](https://www.digwebinterface.com/) 🔗
   - [Domain security checker](https://www.hardenize.com/) 🔗
 
+# GIT
+- [Gitea](https://docs.gitea.io/en-us/install-with-docker/) 🔗
+- [GitLab](https://about.gitlab.com/) 🔗
+- [Gogs](https://gogs.io/) 🔗
+- [Phabricator](https://secure.phabricator.com/book/phabricator/article/configuration_guide/) 🔗
+
+
 # Home Automation
 - [HomeAssistant](apps/home-automation/home-assistant.md)
-- [Huginn](https://github.com/huginn/huginn) 🔗
-- [Node-RED](https://nodered.org/) 🔗
+- [Beehive](https://github.com/muesli/beehive) 🔗 - flexible event/agent & automation system
+- [Huginn](https://github.com/huginn/huginn) 🔗 - Create agents that monitor and act on your behalf.
+- [Node-RED](https://nodered.org/) 🔗 - Low-code programming for event-driven applications
+- [Kibitzr](https://kibitzr.github.io/) 🔗 - Personal Web Assistant
 
 
 # Media Managers
@@ -183,7 +199,11 @@ So, without further ado, here's the current list:
 - [pushover](https://pushover.net/) 🔗
 - [unifi event monitor](https://github.com/tborychowski/unifi-event-monitor) 🔗
 
-
+# Other services
+- [bitwarden_rs](apps/other/bitwarden.md)
+- [Cockpit](apps/other/cockpit.md)
+- [Code server](apps/other/code.md)
+- [Firefox sync server](apps/other/firefox-sync.md)
 
 # Photos
 - [Comparison table](apps/photos/comparison.md)
