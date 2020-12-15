@@ -1,7 +1,8 @@
 # Docker Troubleshooting
-
+Same as **Get Started** section - these instructions are for Ubuntu Linux.
 
 ### ERROR: Version in "./docker-compose.yml" is unsupported.
+You need to update your `docker-compose` version:
 ```sh
 sudo apt-get remove docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -29,19 +30,19 @@ OCI runtime create failed: container_linux.go:349: starting container process ca
 ```
 
 #### Follow These Steps:
-1. edit grub
+1. Edit grub
   ```sh
   sudo nano /etc/default/grub
   ```
-2. change GRUB_CMDLINE_LINUX value to the below:
+2. Change `GRUB_CMDLINE_LINUX` value as below:
   ```
   GRUB_CMDLINE_LINUX="systemd.unified_cgroup_hierarchy=0"
   ```
-3. then run:
+3. Reconfigure grub:
   ```sh
   grub2-mkconfig
   ```
-4. then:
+4. Finally reboot the system:
   ```sh
   sudo reboot
   ```

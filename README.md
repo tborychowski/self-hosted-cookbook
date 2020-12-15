@@ -18,8 +18,7 @@ So, without further ado, here's the current list:
 
 
 # General Information
-- [How to setup docker & docker-compose?](docker/setup.md)
-- [How to use docker-compose](docker/usage.md)
+- [Get started with docker & docker-compose](docker/get-started.md)
 - [Troubleshooting](docker/troubleshooting.md)
 
 # Other self-hosted sources
