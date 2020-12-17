@@ -16,18 +16,18 @@ Probably the best self-hosted comic books reader.
 version: '3.3'
 services:
     komga:
-    image: gotson/komga
-    container_name: komga
-    restart: unless-stopped
-    user: "1000:1000"
-    environment:
-        - KOMGA_LIBRARIES_SCAN_DIRECTORY_EXCLUSIONS=#recycle,@eaDir
-    ports:
-        - 3020:8080
-    volumes:
-        - ./data:/config
-        - ./books:/books
-        - /etc/timezone:/etc/timezone:ro
+        image: gotson/komga
+        container_name: komga
+        restart: unless-stopped
+        user: "1000:1000"
+        environment:
+            - KOMGA_LIBRARIES_SCAN_DIRECTORY_EXCLUSIONS=#recycle,@eaDir
+        ports:
+            - 3020:8080
+        volumes:
+            - ./data:/config
+            - ./books:/books
+            - /etc/timezone:/etc/timezone:ro
 ```
 
 
