@@ -189,6 +189,7 @@ So, without further ado, here's the current list:
 - [Notifiers by service](apps/notifications/notifiers-by-service.md) - comparison table
 - [Pushover](apps/notifications/pushover.md)
 - [Synology-sms-relay](apps/notifications/synology-sms-relay.md)
+- [Synology-notifications](https://github.com/ryancurrah/synology-notifications) 🔗 - similar to the above - works with Slack (and potentially Discord)
 
 
 ### Other
