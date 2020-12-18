@@ -46,3 +46,9 @@ OCI runtime create failed: container_linux.go:349: starting container process ca
   ```sh
   sudo reboot
   ```
+
+
+### INTERNAL ERROR: cannot create temporary directory
+from: [stackoverflow](https://stackoverflow.com/questions/40755494/docker-compose-internal-error-cannot-create-temporary-directory)
+Looks like the docker host run out of free space.
+Free up some space on your hard disk and reboot.
