@@ -2,6 +2,8 @@
 
 - Pretty complete solution for whole infrastructure monitoring
 - Based on Nagios 
+- Complex UI (not very intuitive)
+- Requires "some" learning & setup and doesn't do anything out of the box
 
 <br>
 
