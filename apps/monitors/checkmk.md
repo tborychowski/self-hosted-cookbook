@@ -17,24 +17,18 @@ version: '3.6'
 
 services:
   checkmk:
-    container_name: checkmk
     image: checkmk/check-mk-raw
-    tmpfs:
-      - /opt/omd/sites/cmk/tmp:uid=1000,gid=1000
+    container_name: checkmk    
+    restart: unless-stopped
     ulimits:
       nofile: 1024
-    volumes:
-      - ./monitoring:/omd/sites
-      - /etc/localtime:/etc/localtime:ro
     ports:
-      - "8080:5000"
-    restart: unless-stopped
-    networks:
-      checkmk_network:
-
-networks:
-    checkmk_network:
+      - "3123:5000"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./monitoring:/omd/sites
 ```
 
-- and go to http://localhost:8080/cmk/check_mk/
-- You will find the provisional password for the cmkadmin account in the logs that are written for this container
+- Open http://localhost:8080/cmk/check_mk/ 
+- Username is `cmkadmin`
+- Password is written in the logs when the container starts the first time, so just run `docker-compose logs` after starting the container
