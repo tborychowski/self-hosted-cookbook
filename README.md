@@ -32,8 +32,10 @@ So, without further ado, here's the current list:
 - [PiHole](apps/ad-blockers/pihole.md)
 - [Block Lists](apps/ad-blockers/lists.md)
 
+
 # Antivirus
 - [MalwareMultiScan](https://github.com/mindcollapse/MalwareMultiScan) 🔗
+
 
 # Backup
 - [Duplicati](apps/backup/duplicati.md)
@@ -53,11 +55,13 @@ So, without further ado, here's the current list:
 - [Textpattern](https://docs.textpattern.com/installation/) 🔗
 - [WriteFreely](https://github.com/writeas/writefreely) 🔗
 
+
 # Bookmarks & Read Later
 - [Shaarli](apps/bookmarks/shaarli.md)
 - [Shiori](apps/bookmarks/shiori.md)
 - [Shaark](apps/bookmarks/shaark.md)
 - [Wallabag](apps/bookmarks/wallabag.md)
+
 
 ### Other
 - [Nunux Keeper](https://keeper.nunux.org/) 🔗 - similar to wallabag, but not as good (more complicated, less usable and doesn't have mobile apps).
@@ -74,6 +78,7 @@ So, without further ado, here's the current list:
 - [NextCloud Cookbook](https://apps.nextcloud.com/apps/cookbook) 🔗 - quite good. Can import from URL (some pages), but manually editing longer recipes is a bit of a pain (you need to add and paste every single ingredient & preparation step one-by-one).
 - [recipes](https://github.com/vabene1111/recipes) 🔗 - a bit complex, but feature rich food processing manager for your home (from shopping to the table). Importing doesn't seem to work as good as in the NextCloud's Cookbook (for some pages at least).
 
+
 # Dashboard
 - [DashMachine](apps/dashboard/dashmachine.md)
 - [Homer](apps/dashboard/homer.md)
@@ -81,14 +86,17 @@ So, without further ado, here's the current list:
 - [Organizr](https://github.com/causefx/Organizr) 🔗
 - [Heimdall](https://github.com/linuxserver/Heimdall) 🔗
 
+
 # Docker Managers
 - [Diun](apps/docker/diun.md)
 - [WatchTower](apps/docker/watch-tower.md)
+
 
 # Download Managers
 - [Deluge](apps/downloads/deluge.md)
 - [qbittorrent](apps/downloads/qbit.md)
 - [Transmission](apps/downloads/transmission.md)
+
 
 # E-mail
 - CLIENTS (webmail)
@@ -128,6 +136,7 @@ So, without further ado, here's the current list:
   - [DNS Records checker](https://www.digwebinterface.com/) 🔗
   - [Domain security checker](https://www.hardenize.com/) 🔗
 
+
 # GIT
 - [Gitea](https://docs.gitea.io/en-us/install-with-docker/) 🔗
 - [GitLab](https://about.gitlab.com/) 🔗
@@ -147,6 +156,7 @@ So, without further ado, here's the current list:
 - [Bazarr (subtitles)](apps/media/bazarr.md)
 - [Calibre (e-books)](apps/media/calibre.md)
 - [Deemix](apps/media/deemix.md)
+- [Invidious](apps/media/invidious.md)
 - [Jackett (search engine proxy/adapter)](apps/media/jackett.md)
 - [Komga (comics)](apps/media/komga.md)
 - [Navidrome](apps/media/navidrome.md)
@@ -199,11 +209,13 @@ So, without further ado, here's the current list:
 - [pushover](https://pushover.net/) 🔗
 - [unifi event monitor](https://github.com/tborychowski/unifi-event-monitor) 🔗
 
+
 # Other services
 - [bitwarden_rs](apps/other/bitwarden.md)
 - [Cockpit](apps/other/cockpit.md)
 - [Code server](apps/other/code.md)
 - [Firefox sync server](apps/other/firefox-sync.md)
+
 
 # Photos
 - [Comparison table](apps/photos/comparison.md)
