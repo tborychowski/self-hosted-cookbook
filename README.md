@@ -174,6 +174,7 @@ So, without further ado, here's the current list:
 - [Dockprom](apps/monitors/dockprom.md)
 - [PhpServerMonitor](apps/monitors/php-server-monitor.md)
 - [Statping](apps/monitors/statping.md)
+- [CheckMK](apps/monitors/checkmk.md)
 
 ### Other, not-fully tested
 - [Staytus](https://github.com/adamcooke/staytus) 🔗 - service status is updated manually!

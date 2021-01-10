@@ -7,6 +7,20 @@ Not too bad. Just stores & tags links, nothing more.
 ![Screenshot](shaarli.png)
 
 
+## Prerequisite
+Because of the permission issues with using directory mounts instead of named volumes, the two folders need to be created before running the container:
+```sh
+mkdir cache data
+```
+and their permissions must be changed to be writable by the shaarli user (Uid 100, Gid 101). The simplest and most convenient (but a bit less secure) is to change permissions to 777 (rwx for all):
+```sh
+chmod 777 cache/ data/
+```
+alternatively folders' owner can be changed to the UID 100:
+```sh
+sudo chown 100:101 cache/ data/
+```
+
 ## docker-compose.yml
 ```yml
 ---
