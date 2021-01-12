@@ -33,14 +33,13 @@ services:
       - 6881:6881
       - 6881:6881/udp
       - 3030:3030
-
 networks:
   default:
     ipam:
       driver: default
-    config:   # set fixed subnet mask
-      - subnet: 192.168.80.0/24
-        gateway: 192.168.80.1
+      config:   # set fixed subnet mask
+        - subnet: 192.168.80.0/24
+          gateway: 192.168.80.1
 ```
 
 
