@@ -287,6 +287,7 @@ So, without further ado, here's the current list:
 
 # Wiki
 - [Confluence](apps/wiki/confluence.md)
+- [Bluespice free](apps/wiki/bluespice.md)
 - [Bookstack](apps/wiki/bookstack.md)
 - [Wiki.js](apps/wiki/wikijs.md)
 - [XWiki](apps/wiki/xwiki.md)
