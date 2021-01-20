@@ -44,7 +44,7 @@ services:
     environment:
       - DB_USER=xwiki
       - DB_PASSWORD=xwiki
-      - DB_HOST=xwiki-mysql-db
+      - DB_HOST=db
     volumes:
       - ./data:/usr/local/xwiki
 ```
