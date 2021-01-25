@@ -64,7 +64,7 @@ services:
 ## Tips & Tricks
 
 #### Remove the footer
-After starting the container run:
+After starting the container (before opening the site in the browser!) run:
 ```sh
 docker-compose exec -u root invidious sh -c "echo \".footer{display:none;}\" >> /invidious/assets/css/default.css"
 ```

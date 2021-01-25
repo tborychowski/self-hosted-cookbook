@@ -153,19 +153,23 @@ So, without further ado, here's the current list:
 
 
 # Media Managers
-- [Bazarr (subtitles)](apps/media/bazarr.md)
-- [Calibre (e-books)](apps/media/calibre.md)
-- [Deemix](apps/media/deemix.md)
-- [Invidious](apps/media/invidious.md)
-- [Jackett (search engine proxy/adapter)](apps/media/jackett.md)
-- [Komga (comics)](apps/media/komga.md)
-- [Navidrome](apps/media/navidrome.md)
-- [Radarr (movies)](apps/media/radarr.md)
-- [Readerr (ebooks & comics)](apps/media/readerr.md)
-- [Sonarr (tv shows)](apps/media/sonarr.md)
-- [Tautulli](apps/media/tautulli.md)
-- [Ubooquity](http://vaemendis.net/ubooquity) 🔗 - Another Ebook & Comics server. Didn't work properly.
-- [Youtube downloader](apps/media/youtube-downloader.md)
+- [Bazarr](apps/media/bazarr.md) - subtitles
+- [Calibre](apps/media/calibre.md) - e-books
+- [Deemix](apps/media/deemix.md) - music
+- [Jackett](apps/media/jackett.md) - search engine proxy/adapter
+- [Komga](apps/media/komga.md) - comics
+- [Navidrome](apps/media/navidrome.md) - music streaming server
+- [Radarr](apps/media/radarr.md) - movies
+- [Readerr](apps/media/readerr.md) - ebooks & comics
+- [Sonarr](apps/media/sonarr.md) - tv shows
+- [Tautulli](apps/media/tautulli.md) - dashboard for Plex
+- [Ubooquity](http://vaemendis.net/ubooquity) 🔗 - another Ebook & Comics server. Didn't work properly.
+
+### Apps for Youtube
+- [Invidious](apps/media/invidious.md) - Privacy-focused YT Proxy interface
+- [Metube](apps/media/youtubedl-material.md) - youtube-dl webUI
+- [YoutubeDL-web](apps/media/youtubedl-web.md) - youtube-dl webUI
+- [YoutubeDL-material](apps/media/youtubedl-material.md) - youtube-dl webUI
 
 
 # Monitors
