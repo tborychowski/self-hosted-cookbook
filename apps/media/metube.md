@@ -18,5 +18,5 @@ services:
     ports:
       - "8081:8081"
     volumes:
-	  - ./downloads:/downloads
+      - ./downloads:/downloads
 ```
