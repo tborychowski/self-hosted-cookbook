@@ -65,6 +65,7 @@ So, without further ado, here's the current list:
 
 ### Other
 - [Nunux Keeper](https://keeper.nunux.org/) 🔗 - similar to wallabag, but not as good (more complicated, less usable and doesn't have mobile apps).
+- [Reminescence](https://github.com/kanishka-linux/reminiscence#using-docker) 🔗 - Clean and simple. Has a DIY-Docker-Image. Buggy (archiving doesn't work half of the time).
 
 
 # Cloud & File Sharing
