@@ -167,7 +167,7 @@ So, without further ado, here's the current list:
 
 ### Apps for Youtube
 - [Invidious](apps/media/invidious.md) - Privacy-focused YT Proxy interface
-- [Metube](apps/media/youtubedl-material.md) - youtube-dl webUI
+- [Metube](apps/media/metube.md) - youtube-dl webUI
 - [YoutubeDL-web](apps/media/youtubedl-web.md) - youtube-dl webUI
 - [YoutubeDL-material](apps/media/youtubedl-material.md) - youtube-dl webUI
 
