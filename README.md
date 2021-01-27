@@ -201,6 +201,8 @@ So, without further ado, here's the current list:
 - [reddit thread](https://www.reddit.com/r/selfhosted/comments/gwe18p/looking_for_a_neat_status_page_like/)
 
 
+# Notes
+- [Joplin Server](apps/notes/joplin.md)
 
 # Notifications
 - [Notifiers by service](apps/notifications/notifiers-by-service.md) - comparison table
