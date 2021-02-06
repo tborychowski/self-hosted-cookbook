@@ -57,7 +57,8 @@ services:
           dbname: invidious
         full_refresh: false
         https_only: false
-        domain:
+		external_port: 443
+        domain: yt.example.com
 ```
 
 
