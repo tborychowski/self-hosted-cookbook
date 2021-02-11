@@ -232,6 +232,7 @@ So, without further ado, here's the current list:
 - [PhotoView](apps/photos/photoview.md)
 - [Piwigo](apps/photos/piwigo.md)
 - [Pixelfed](apps/photos/pixelfed.md)
+- [LibrePhotos](apps/photos/libre-photos.md)
 
 ### Other tested
 - [Chevereto](https://chevereto.com/) 🔗 - quite nice. No video support.

@@ -10,5 +10,6 @@
 | Lychee                 | ⭐️⭐️⭐️⭐️⭐️ | ⛔️         | lilnks, passwords          | ⛔️       | ✅        | ⛔️                                     |
 | PhotoView              | ⭐️⭐️       | ✅         | unique links with password | ⛔️       | ⛔️        | ✅                                     |
 | NextCloud Photos       | ⭐️⭐️⭐️⭐️   | ✅         | links, passwords           | ✅       | ✅        | ✅                                     |
+| LibrePhotos            | ⭐️        | ✅         | links, passwords           | ⛔️       | ⛔️        | ⛔️                                     |
 | Synology Moments       | ⭐️⭐️⭐️⭐️   | ✅         | links                      | ⛔️       | ✅        | ✅                                     |
 | Synology Photo Station | ⭐️⭐️⭐️     | ✅         | links, passwords           | ✅       | ✅        | ✅                                     |
