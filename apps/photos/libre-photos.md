@@ -1,4 +1,4 @@
-# Pixelfed
+# LibrePhotos
 
 Actively maintained fork of [OwnPhotos](https://github.com/hooram/ownphotos).
 - "Dated" UI
