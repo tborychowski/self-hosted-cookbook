@@ -228,11 +228,13 @@ So, without further ado, here's the current list:
 
 # Photos
 - [Comparison table](apps/photos/comparison.md)
-- [PhotoPrism](apps/photos/photoprism.md)
-- [PhotoView](apps/photos/photoview.md)
+- [LibrePhotos](apps/photos/libre-photos.md)
+- [Pigallery2](apps/photos/pigallery.md)
 - [Piwigo](apps/photos/piwigo.md)
 - [Pixelfed](apps/photos/pixelfed.md)
-- [LibrePhotos](apps/photos/libre-photos.md)
+- [PhotoPrism](apps/photos/photoprism.md)
+- [PhotoStructure](apps/photos/photostructure.md)
+- [PhotoView](apps/photos/photoview.md)
 
 ### Other tested
 - [Chevereto](https://chevereto.com/) 🔗 - quite nice. No video support.
@@ -243,8 +245,6 @@ So, without further ado, here's the current list:
 - [FileStash](https://github.com/mickael-kerjean/filestash) 🔗 - old-time-dropbox-like file manager.
 
 ### Untested
-- [pigallery2](https://github.com/bpatrik/pigallery2) 🔗 - minimal feats
-- [photostructure](https://photostructure.com/) 🔗 - too early
 - [picapport](https://www.picapport.de/en/index.php) 🔗 - weird
 
  # Project Management
