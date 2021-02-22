@@ -1,7 +1,7 @@
 # Whoogle
 
-- a bit ugly
-- no keyboard support
+- not the best looking
+- keyboard support (thanks to [me](https://github.com/benbusby/whoogle-search/pull/202) :wink:)
 
 <br>
 
@@ -11,6 +11,7 @@
 
 ## docker-compose.yml
 ```yml
+---
 version: "3"
 
 services:
