@@ -5,6 +5,7 @@ Invidious is an alternative front-end to YouTube.
 <br>
 
 - [Github repo](https://github.com/iv-org/invidious)
+- [Config docs](https://github.com/iv-org/documentation/blob/master/Configuration.md)
 
 ## Prerequisites
 It requires some folders & files from the github repo, so easiest way is to clone the repo:
