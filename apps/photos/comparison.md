@@ -1,9 +1,9 @@
 
 | App                                              | UI        | Users      | Album Sharing              | Comments | UI upload | Video support                          |
 |--------------------------------------------------|-----------|------------|----------------------------|----------|-----------|----------------------------------------|
-| [Chevereto](https://chevereto.com/)🔗            | ⭐️⭐️⭐️⭐️⭐️ | ✅         | permissions, passwords     | probably | ✅        | ⛔️                                     |
+| [Chevereto](https://chevereto.com/) 🔗           | ⭐️⭐️⭐️⭐️⭐️ | ✅         | permissions, passwords     | probably | ✅        | ⛔️                                     |
 | [LibrePhotos](libre-photos.md)                   | ⭐️        | ✅         | links, passwords           | ⛔️       | ⛔️        | ⛔️                                     |
-| [Lychee](https://lycheeorg.github.io)🔗          | ⭐️⭐️⭐️⭐️⭐️ | ⛔️         | links, passwords           | ⛔️       | ✅        | ⛔️                                     |
+| [Lychee](https://lycheeorg.github.io) 🔗         | ⭐️⭐️⭐️⭐️⭐️ | ⛔️         | links, passwords           | ⛔️       | ✅        | ⛔️                                     |
 | NextCloud Photos                                 | ⭐️⭐️⭐️⭐️   | ✅         | links, passwords           | ✅       | ✅        | ✅                                     |
 | [PhotoPrism](photoprism.md)                      | ⭐️⭐️⭐️⭐️   | admin only | unique links               | ⛔️       | ✅        | ✅                                     |
 | [Pigallery2](pigallery.md)                       | ⭐️⭐️⭐️⭐️   | ✅         | users, links with password | ⛔️       | ⛔️        | ✅                                     |
