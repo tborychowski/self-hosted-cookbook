@@ -10,7 +10,7 @@
 | Pigallery2             | ⭐️⭐️⭐️⭐️   | ✅         | users, links with password | ⛔️       | ⛔️        | ✅                                     |
 | Piwigo                 | ⭐️⭐️       | ✅         | user/group permissions     | ✅       | ✅        | mp4, m4v, webm, webmv                  |
 | PixelFed               | ⭐️⭐️⭐️⭐️   | ✅         |                            | ✅       | ✅        | ⛔️                                     |
-| PhotoPrism             | ⭐️⭐️⭐️⭐️   | admin only | unique links               | ⛔️       | ✅        | allow up/down, but displays thumb only |
+| PhotoPrism             | ⭐️⭐️⭐️⭐️   | admin only | unique links               | ⛔️       | ✅        | ✅                                     |
 | PhotoStructure         | ⭐️⭐️⭐️⭐️   | ⛔️         | ⛔️                          | ⛔️       | ⛔️        | ✅                                     |
 | PhotoView              | ⭐️⭐️       | ✅         | unique links with password | ⛔️       | ⛔️        | ✅                                     |
 | Synology Moments       | ⭐️⭐️⭐️⭐️   | ✅         | links                      | ⛔️       | ✅        | ✅                                     |
