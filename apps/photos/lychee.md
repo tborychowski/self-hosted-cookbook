@@ -127,7 +127,7 @@ services:
       - ./lychee/conf:/conf
       - ./lychee/uploads:/uploads
       - ./lychee/sym:/sym
-	  - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx.conf:/etc/nginx/nginx.conf
     environment:
       - PUID=1000
       - PGID=1000
