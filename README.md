@@ -229,6 +229,7 @@ So, without further ado, here's the current list:
 # Photos
 - [Comparison table](apps/photos/comparison.md)
 - [LibrePhotos](apps/photos/libre-photos.md)
+- [Lychee](apps/photos/lychee.md)
 - [Pigallery2](apps/photos/pigallery.md)
 - [Piwigo](apps/photos/piwigo.md)
 - [Pixelfed](apps/photos/pixelfed.md)
@@ -238,7 +239,6 @@ So, without further ado, here's the current list:
 
 ### Other tested
 - [Chevereto](https://chevereto.com/) 🔗 - quite nice. No video support.
-- [Lychee](https://lycheeorg.github.io/) 🔗 - good looking, no video support.
 - [PhotoShow](https://github.com/thibaud-rohmer/PhotoShow/) 🔗 - seems dead and doesn't work.
 - [Photosync](https://www.photosync-app.com/home.html) 🔗 - paid, app, not really self-hosted, just sync.
 - [OwnPhotos](https://github.com/hooram/ownphotos) 🔗 - limited features, ugly & dead.
