@@ -18,7 +18,7 @@ This file is required to increase the upload size (from the default 20MB).
 Original can be found here: [default.conf](https://github.com/LycheeOrg/Lychee-Docker/blob/master/default.conf).
 This will increase the size to 1000MB (`upload_max_filesize` and `post_max_size`):
 
-```apache
+```nginx
 user www-data;
 worker_processes auto;
 daemon off;
