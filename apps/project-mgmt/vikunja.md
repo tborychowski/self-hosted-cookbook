@@ -1,13 +1,14 @@
 # Vikujna
 
-- poor and messy UI
-- buggy (at the time of testing) but in active development
+- very active development
+- lots of features!
+- UI looks better with every update 😄
 
 <br>
 
 - [Homepage](https://vikunja.io/)
 - [Git repo](https://kolaente.dev/vikunja/)
-- [Demo](https://try.vikunja.io/login)
+- [Demo](https://try.vikunja.io/login) (demo:demo)
 
 
 ## docker-compose.yml
