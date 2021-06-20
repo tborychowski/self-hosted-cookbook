@@ -97,6 +97,7 @@ So, without further ado, here's the current list:
 - [Dataspread](https://dataspread.github.io) 🔗 - combines the intuitiveness and flexibility of spreadsheets and the scalability and power of databases.
 - [Hue](https://docs.gethue.com/quickstart/) 🔗 - open source SQL Assistant for Databases.
 
+
 # Docker Managers
 - [Diun](apps/docker/diun.md)
 - [WatchTower](apps/docker/watch-tower.md)
