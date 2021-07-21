@@ -43,14 +43,16 @@ So, without further ado, here's the current list:
 - [websync](https://furier.github.io/websync/) 🔗 - an rsync task manager, where tasks can be added, scheduled and maintained in a sane manner
 
 
-# Blogging
+# Blogging & CMS
 - [AnchorCMS](https://github.com/anchorcms/anchor-cms#installation) 🔗
+- [Bludit](https://www.bludit.com) 🔗 - Simple, Fast, Secure, Flat-File CMS.
 - [Ghost](https://ghost.org/docs/install/docker/) 🔗
+- [Grav](https://getgrav.org) 🔗 - modern open source flat-file CMS.
 - [Hugo](https://gohugo.io/) 🔗
 - [Kirby](https://getkirby.com/) 🔗
 - [Metalsmith](https://metalsmith.io/) 🔗
 - [Pagekit](https://pagekit.com/docs/getting-started/installation) 🔗
-- [Pelican](https://docs.getpelican.com/en/stable/quickstart.html#installation) 🔗
+- [Pelican](https://docs.getpelican.com/en/stable/quickstart.html#installation) 🔗 - Static Site Generator.
 - [PostLeaf](https://www.postleaf.org/installing) 🔗
 - [Textpattern](https://docs.textpattern.com/installation/) 🔗
 - [WriteFreely](https://github.com/writeas/writefreely) 🔗
@@ -89,10 +91,21 @@ So, without further ado, here's the current list:
 - [Heimdall](https://github.com/linuxserver/Heimdall) 🔗
 
 
+# Database
+- [baserow](https://baserow.io) 🔗 - Open source no-code database and [Airtable](https://airtable.com) alternative.
+- [SeaTable](https://seatable.io/en/) 🔗 - Simple like Excel, powerful like a database (free up to 3 users).
+- [Dataspread](https://dataspread.github.io) 🔗 - combines the intuitiveness and flexibility of spreadsheets and the scalability and power of databases.
+- [Hue](https://docs.gethue.com/quickstart/) 🔗 - open source SQL Assistant for Databases.
+
+
 # Docker Managers
 - [Diun](apps/docker/diun.md)
 - [WatchTower](apps/docker/watch-tower.md)
 
+
+# Document Managers
+- [Papermerge](https://www.papermerge.com) 🔗 - document manager with tags & searches.
+- [DocSpell](https://docspell.org/) 🔗 - simple document organizer.
 
 # Download Managers
 - [Deluge](apps/downloads/deluge.md)
@@ -131,6 +144,7 @@ So, without further ado, here's the current list:
   - [anonaddy.com](https://anonaddy.com/#pricing) 🔗
   - [simplelogin.io](https://simplelogin.io/) 🔗
   - [simplelogin.io github repo](https://github.com/simple-login/app) 🔗
+  - [Forward Email](https://forwardemail.net/en) 🔗 - Unlimited email addresses, custom domain, catch-all, wildcard, and disposable aliases (has free and paid plans).
 - Tools
   - [verify domain for google](https://postmaster.google.com/managedomains) 🔗
   - [remove IP from spam house](https://www.spamhaus.org/lookup/) 🔗
