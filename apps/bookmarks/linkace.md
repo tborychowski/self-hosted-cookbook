@@ -24,7 +24,7 @@ sudo chmod -R 777 logs
 ```
 
 ## .env
-```conf
+```ini
 # The application name is used internally and may not be changed
 APP_NAME=LinkAce
 COMPOSE_PROJECT_NAME=linkace
