@@ -59,6 +59,7 @@ So, without further ado, here's the current list:
 
 
 # Bookmarks & Read Later
+- [LinkAce](apps/bookmarks/linkace.md)
 - [Shaarli](apps/bookmarks/shaarli.md)
 - [Shiori](apps/bookmarks/shiori.md)
 - [Shaark](apps/bookmarks/shaark.md)
@@ -110,6 +111,7 @@ So, without further ado, here's the current list:
 # Download Managers
 - [Deluge](apps/downloads/deluge.md)
 - [qbittorrent](apps/downloads/qbit.md)
+- [SimpleTorrent](apps/downloads/simple-torrent.md)
 - [Transmission](apps/downloads/transmission.md)
 
 

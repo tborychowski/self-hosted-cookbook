@@ -54,7 +54,7 @@ Default login is `wallabag`:`wallabag`.
 
 #### [A hack to get the dark theme](https://github.com/wallabag/wallabag/issues/1521#issuecomment-720541571):
 
-1. Create a file `material.css` containing the original material theme CSS + the CSS provided by @STaRDoGG (in the link above) - [material.css.zip](material.css.zip).
+1. Create a file `material.css` containing the original material theme CSS + the CSS provided by @STaRDoGG (in the link above) - [material.css.zip](wallabag-material.css.zip).
 2. In docker-compose mount the file like so:
     ```yml
       - ./material.css:/var/www/wallabag/web/wallassets/material.css

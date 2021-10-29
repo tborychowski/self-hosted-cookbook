@@ -15,9 +15,8 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - ARL=
     ports:
-      - 9666:9666
+      - 6595:6595
     volumes:
       - ./config:/config
       - ./downloads:/downloads
