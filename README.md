@@ -169,6 +169,7 @@ So, without further ado, here's the current list:
 
 
 # Media Managers
+- [Audiobookshelf](apps/media/audiobookshelf.md) - audiobooks
 - [Bazarr](apps/media/bazarr.md) - subtitles
 - [Calibre](apps/media/calibre.md) - e-books
 - [Deemix](apps/media/deemix.md) - music
