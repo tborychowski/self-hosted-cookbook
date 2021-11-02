@@ -1,13 +1,13 @@
 # Self-hosted Cookbook
 
 If you're like me and love not only to self-host, but to constantly test new apps, you probably already discovered `docker-compose` as the fastest and easiest way towards that goal.
-There is, however, one problem: not all image authors are as great as [linuxserver.io](https://hub.docker.com/u/linuxserver), whose docs are as simple as they should be: you just copy & paste `docker-compose.yml` and run `docker-compose up -d` and IT JUST WORKS!
-This is how all images should be documented!
+There is, however, one problem: not all image authors are as great as [linuxserver.io](https://hub.docker.com/u/linuxserver), whose docs are as simple as they should be: you just copy & paste `docker-compose.yml` and run `docker-compose up -d` and IT JUST WORKS!<br>
+This is how all images should be documented!<br>
 But unfortunately, it isn't!<br>
 Sometimes you have to spend a lot of time to make it work.<br>
 Hence - this repo.<br>
-The aims is to provide a ready-to-run recipes that you can just copy, paste and run.<br>
-So, without further ado, here's the current list:
+The aims is to provide a ready-to-run recipes that you can just copy, paste and run.
+
 
 # How to use this cookbook
 - There are certain things that some recipes need which cannot be filled in due to security reasons.
@@ -255,7 +255,7 @@ So, without further ado, here's the current list:
 - [PhotoView](apps/photos/photoview.md)
 
 ### Other tested
-- [Chevereto](https://chevereto.com/) 🔗 - quite nice. No video support.
+- [Chevereto](https://chevereto.com/) 🔗 - quite nice. No video support. Requires a paid license (~$60-$75).
 - [PhotoShow](https://github.com/thibaud-rohmer/PhotoShow/) 🔗 - seems dead and doesn't work.
 - [Photosync](https://www.photosync-app.com/home.html) 🔗 - paid, app, not really self-hosted, just sync.
 - [OwnPhotos](https://github.com/hooram/ownphotos) 🔗 - limited features, ugly & dead.
