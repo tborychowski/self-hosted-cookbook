@@ -60,6 +60,7 @@ So, without further ado, here's the current list:
 
 # Bookmarks & Read Later
 - [LinkAce](apps/bookmarks/linkace.md)
+- [Linkding](apps/bookmarks/linkding.md)
 - [Shaarli](apps/bookmarks/shaarli.md)
 - [Shiori](apps/bookmarks/shiori.md)
 - [Shaark](apps/bookmarks/shaark.md)
