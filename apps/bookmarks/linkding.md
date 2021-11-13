@@ -23,3 +23,8 @@ services:
     volumes:
       - ./data:/etc/linkding/data
 ```
+
+Once it starts, create admin user:
+```sh
+docker-compose exec linkding python manage.py createsuperuser --username=joe --email=joe@example.com
+```
