@@ -9,6 +9,7 @@ Photo gallery for self-hosted personal servers.
 
 ## docker-compose.yml
 ```yml
+---
 version: "3"
 services:
   db:
@@ -30,11 +31,11 @@ services:
     depends_on:
       - db
     environment:
-      - MYSQL_URL=photoview:photo-secret@tcp(db)/photoview
-      - API_LISTEN_IP=photoview
-      - API_LISTEN_PORT=80
-      - PHOTO_CACHE=/app/cache
-      - PUBLIC_ENDPOINT=http://192.168.1.10:3090/
+      - PHOTOVIEW_DATABASE_DRIVER=mysql
+      - PHOTOVIEW_MYSQL_URL=photoview:photo-secret@tcp(db)/photoview
+      - PHOTOVIEW_LISTEN_IP=photoview
+      - PHOTOVIEW_LISTEN_PORT=80
+      - PHOTOVIEW_MEDIA_CACHE=/app/cache
     volumes:
       - ./cache:/app/cache
       - ./photos:/photos:ro

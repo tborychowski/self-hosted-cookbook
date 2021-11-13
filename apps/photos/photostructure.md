@@ -31,3 +31,8 @@ services:
       - ./logs:/ps/logs
       -  /mnt/photos:/photos
 ```
+
+If `docker-compose logs` show permission access errors, changing permissions to the generated folders may be required:
+```sh
+sudo chmod -R 777 config cache library logs photos
+```
