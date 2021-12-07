@@ -60,6 +60,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 # Bookmarks & Read Later
 - [LinkAce](apps/bookmarks/linkace.md)
+- [Linkding](apps/bookmarks/linkding.md)
 - [Shaarli](apps/bookmarks/shaarli.md)
 - [Shiori](apps/bookmarks/shiori.md)
 - [Shaark](apps/bookmarks/shaark.md)
