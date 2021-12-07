@@ -30,9 +30,7 @@ services:
     environment:
       - TZ=Europe/Dublin
     volumes:
-      - ./data:/var/lib/authelia
-      - ./config.yml:/etc/authelia/configuration.yml:ro
-      - ./users.yml:/etc/authelia/users.yml:ro
+      - ./config:/config
 
   redis:
     image: redis:alpine
@@ -48,25 +46,29 @@ services:
       - TZ=Europe/Dublin
 ```
 
-## config.yml
+## config/configuration.yml
 ```yml
-host: 0.0.0.0
-port: 9091
+server:
+  host: 0.0.0.0
+  port: 9091
 
-# log_level: debug
-jwt_secret: DphJJcoCO2aXK666tq3d2AgMQ8gaugukKsUjKzMciA
+# log:
+#   level: debug
+
+jwt_secret: U8kmbel7WhP1YneQh2134DXhsiSHctE5Emtf
 
 authentication_backend:
   file:
     path: /etc/authelia/users.yml
 
 storage:
-    local:
-        path: /var/lib/authelia/db.sqlite3
+  encryption_key: U8kmbel7WhP1YneQh2134DXhsiSHctE5Emtf
+  local:
+    path: /var/lib/authelia/db.sqlite3
 
 notifier:
-    filesystem:
-        filename: /tmp/authelia/notification.txt
+  filesystem:
+    filename: /tmp/authelia/notification.txt
 
 session:
   name: authelia_session
@@ -93,7 +95,7 @@ access_control:
       policy: one_factor
 ```
 
-## users.yml
+## config/users.yml
 ```yml
 users:
   admin:
