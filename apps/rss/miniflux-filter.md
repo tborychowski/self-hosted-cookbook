@@ -9,11 +9,11 @@ The difference from the built-in filtering is that the built-in filtering filter
 <br>
 The new version adds a UI for managing filters. The UI "borrows" the css & javascript from Miniflux, so the look & feel is (almost) exactly the same as the main app!
 
-![Screenshot](miniflux-filter.png)
-
-<br>
-
 - [Github repo](https://github.com/tborychowski/miniflux-filter)
+- [Docker Hub](https://hub.docker.com/r/tborychowski/miniflux-filter)
+
+
+![Screenshot](miniflux-filter.png)
 
 
 ## docker-compose.yml
