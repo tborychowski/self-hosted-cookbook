@@ -1,9 +1,11 @@
 # Miniflux-filter
 
 Filter for miniflux - "mark as read" all unwanted articles.
-
+<br>
 I created that before miniflux added some basic filtering.
+<br>
 The difference from the built-in filtering is that the built-in filtering filters articles out BEFORE adding them to the DB, whereas this just marks them as read, so you can still go to "All" and see them if you wish.
+<br>
 <br>
 The new version adds a UI for managing filters. The UI "borrows" the css & javascript from Miniflux, so the look & feel is (almost) exactly the same as the main app!
 
