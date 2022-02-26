@@ -21,7 +21,7 @@ services:
   uptime-kuma:
     image: louislam/uptime-kuma
     container_name: uptimekuma
-	restart: unless-stopped
+    restart: unless-stopped
     volumes:
       - ./data:/app/data
     ports:
