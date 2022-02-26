@@ -195,10 +195,11 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 # Monitors
 ### Self-hosted
 - [Cachet](apps/monitors/cachet.md)
+- [CheckMK](apps/monitors/checkmk.md)
 - [Dockprom](apps/monitors/dockprom.md)
+- [Uptime Kuma](apps/monitors/uptime-kuma.md)
 - [PhpServerMonitor](apps/monitors/php-server-monitor.md)
 - [Statping](apps/monitors/statping.md)
-- [CheckMK](apps/monitors/checkmk.md)
 
 ### Other, not-fully tested
 - [Staytus](https://github.com/adamcooke/staytus) 🔗 - service status is updated manually!
