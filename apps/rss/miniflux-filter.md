@@ -1,13 +1,19 @@
 # Miniflux-filter
 
-Filter for miniflux - "mark as read" all unwanter articles.
-I created that before miniflux added some basic filtering. Maybe still useful to someone.
-The difference from the built-in filtering is that this marks articles as read, whereas the built-in filtering filters articles out BEFORE adding them to the DB.
-
-
+Filter for miniflux - "mark as read" all unwanted articles.
 <br>
+I created that before miniflux added some basic filtering.
+<br>
+The difference from the built-in filtering is that the built-in filtering filters articles out BEFORE adding them to the DB, whereas this just marks them as read, so you can still go to "All" and see them if you wish.
+<br>
+<br>
+The new version adds a UI for managing filters. The UI "borrows" the css & javascript from Miniflux, so the look & feel is (almost) exactly the same as the main app!
 
 - [Github repo](https://github.com/tborychowski/miniflux-filter)
+- [Docker Hub](https://hub.docker.com/r/tborychowski/miniflux-filter)
+
+
+![Screenshot](miniflux-filter.png)
 
 
 ## docker-compose.yml
@@ -15,31 +21,18 @@ The difference from the built-in filtering is that this marks articles as read, 
 ---
 version: '3'
 services:
-  miniflux-filter:
-    image: tborychowski/miniflux-filter
+    miniflux-filter:
+    image: tborychowski/miniflux-filter:latest
     container_name: miniflux-filter
     restart: unless-stopped
     environment:
-      - TZ=Europe/Dublin
-      - HOST=https://rss.example.com
-      - API_KEY=<YOUR MINIFLUX API KEY>
-      - CHECK_EVERY_S=300 # 300 seconds = 5 min
+        - TZ=Europe/Dublin
+        # if not present - there will be no auth
+        # - ADMIN_PASSWORD=admin1
+        # ERROR, WARNING, INFO, DEBUG
+        - LOG_LEVEL=INFO
     ports:
-      - "5011:3000"
+        - "5020:80"
     volumes:
-      - ./filters.yml:/app/filters.yml
-      - ./logs:/app/logs	# optional
-```
-
-## filters.yml
-This is a simple list of matchers: it loops through the unread articles and for every one of them - it loops through this list. If the article URL matches a filter `url` and the article title contains the string from `title` field - this article will be marked as read.
-
-```yml
-filters:
-  - url: 'feed.example.com'   # match feed url
-    title: 'windows 10'       # match title
-  - url: 'feed.example.com'
-    title: 'sponsored'
-  - url: 'feed.another.com'
-    title: 'spam'
+        - ./data:/var/www/html/store
 ```
