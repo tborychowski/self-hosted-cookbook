@@ -28,3 +28,9 @@ Once it starts, create admin user:
 ```sh
 docker-compose exec linkding python manage.py createsuperuser --username=joe --email=joe@example.com
 ```
+
+## Tips & Tricks
+Change password for a user
+```sh
+docker-compose exec linkding python manage.py changepassword <username>
+```
