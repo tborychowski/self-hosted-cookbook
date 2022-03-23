@@ -9,6 +9,7 @@ Hence - this repo.<br>
 The aims is to provide a ready-to-run recipes that you can just copy, paste and run.
 
 
+
 # How to use this cookbook
 - There are certain things that some recipes need which cannot be filled in due to security reasons.
   - `example.com` needs to be replaced with your own domain
@@ -17,14 +18,18 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - Not all apps have been tested & described. These are marked as 🔗 (external links).
 
 
+
 # General Information
 - [Get started with docker & docker-compose](docker/get-started.md)
 - [Troubleshooting](docker/troubleshooting.md)
+
+
 
 # Other self-hosted sources
 - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 - [r/selfhosted](https://www.reddit.com/r/selfhosted/)
 - [Homelab OS](https://homelabos.com/docs/#available-software)
+
 
 
 # Ad Blockers & local DNS
@@ -33,14 +38,17 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Block Lists](apps/ad-blockers/lists.md)
 
 
+
 # Antivirus
 - [MalwareMultiScan](https://github.com/mindcollapse/MalwareMultiScan) 🔗
+
 
 
 # Backup
 - [Duplicati](apps/backup/duplicati.md)
 - [Elkar Backup](apps/backup/elkar-backup.md)
 - [websync](https://furier.github.io/websync/) 🔗 - an rsync task manager, where tasks can be added, scheduled and maintained in a sane manner
+
 
 
 # Blogging & CMS
@@ -58,6 +66,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [WriteFreely](https://github.com/writeas/writefreely) 🔗
 
 
+
 # Bookmarks & Read Later
 - [LinkAce](apps/bookmarks/linkace.md)
 - [Linkding](apps/bookmarks/linkding.md)
@@ -66,10 +75,10 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Shaark](apps/bookmarks/shaark.md)
 - [Wallabag](apps/bookmarks/wallabag.md)
 
-
 ### Other
 - [Nunux Keeper](https://keeper.nunux.org/) 🔗 - similar to wallabag, but not as good (more complicated, less usable and doesn't have mobile apps).
 - [Reminescence](https://github.com/kanishka-linux/reminiscence#using-docker) 🔗 - Clean and simple. Has a DIY-Docker-Image. Buggy (archiving doesn't work half of the time).
+
 
 
 # Cloud & File Sharing
@@ -79,10 +88,12 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Seafile](apps/cloud/seafile.md)
 
 
+
 # Cookbook
 - [NextCloud Cookbook](https://apps.nextcloud.com/apps/cookbook) 🔗 - quite good. Can import from URL (some pages), but manually editing longer recipes is a bit of a pain (you need to add and paste every single ingredient & preparation step one-by-one).
 - [Mealie](apps/cookbook/mealie.md)
 - [recipes](https://github.com/vabene1111/recipes) 🔗 - a bit complex, but feature rich food processing manager for your home (from shopping to the table). Importing doesn't seem to work as good as in the NextCloud's Cookbook (for some pages at least).
+
 
 
 # Dashboard
@@ -93,6 +104,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Heimdall](https://github.com/linuxserver/Heimdall) 🔗
 
 
+
 # Database
 - [baserow](https://baserow.io) 🔗 - Open source no-code database and [Airtable](https://airtable.com) alternative.
 - [SeaTable](https://seatable.io/en/) 🔗 - Simple like Excel, powerful like a database (free up to 3 users).
@@ -100,14 +112,17 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Hue](https://docs.gethue.com/quickstart/) 🔗 - open source SQL Assistant for Databases.
 
 
+
 # Docker Managers
 - [Diun](apps/docker/diun.md)
 - [WatchTower](apps/docker/watch-tower.md)
 
 
+
 # Document Managers
 - [Papermerge](https://www.papermerge.com) 🔗 - document manager with tags & searches.
 - [DocSpell](https://docspell.org/) 🔗 - simple document organizer.
+
 
 # Download Managers
 - [Deluge](apps/downloads/deluge.md)
@@ -156,11 +171,13 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
   - [Domain security checker](https://www.hardenize.com/) 🔗
 
 
+
 # GIT
 - [Gitea](https://docs.gitea.io/en-us/install-with-docker/) 🔗
 - [GitLab](https://about.gitlab.com/) 🔗
 - [Gogs](https://gogs.io/) 🔗
 - [Phabricator](https://secure.phabricator.com/book/phabricator/article/configuration_guide/) 🔗
+
 
 
 # Home Automation
@@ -169,6 +186,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Huginn](https://github.com/huginn/huginn) 🔗 - Create agents that monitor and act on your behalf.
 - [Node-RED](https://nodered.org/) 🔗 - Low-code programming for event-driven applications
 - [Kibitzr](https://kibitzr.github.io/) 🔗 - Personal Web Assistant
+
 
 
 # Media Managers
@@ -192,7 +210,9 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [YoutubeDL-material](apps/media/youtubedl-material.md) - youtube-dl webUI
 
 
+
 # Monitors
+
 ### Self-hosted
 - [Cachet](apps/monitors/cachet.md)
 - [Dockprom](apps/monitors/dockprom.md)
@@ -219,15 +239,17 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [reddit thread](https://www.reddit.com/r/selfhosted/comments/gwe18p/looking_for_a_neat_status_page_like/)
 
 
+
 # Notes
 - [Joplin Server](apps/notes/joplin.md)
+
+
 
 # Notifications
 - [Notifiers by service](apps/notifications/notifiers-by-service.md) - comparison table
 - [Pushover](apps/notifications/pushover.md)
 - [Synology-sms-relay](apps/notifications/synology-sms-relay.md)
 - [Synology-notifications](https://github.com/ryancurrah/synology-notifications) 🔗 - similar to the above - works with Slack (and potentially Discord)
-
 
 ### Other
 - [apprise](https://github.com/caronc/apprise) 🔗
@@ -237,11 +259,13 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [unifi event monitor](https://github.com/tborychowski/unifi-event-monitor) 🔗
 
 
+
 # Other services
 - [bitwarden_rs](apps/other/bitwarden.md)
 - [Cockpit](apps/other/cockpit.md)
 - [Code server](apps/other/code.md)
 - [Firefox sync server](apps/other/firefox-sync.md)
+
 
 
 # Photos
@@ -265,7 +289,9 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 ### Untested
 - [picapport](https://www.picapport.de/en/index.php) 🔗 - weird
 
- # Project Management
+
+
+# Project Management
 - [Jira](apps/project-mgmt/jira.md)
 - [Kanboard](apps/project-mgmt/kanboard.md)
 - [OpenProject](apps/project-mgmt/open-project.md)
@@ -276,6 +302,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [YouTrack](https://www.jetbrains.com/youtrack/) 🔗 - The project management tool designed for agile teams (from JetBrains).
 
 
+
 # Reverse proxy & SSO
 - [Authelia](apps/reverse-proxy-sso/authelia.md)
 - [Traefik](apps/reverse-proxy-sso/traefik.md)
@@ -283,11 +310,11 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Nginx Proxy Manager](https://nginxproxymanager.com/) 🔗 - another nice solution based on the battle-tested & probably the most popular web-server - nginx. It has a pretty UI that allows to manage the services.
 
 
- # RSS
+
+# RSS
  - [Miniflux](rss/../apps/rss/miniflux.md)
  - [Miniflux-filter](rss/../apps/rss/miniflux-filter.md)
  - [FreshRSS](https://www.freshrss.org/) 🔗 - second best :-)
-
 
 ### RSS Tools
 - [PolitePol](https://github.com/taroved/pol) 🔗 - Create RSS where there was none
@@ -296,9 +323,11 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [rss2full](https://github.com/feedocean/rss2full) 🔗 - Transform summary feeds into full-text
 
 
+
 # Search engines
 - [Searx](apps/search/searx.md)
 - [Whoogle](apps/search/whoogle.md)
+
 
 
 # Social
@@ -312,13 +341,13 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Jami](https://jami.net/) 🔗 - Audio & video calls, screen sharing, IM.
 
 
+
 # Wiki
 - [Confluence](apps/wiki/confluence.md)
 - [Bluespice free](apps/wiki/bluespice.md)
 - [Bookstack](apps/wiki/bookstack.md)
 - [Wiki.js](apps/wiki/wikijs.md)
 - [XWiki](apps/wiki/xwiki.md)
-
 
 ### Other
 - [Pepperminty Wiki](https://peppermint.mooncarrot.space/) 🔗 - wiki engine contained in a single file. Doesn't seem to have a structured navigation (tree-like menu). Subpages are supported though.

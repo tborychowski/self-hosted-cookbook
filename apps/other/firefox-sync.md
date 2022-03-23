@@ -1,12 +1,13 @@
 # Firefox Sync Server
 
- Run-Your-Own Firefox Sync Server.
- I couldn't make it fully work with MacOS & iOS.
+ Run-Your-Own Firefox Sync Server. I couldn't make it fully work with MacOS & iOS.<br>
+ Maybe this [tutorial](https://homegrowntechie.com/self-host-your-browser-data/) will work, but I haven't tried that yet.
 
 <br>
 
 - [Github repo](https://github.com/mozilla-services/syncserver)
 - [HowTo](https://mozilla-services.readthedocs.io/en/latest/howtos/run-sync-1.5.html)
+- [Step-by-step Tutorial](https://homegrowntechie.com/self-host-your-browser-data/)
 
 
 ## docker-compose.yml
