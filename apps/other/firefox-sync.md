@@ -15,21 +15,21 @@
 ---
 version: '3'
 services:
-	firefox-sync:
-	image: mozilla/syncserver:latest
-	container_name: firefox-sync
-	restart: unless-stopped
-	environment:
-		- TZ=Europe/Dublin
-		- SYNCSERVER_PUBLIC_URL=http://localhost:5000
-		- SYNCSERVER_SECRET=0123123123123123123123123123123
-		- SYNCSERVER_SQLURI=sqlite:////data/syncserver.db
-		- SYNCSERVER_BATCH_UPLOAD_ENABLED=true
-		- SYNCSERVER_FORCE_WSGI_ENVIRON=false
-	ports:
-		- "3000:5000"
-	volumes:
-		- ./data:/data
+  firefox-sync:
+  image: mozilla/syncserver:latest
+  container_name: firefox-sync
+  restart: unless-stopped
+  environment:
+    - TZ=Europe/Dublin
+    - SYNCSERVER_PUBLIC_URL=http://localhost:5000
+    - SYNCSERVER_SECRET=0123123123123123123123123123123
+    - SYNCSERVER_SQLURI=sqlite:////data/syncserver.db
+    - SYNCSERVER_BATCH_UPLOAD_ENABLED=true
+    - SYNCSERVER_FORCE_WSGI_ENVIRON=false
+  ports:
+    - "3000:5000"
+  volumes:
+    - ./data:/data
 ```
 
 ## Tips & Tricks
