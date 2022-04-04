@@ -98,6 +98,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 # Dashboard
 - [DashMachine](apps/dashboard/dashmachine.md)
+- [Flame](apps/dashboard/flame.md)
 - [Homer](apps/dashboard/homer.md)
 - [SUI](apps/dashboard/sui.md)
 - [Organizr](https://github.com/causefx/Organizr) 🔗
