@@ -1,12 +1,13 @@
 # Firefox Sync Server
 
- Run-Your-Own Firefox Sync Server.
- I couldn't make it fully work with MacOS & iOS.
+ Run-Your-Own Firefox Sync Server. I couldn't make it fully work with MacOS & iOS.<br>
+ Maybe this [tutorial](https://homegrowntechie.com/self-host-your-browser-data/) will work, but I haven't tried that yet.
 
 <br>
 
 - [Github repo](https://github.com/mozilla-services/syncserver)
 - [HowTo](https://mozilla-services.readthedocs.io/en/latest/howtos/run-sync-1.5.html)
+- [Step-by-step Tutorial](https://homegrowntechie.com/self-host-your-browser-data/)
 
 
 ## docker-compose.yml
@@ -14,21 +15,21 @@
 ---
 version: '3'
 services:
-	firefox-sync:
-	image: mozilla/syncserver:latest
-	container_name: firefox-sync
-	restart: unless-stopped
-	environment:
-		- TZ=Europe/Dublin
-		- SYNCSERVER_PUBLIC_URL=http://localhost:5000
-		- SYNCSERVER_SECRET=0123123123123123123123123123123
-		- SYNCSERVER_SQLURI=sqlite:////data/syncserver.db
-		- SYNCSERVER_BATCH_UPLOAD_ENABLED=true
-		- SYNCSERVER_FORCE_WSGI_ENVIRON=false
-	ports:
-		- "3000:5000"
-	volumes:
-		- ./data:/data
+  firefox-sync:
+  image: mozilla/syncserver:latest
+  container_name: firefox-sync
+  restart: unless-stopped
+  environment:
+    - TZ=Europe/Dublin
+    - SYNCSERVER_PUBLIC_URL=http://localhost:5000
+    - SYNCSERVER_SECRET=0123123123123123123123123123123
+    - SYNCSERVER_SQLURI=sqlite:////data/syncserver.db
+    - SYNCSERVER_BATCH_UPLOAD_ENABLED=true
+    - SYNCSERVER_FORCE_WSGI_ENVIRON=false
+  ports:
+    - "3000:5000"
+  volumes:
+    - ./data:/data
 ```
 
 ## Tips & Tricks
