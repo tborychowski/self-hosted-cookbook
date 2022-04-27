@@ -348,6 +348,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Confluence](apps/wiki/confluence.md)
 - [Bluespice free](apps/wiki/bluespice.md)
 - [Bookstack](apps/wiki/bookstack.md)
+- [Notea](apps/wiki/notea.md)
 - [Wiki.js](apps/wiki/wikijs.md)
 - [XWiki](apps/wiki/xwiki.md)
 
