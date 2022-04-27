@@ -107,8 +107,8 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 
 # Database
-- [baserow](https://baserow.io) 🔗 - Open source no-code database and [Airtable](https://airtable.com) alternative.
-- [SeaTable](https://seatable.io/en/) 🔗 - Simple like Excel, powerful like a database (free up to 3 users).
+- [baserow](apps/database/baserow.md)
+- [SeaTable](apps/database/seatable.md)
 - [Dataspread](https://dataspread.github.io) 🔗 - combines the intuitiveness and flexibility of spreadsheets and the scalability and power of databases.
 - [Hue](https://docs.gethue.com/quickstart/) 🔗 - open source SQL Assistant for Databases.
 
