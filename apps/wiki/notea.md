@@ -51,7 +51,7 @@ services:
 ### Next steps
 Notea requires external storage. Minio container stands in place of Amazon S3. We just need to create a "Bucket" in minio, so:
 #### Create a Bucket
-1. Go to <serverIP:3125> (- minio admin console)
+1. Go to `<serverIP:3125>` (- minio admin console)
 2. Login using `admin:admin123` credentials from `docker-compose.yml` file
 3. Create a new bucket with the name `notea` (no need for any other options, just name)
 
@@ -60,4 +60,5 @@ Notea requires external storage. Minio container stands in place of Amazon S3. W
 2. Either copy the "Access Key" and "Secret Key" from the yaml above or generate a new pair of keys and update them in your `docker-compose.yml` (and restart it afterwards).
 
 That's it!
-Notea should be available at <serverIP:3123>
+
+Notea should be available at `<serverIP:3123>`
