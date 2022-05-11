@@ -52,9 +52,11 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 
 # Blogging & CMS
+- [Ghost](apps/cms/ghost.md)
+
+
 - [AnchorCMS](https://github.com/anchorcms/anchor-cms#installation) 🔗
 - [Bludit](https://www.bludit.com) 🔗 - Simple, Fast, Secure, Flat-File CMS.
-- [Ghost](https://ghost.org/docs/install/docker/) 🔗
 - [Grav](https://getgrav.org) 🔗 - modern open source flat-file CMS.
 - [Hugo](https://gohugo.io/) 🔗
 - [Kirby](https://getkirby.com/) 🔗
