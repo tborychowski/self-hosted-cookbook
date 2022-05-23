@@ -270,6 +270,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Cockpit](apps/other/cockpit.md)
 - [Code server](apps/other/code.md)
 - [Firefox sync server](apps/other/firefox-sync.md)
+- [LanguageTool server](apps/other/language-tool.md)
 - [VPN client](apps/other/vpn.md)
 
 
