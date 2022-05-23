@@ -77,6 +77,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Shaark](apps/bookmarks/shaark.md)
 - [Wallabag](apps/bookmarks/wallabag.md)
 
+
 ### Other
 - [Nunux Keeper](https://keeper.nunux.org/) 🔗 - similar to wallabag, but not as good (more complicated, less usable and doesn't have mobile apps).
 - [Reminescence](https://github.com/kanishka-linux/reminiscence#using-docker) 🔗 - Clean and simple. Has a DIY-Docker-Image. Buggy (archiving doesn't work half of the time).
@@ -269,7 +270,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Cockpit](apps/other/cockpit.md)
 - [Code server](apps/other/code.md)
 - [Firefox sync server](apps/other/firefox-sync.md)
-
+- [VPN client](apps/other/vpn.md)
 
 
 # Photos
