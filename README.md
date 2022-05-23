@@ -53,8 +53,9 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 # Blogging & CMS
 - [Ghost](apps/cms/ghost.md)
+- [Wordpress](apps/cms/wordpress.md)
 
-
+### Other (not tested)
 - [AnchorCMS](https://github.com/anchorcms/anchor-cms#installation) 🔗
 - [Bludit](https://www.bludit.com) 🔗 - Simple, Fast, Secure, Flat-File CMS.
 - [Grav](https://getgrav.org) 🔗 - modern open source flat-file CMS.
@@ -66,7 +67,6 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [PostLeaf](https://www.postleaf.org/installing) 🔗
 - [Textpattern](https://docs.textpattern.com/installation/) 🔗
 - [WriteFreely](https://github.com/writeas/writefreely) 🔗
-
 
 
 # Bookmarks & Read Later
