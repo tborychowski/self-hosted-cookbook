@@ -194,6 +194,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 
 # Media Managers
+- [Alternatrr](https://github.com/TheUltimateC0der/alternatrr) 🔗 - alternative titles for Sonarr
 - [Audiobookshelf](apps/media/audiobookshelf.md) - audiobooks
 - [Bazarr](apps/media/bazarr.md) - subtitles
 - [Calibre](apps/media/calibre.md) - e-books
