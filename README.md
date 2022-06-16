@@ -52,9 +52,12 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 
 # Blogging & CMS
+- [Ghost](apps/cms/ghost.md)
+- [Wordpress](apps/cms/wordpress.md)
+
+### Other (not tested)
 - [AnchorCMS](https://github.com/anchorcms/anchor-cms#installation) 🔗
 - [Bludit](https://www.bludit.com) 🔗 - Simple, Fast, Secure, Flat-File CMS.
-- [Ghost](https://ghost.org/docs/install/docker/) 🔗
 - [Grav](https://getgrav.org) 🔗 - modern open source flat-file CMS.
 - [Hugo](https://gohugo.io/) 🔗
 - [Kirby](https://getkirby.com/) 🔗
@@ -66,7 +69,6 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [WriteFreely](https://github.com/writeas/writefreely) 🔗
 
 
-
 # Bookmarks & Read Later
 - [LinkAce](apps/bookmarks/linkace.md)
 - [Linkding](apps/bookmarks/linkding.md)
@@ -74,6 +76,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Shiori](apps/bookmarks/shiori.md)
 - [Shaark](apps/bookmarks/shaark.md)
 - [Wallabag](apps/bookmarks/wallabag.md)
+
 
 ### Other
 - [Nunux Keeper](https://keeper.nunux.org/) 🔗 - similar to wallabag, but not as good (more complicated, less usable and doesn't have mobile apps).
@@ -191,6 +194,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 
 # Media Managers
+- [Alternatrr](https://github.com/TheUltimateC0der/alternatrr) 🔗 - alternative titles for Sonarr
 - [Audiobookshelf](apps/media/audiobookshelf.md) - audiobooks
 - [Bazarr](apps/media/bazarr.md) - subtitles
 - [Calibre](apps/media/calibre.md) - e-books
@@ -271,7 +275,8 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Cockpit](apps/other/cockpit.md)
 - [Code server](apps/other/code.md)
 - [Firefox sync server](apps/other/firefox-sync.md)
-
+- [LanguageTool server](apps/other/language-tool.md)
+- [VPN client](apps/other/vpn.md)
 
 
 # Photos
