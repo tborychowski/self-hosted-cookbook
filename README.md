@@ -202,13 +202,17 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Calibre](apps/media/calibre.md) - e-books
 - [Deemix](apps/media/deemix.md) - music
 - [Jackett](apps/media/jackett.md) - search engine proxy/adapter
+- [Jellyfin](apps/media/jellyfin.md) - watch movies & shows almost everywhere!
 - [Komga](apps/media/komga.md) - comics
 - [Navidrome](apps/media/navidrome.md) - music streaming server
+- [Plex](apps/media/plex.md) - watch movies & shows everywhere!
 - [Radarr](apps/media/radarr.md) - movies
 - [Readerr](apps/media/readerr.md) - ebooks & comics
 - [Sonarr](apps/media/sonarr.md) - tv shows
 - [Tautulli](apps/media/tautulli.md) - dashboard for Plex
 - [Ubooquity](http://vaemendis.net/ubooquity) 🔗 - another Ebook & Comics server. Didn't work properly.
+
+
 
 ### Apps for Youtube
 - [Invidious](apps/media/invidious.md) - Privacy-focused YT Proxy interface
