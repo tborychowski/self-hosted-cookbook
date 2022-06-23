@@ -102,6 +102,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 # Dashboard
 - [DashMachine](apps/dashboard/dashmachine.md)
 - [Flame](apps/dashboard/flame.md)
+- [Homarr](apps/dashboard/homarr.md)
 - [Homer](apps/dashboard/homer.md)
 - [SUI](apps/dashboard/sui.md)
 - [Organizr](https://github.com/causefx/Organizr) 🔗
@@ -186,6 +187,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 # Home Automation
 - [HomeAssistant](apps/home-automation/home-assistant.md)
+- [Homebridge](apps/home-automation/homebridge.md)
 - [Beehive](https://github.com/muesli/beehive) 🔗 - flexible event/agent & automation system
 - [Huginn](https://github.com/huginn/huginn) 🔗 - Create agents that monitor and act on your behalf.
 - [Node-RED](https://nodered.org/) 🔗 - Low-code programming for event-driven applications
