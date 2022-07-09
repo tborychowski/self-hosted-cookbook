@@ -10,7 +10,6 @@
 ## docker-compose.yml
 ```yml
 ---
-version: '3'
 services:
   baserow:
     image: baserow/baserow:latest
