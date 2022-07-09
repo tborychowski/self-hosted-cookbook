@@ -3,6 +3,7 @@
 - Open Source Airtable Alternative - turns any MySQL, Postgres, SQLite into a Spreadsheet with REST APIs.
 - quite powerful & lots of options
 - too much eye candy animations
+- importing csv data didn't work (same file worked well in e.g. baserow)
 
 <br>
 
