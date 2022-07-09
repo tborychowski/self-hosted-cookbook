@@ -115,6 +115,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [SeaTable](apps/database/seatable.md)
 - [Dataspread](https://dataspread.github.io) 🔗 - combines the intuitiveness and flexibility of spreadsheets and the scalability and power of databases.
 - [Hue](https://docs.gethue.com/quickstart/) 🔗 - open source SQL Assistant for Databases.
+- [NocoDB](apps/database/nocodb.md) - Open Source Airtable Alternative - turns a DB into a Spreadsheet with API.
 
 
 
