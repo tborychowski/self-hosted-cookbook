@@ -233,6 +233,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [PhpServerMonitor](apps/monitors/php-server-monitor.md)
 - [Statping](apps/monitors/statping.md)
 
+
 ### Other, not-fully tested
 - [Staytus](https://github.com/adamcooke/staytus) 🔗 - service status is updated manually!
 - [cstate](https://cstate.mnts.lt/) 🔗 - weird...
@@ -240,11 +241,13 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Netdata](https://hub.docker.com/r/netdata/netdata) 🔗 - lots of stuff, nothing relevant
 - [LibreNMS](https://github.com/librenms/docker) 🔗 - ugly
 
+
 ### Hosted
 - [statuspage.io](https://www.atlassian.com/software/statuspage) 🔗 - same - manual process!
 - [updown](https://updown.io) 🔗 - doesn't seem to have a page with multiple services' statuses...
 - [healthchecks](https://healthchecks.io) 🔗 - cron-based monitoring, no public status page, just badges
 - [uptimerobot](https://uptimerobot.com) 🔗 - free is very basic, constantly nags for upgrade to paid...
+
 
 ### Useful links
 - [awesome-sysadmin: monitoring](https://github.com/n1trux/awesome-sysadmin#monitoring)
@@ -280,6 +283,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Firefox sync server](apps/other/firefox-sync.md)
 - [LanguageTool server](apps/other/language-tool.md)
 - [VPN client](apps/other/vpn.md)
+- [OpenSpeedTest](apps/other/openspeedtest.md)
 
 
 # Photos
