@@ -12,7 +12,6 @@
 ## docker-compose.yml
 ```yml
 ---
-version: "3"
 services:
   watchtower:
     image: containrrr/watchtower
