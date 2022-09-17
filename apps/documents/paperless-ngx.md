@@ -87,3 +87,15 @@ services:
       - ./consume:/usr/src/paperless/consume
       - ./trash:/usr/src/paperless/trash
 ```
+
+## First run these:
+```sh
+# fetch the docker image
+docker-compose pull
+
+# create admin user
+docker-compose run --rm webserver createsuperuser
+
+# start
+docker-compose up -d
+```

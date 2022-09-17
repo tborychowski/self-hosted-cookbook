@@ -205,6 +205,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Deemix](apps/media/deemix.md) - music
 - [Jackett](apps/media/jackett.md) - search engine proxy/adapter
 - [Jellyfin](apps/media/jellyfin.md) - watch movies & shows almost everywhere!
+- [Kavita](apps/media/kavita.md) - like plex for ebooks & comics
 - [Komga](apps/media/komga.md) - comics
 - [Navidrome](apps/media/navidrome.md) - music streaming server
 - [Plex](apps/media/plex.md) - watch movies & shows everywhere!
@@ -279,6 +280,8 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 # Other services
 - [bitwarden_rs](apps/other/bitwarden.md)
+- [budibase](apps/other/budibase.md)
+- [change-detection](apps/other/change-detection.md)
 - [Cockpit](apps/other/cockpit.md)
 - [Code server](apps/other/code.md)
 - [Firefox sync server](apps/other/firefox-sync.md)

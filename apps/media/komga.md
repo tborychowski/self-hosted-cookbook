@@ -1,6 +1,6 @@
 # Komga
 
-Probably the best self-hosted comic books reader.
+A very good self-hosted comic books reader.
 
 <br>
 
