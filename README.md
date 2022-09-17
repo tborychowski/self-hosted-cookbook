@@ -126,6 +126,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 
 # Document Managers
+- [paperless-ngx](apps/documents/paperless-ngx.md)
 - [Papermerge](https://www.papermerge.com) 🔗 - document manager with tags & searches.
 - [DocSpell](https://docspell.org/) 🔗 - simple document organizer.
 
