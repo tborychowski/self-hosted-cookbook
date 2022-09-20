@@ -285,6 +285,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [change-detection](apps/other/change-detection.md)
 - [Cockpit](apps/other/cockpit.md)
 - [Code server](apps/other/code.md)
+- [Firefox](apps/other/firefox.md)
 - [Firefox sync server](apps/other/firefox-sync.md)
 - [LanguageTool server](apps/other/language-tool.md)
 - [Ntfy](apps/other/ntfy.md)

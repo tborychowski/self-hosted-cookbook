@@ -4,6 +4,9 @@ A self-hosted notification server (like pushover).
 - has mobile apps for ios and android
 - interesting conceptually (simple pub-sub)
 - very easy to use (from curl to php)
+- notifications arrive promptly, within seconds (1 - 10) (not as instant as e.g. pushover)
+- sometimes apps need to be restarted to show notifications (sometimes a notification shows up in notification center, but not in the app)
+- no sync between clients - i.e. the same notification must be marked as read or dismissed in all subscribers (in pushover, when I read one on my phone - it shows as read on laptop)
 
 <br>
 
