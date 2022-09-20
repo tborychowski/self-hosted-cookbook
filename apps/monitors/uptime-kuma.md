@@ -16,7 +16,6 @@ It is a self-hosted monitoring tool like "Uptime Robot".
 
 ## docker-compose.yml
 ```yml
-version: '3.3'
 services:
   uptime-kuma:
     image: louislam/uptime-kuma
