@@ -1,5 +1,6 @@
 # qbittorrent
 - ugly as hell
+- less ugly with docker-mods theme
 - probably the best (as of today)
 
 <br>
@@ -14,7 +15,6 @@
 ## docker-compose.yml
 ```yml
 ---
-version: "2.1"
 services:
   qbittorrent:
     image: linuxserver/qbittorrent
@@ -26,6 +26,9 @@ services:
       - TZ=Europe/Dublin
       - UMASK_SET=022
       - WEBUI_PORT=3030
+	  # apply a nice UI theme https://docs.theme-park.dev/setup/#docker-mods
+      - DOCKER_MODS=ghcr.io/gilbn/theme.park:qbittorrent
+      - TP_THEME=space-gray
     volumes:
       - ./config:/config
       - ./downloads:/downloads
