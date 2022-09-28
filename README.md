@@ -332,6 +332,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 # Reverse proxy & SSO
 - [Authelia](apps/reverse-proxy-sso/authelia.md)
 - [Caddy](https://caddyserver.com/) 🔗 - very good web server with reverse-proxy & automatic https.
+- [lldap](https://github.com/nitnelave/lldap/) 🔗 - simple ldap implementation with a nice UI.
 - [nginx-proxy-manager](apps/reverse-proxy-sso/npm.md)
 - [Traefik](apps/reverse-proxy-sso/traefik.md)
 
