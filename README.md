@@ -122,7 +122,8 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 # Docker Managers
 - [Diun](apps/docker/diun.md)
-- [nginx-proxy-manager](apps/docker/npm.md)
+- [Doku](apps/docker/doku.md)
+- [Portainer](apps/docker/portainer.md)
 - [WatchTower](apps/docker/watch-tower.md)
 
 
@@ -286,8 +287,11 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [change-detection](apps/other/change-detection.md)
 - [Cockpit](apps/other/cockpit.md)
 - [Code server](apps/other/code.md)
+- [Crowdsec](apps/other/crowdsec.md)
+- [Firefox](apps/other/firefox.md)
 - [Firefox sync server](apps/other/firefox-sync.md)
 - [LanguageTool server](apps/other/language-tool.md)
+- [Ntfy](apps/other/ntfy.md)
 - [VPN client](apps/other/vpn.md)
 - [OpenSpeedTest](apps/other/openspeedtest.md)
 
@@ -329,9 +333,11 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 # Reverse proxy & SSO
 - [Authelia](apps/reverse-proxy-sso/authelia.md)
-- [Traefik](apps/reverse-proxy-sso/traefik.md)
 - [Caddy](https://caddyserver.com/) 🔗 - very good web server with reverse-proxy & automatic https.
-- [Nginx Proxy Manager](https://nginxproxymanager.com/) 🔗 - another nice solution based on the battle-tested & probably the most popular web-server - nginx. It has a pretty UI that allows to manage the services.
+- [lldap](https://github.com/nitnelave/lldap/) 🔗 - simple ldap implementation with a nice UI.
+- [nginx-proxy-manager](apps/reverse-proxy-sso/npm.md)
+- [Traefik](apps/reverse-proxy-sso/traefik.md)
+
 
 
 

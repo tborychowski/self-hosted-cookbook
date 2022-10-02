@@ -17,7 +17,7 @@
 
 ## docker-compose.yml
 ```yml
-version: '2'
+---
 services:
   db:
     image: mariadb:10.1
@@ -29,10 +29,10 @@ services:
       MYSQL_PASSWORD: db_user_password_01
       MYSQL_DATABASE: filerundb
     volumes:
-      - ./data/db:/var/lib/mysql
+      - ./db:/var/lib/mysql
 
-  web:
-    image: afian/filerun
+  filerun:
+    image: filerun/filerun
     container_name: filerun
     restart: unless-stopped
     environment:
@@ -42,8 +42,8 @@ services:
       FR_DB_USER: db_user
       FR_DB_PASS: db_user_password_01
       APACHE_RUN_USER: www-data
-      APACHE_RUN_USER_ID: 33
       APACHE_RUN_GROUP: www-data
+      APACHE_RUN_USER_ID: 33
       APACHE_RUN_GROUP_ID: 33
     depends_on:
       - db
@@ -52,14 +52,6 @@ services:
     ports:
       - "3090:80"
     volumes:
-      - ./data/html:/var/www/html
-      - ./data/user-files:/user-files
+      - ./html:/var/www/html
+      - ./user-files:/user-files
 ```
-
-## Running
-Create the folders first:
-```sh
-mkdir /data /data/html /data/user-files
-```
-
-The default FileRun credentials are: superuser:superuser
