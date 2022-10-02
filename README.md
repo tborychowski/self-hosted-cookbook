@@ -29,6 +29,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 - [r/selfhosted](https://www.reddit.com/r/selfhosted/)
 - [Homelab OS](https://homelabos.com/docs/#available-software)
+- [Gardens self-hosted tools](https://joingardens.com/tools)
 
 
 
