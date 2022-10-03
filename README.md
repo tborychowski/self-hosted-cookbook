@@ -316,6 +316,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 ### Untested
 - [picapport](https://www.picapport.de/en/index.php) 🔗 - weird
+- [immich](https://github.com/immich-app/immich) 🔗 - a new kid, very promising and cool looking!
 
 
 
