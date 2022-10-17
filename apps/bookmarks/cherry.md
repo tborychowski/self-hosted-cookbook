@@ -5,9 +5,11 @@
 - Bookmarklet didn't work in safari
 - New item is created in a popup (that does not have a deep-link to it, like in other services)
 
+
 - [Github repo](https://github.com/haishanh/cherry)
 - [Homepage](https://cherry.haishan.me)
 - [Docs](https://cherry.haishan.me/docs/deploy)
+
 
 ![Screenshot](cherry.jpg)
 
