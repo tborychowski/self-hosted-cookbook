@@ -293,6 +293,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Firefox sync server](apps/other/firefox-sync.md)
 - [LanguageTool server](apps/other/language-tool.md)
 - [Ntfy](apps/other/ntfy.md)
+- [Penpot](apps/other/penpot.md)
 - [VPN client](apps/other/vpn.md)
 - [OpenSpeedTest](apps/other/openspeedtest.md)
 
