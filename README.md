@@ -264,6 +264,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 # Notes
 - [Joplin Server](apps/notes/joplin.md)
+- [Memos](apps/notes/memos.md)
 
 
 
