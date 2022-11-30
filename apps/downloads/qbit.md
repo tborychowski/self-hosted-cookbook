@@ -1,5 +1,5 @@
 # qbittorrent
-- ugly as hell
+- linuxserver image allows theming with mods!
 - less ugly with docker-mods theme
 - probably the best (as of today)
 
@@ -17,7 +17,7 @@
 ---
 services:
   qbittorrent:
-    image: linuxserver/qbittorrent
+    image: lscr.io/linuxserver/qbittorrent:latest
     container_name: qbittorrent
     restart: unless-stopped
     environment:
@@ -45,6 +45,9 @@ networks:
           gateway: 192.168.80.1
 ```
 
+and log-in with the default:
+username: admin
+password: adminadmin
 
 ## Tips & Tricks
 
