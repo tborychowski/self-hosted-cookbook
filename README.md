@@ -359,6 +359,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 
 # Search engines
+- [librex](https://github.com/hnhx/librex) 🔗 - Simple meta search engine for google & torrents
 - [Searx](apps/search/searx.md)
 - [Whoogle](apps/search/whoogle.md)
 
