@@ -7,7 +7,7 @@ This will allow you to generate calibre library needed for the Calibre Web.
 <br>
 
 - [Homepage](https://calibre-ebook.com/)
-- [Github repo]()
+- [Github repo](https://github.com/kovidgoyal/calibre)
 - [DockerHub repo](https://hub.docker.com/r/linuxserver/calibre)
 
 ### docker-compose.yml
