@@ -71,6 +71,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 
 # Bookmarks & Read Later
+- [Benotes](https://github.com/fr0tt/benotes) 🔗 - An open source self hosted notes and bookmarks taking web app.
 - [Cherry](apps/bookmarks/cherry.md)
 - [LinkAce](apps/bookmarks/linkace.md)
 - [Linkding](apps/bookmarks/linkding.md)
