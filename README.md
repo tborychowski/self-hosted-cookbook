@@ -40,6 +40,12 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 
 
+# Analytics
+- [Matomo](apps/analytics/matomo.md)
+- [Umami](apps/analytics/umami.md)
+
+
+
 # Antivirus
 - [MalwareMultiScan](https://github.com/mindcollapse/MalwareMultiScan) 🔗
 
