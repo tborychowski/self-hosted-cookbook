@@ -9,7 +9,7 @@
 - [DockerHub repo](https://hub.docker.com/r/seafileltd/seafile-mc)
 - [Docs](https://download.seafile.com/d/320e8adf90fa43ad8fee/files/?p=%2Findex.md)
 
-![Screenshot]()
+![Screenshot](seafile.png)
 
 
 ## docker-compose.yml
