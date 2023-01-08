@@ -96,6 +96,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 # Cloud & File Sharing
 - [FileRun](apps/cloud/filerun.md)
 - [NextCloud](apps/cloud/nextcloud.md)
+- [oasis](apps/cloud/oasis.md)
 - [Pydio](apps/cloud/pydio.md)
 - [Seafile](apps/cloud/seafile.md)
 
