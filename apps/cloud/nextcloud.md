@@ -12,8 +12,9 @@
 
 
 ## docker-compose.yml
+More examplex [here](https://github.com/nextcloud/docker/tree/master/.examples/docker-compose).
 ```yml
-version: '2'
+---
 services:
   app:
     image: nextcloud:latest
@@ -36,7 +37,6 @@ services:
       - REDIS_HOST_PASSWORD=nextcloud  # must be set, because of a bug
     volumes:
       - ./nextcloud:/var/www/html
-      - ./data:/var/www/html/data
 
   cron:
     image: nextcloud:latest
@@ -60,6 +60,8 @@ services:
       - MYSQL_PASSWORD=nextcloud
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
+	  - MARIADB_AUTO_UPGRADE=1
+	  - MARIADB_DISABLE_UPGRADE_BACKUP=1
 
   redis:
     image: redis:alpine
