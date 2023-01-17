@@ -4,8 +4,9 @@ Traccar is a gps tracking system. You can use it to monitor your smartphone loca
 
 <br>
 
-- [website](https://www.traccar.org/)
-- [documentation](https://www.traccar.org/documentation/)
+- [Github repo](https://github.com/traccar/traccar)
+- [Homepage](https://www.traccar.org/)
+- [Docs](https://www.traccar.org/documentation/)
 
 ## get the default traccar conf
 
@@ -23,7 +24,7 @@ Replace [DATABASE], [USER], [PASSWORD] with appropriate values from `docker-comp
 <entry key='database.password'>[PASSWORD]</entry>
 ```
 
-## docker-compose
+## docker-compose.yml
 
 ```yaml
 ---
