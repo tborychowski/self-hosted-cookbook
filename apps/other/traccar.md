@@ -28,39 +28,38 @@ Replace [DATABASE], [USER], [PASSWORD] with appropriate values from `docker-comp
 ```yaml
 ---
 services:
-    traccar-db:
-        image: yobasystems/alpine-mariadb
-        container_name: traccar-db
-        restart: unless-stopped
-        command: --default-authentication-plugin=mysql_native_password
-        networks:
-            - trc2
-        environment:
-            - MYSQL_ROOT_PASSWORD=rootpassword
-            - MYSQL_DATABASE=traccar-db
-            - MYSQL_USER=username
-            - MYSQL_PASSWORD=userpassword
-        volumes:
-            - ./mysql-data:/var/lib/mysql
-            - ./mysql:/etc/mysql/conf.d
-        ports:
-            - "3306:3306"
-
-    traccar:
-        image: traccar/traccar:debian
-        hostname: <server IP>
-        container_name: traccar
-        restart: unless-stopped
-        depends_on:
-           - traccar-db
-        networks:
-            - trc2
-        ports:
-            - "5055:5055"
-            - "82:8082"
-        volumes:
-            - ./traccar.xml:/opt/traccar/conf/traccar.xml:ro
-            - ./logs:/opt/traccar/logs:rw
+  traccar-db:
+    image: yobasystems/alpine-mariadb
+    container_name: traccar-db
+    restart: unless-stopped
+    command: --default-authentication-plugin=mysql_native_password
+    networks:
+      - trc2
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
+      - MYSQL_DATABASE=traccar-db
+      - MYSQL_USER=username
+      - MYSQL_PASSWORD=userpassword
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+      - ./mysql:/etc/mysql/conf.d
+    ports:
+      - "3306:3306"
+  traccar:
+    image: traccar/traccar:debian
+    hostname: <server IP>
+    container_name: traccar
+    restart: unless-stopped
+    depends_on:
+      - traccar-db
+    networks:
+      - trc2
+    ports:
+      - "5055:5055"
+      - "82:8082"
+    volumes:
+      - ./traccar.xml:/opt/traccar/conf/traccar.xml:ro
+      - ./logs:/opt/traccar/logs:rw
 
 networks:
   trc2:
