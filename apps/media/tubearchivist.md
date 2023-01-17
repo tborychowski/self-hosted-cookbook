@@ -73,7 +73,7 @@ services:
       - ES_URL=http://archivist-es:9200
       - ELASTIC_PASSWORD=verysecret
       - REDIS_HOST=archivist-redis
-      - TA_HOST=192.168.1.123				# server ip, or domain
+      - TA_HOST=192.168.1.123               # server ip, or domain
       - TA_USERNAME=admin                   # initial credentials
       - TA_PASSWORD=admin                   # initial credentials
     ports:
