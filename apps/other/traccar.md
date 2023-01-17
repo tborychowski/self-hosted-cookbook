@@ -171,5 +171,5 @@ We are going to parse those values to as sql `LOAD DATA LOCAL INFILE` statement 
 
 - load the data:
     ```sql
-    LOAD DATA LOCAL INFILE 'inn.csv' INTO TABLE tc_positions FIELDS TERMINATED BY ',' (@osmand,    @deviceid,@Time,@Latitude,@Longitude,@valid) set protocol=@osmand,deviceid=@deviceid,    devicetime=@Time,fixtime=@Time,servertime=@Time,latitude=@Latitude,longitude=@Longitude,    valid=@valid;
+    LOAD DATA LOCAL INFILE 'inn.csv' INTO TABLE tc_positions FIELDS TERMINATED BY ',' (@osmand, @deviceid,@Time,@Latitude,@Longitude,@valid) set protocol=@osmand,deviceid=@deviceid, devicetime=@Time,fixtime=@Time,servertime=@Time,latitude=@Latitude,longitude=@Longitude, valid=@valid;
     ```
