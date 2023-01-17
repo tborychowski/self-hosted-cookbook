@@ -1,4 +1,4 @@
-# Metube
+# TubeArchivist
 
 - [Homepage](https://www.tubearchivist.com)
 - [Github repo](https://github.com/tubearchivist/tubearchivist)
