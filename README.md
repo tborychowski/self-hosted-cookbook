@@ -131,7 +131,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 # Docker Managers
 - [Diun](apps/docker/diun.md)
-- [Doku](apps/docker/doku.md)
+- [Doku](apps/docker/doku.md) - docker disk usage
 - [Portainer](apps/docker/portainer.md)
 - [WatchTower](apps/docker/watch-tower.md)
 
