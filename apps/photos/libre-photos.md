@@ -143,3 +143,30 @@ services:
     container_name: librephotos-redis
     restart: unless-stopped
 ```
+## Librephotos backuo/restore
+
+Docker offers volumes so /data and /code/protected_media are safely mounted on host. Simply rsync backup of these dirs 
+
+posstgres db backup
+
+Usefull to avoid a full scan 
+
+`docker ps`
+
+Grab postgres container id e.g.40b12de38945
+
+Backup
+
+`docker exec -t your-db-container pg_dumpall -c -U your-db-user > dump_$(date +%Y-%m-%d_%H_%M_%S).sql`
+
+A file like dump_20-11-2022_00_55_26.sql is created
+
+Restore
+
+`cat your_dump.sql | docker exec -i your-db-container psql -U your-db-user -d your-db-name`
+
+*Note the -U dbuser (default is docker for librephotos)
+and the -d bdname (default librephotos for librephotos)
+
+Put that on a crontab
+And there you go you have periodic db snapshots
