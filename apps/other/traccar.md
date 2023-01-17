@@ -121,11 +121,11 @@ On client app While service is deactivated Copy the identifier, Insert the serve
 
 On status verify that the location is updating
 
+[Android manager app](https://www.traccar.org/manager/)
+
 On server Top left menu Select the plus icon to add a device Select a random name And the identifier from the client app And save
 
 The you can select the device on the top left menu
-
-[Android manager app](https://www.traccar.org/manager/)
 
 ![Screenshot_20230117-214656_Traccar Manager](https://user-images.githubusercontent.com/52239579/212997717-452c1e22-b244-4f50-8806-a61daa2a9485.png)
 
