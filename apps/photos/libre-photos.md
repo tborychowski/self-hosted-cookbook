@@ -143,7 +143,7 @@ services:
     container_name: librephotos-redis
     restart: unless-stopped
 ```
-## Librephotos backuo/restore
+## Librephotos backup/restore
 
 Docker offers volumes so /data and /code/protected_media are safely mounted on host. Simply rsync backup of these dirs 
 
