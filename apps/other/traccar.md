@@ -91,10 +91,15 @@ networks:
 ## open root mysql shell create database, charset and priviledget user
 
 `docker exec -it traccar-db mysql -u root -p`
+
 `CREATE DATABASE IF NOT EXISTS traccar-db`
+
 `grant all privileges on traccar-db.* TO user'@'% identified by pass`
+
 `flush privileges`
+
 `ALTER DATABASE traccar CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ciALTER DATABASE traccar CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci`
+
 `\q`
 
 ## reverse proxy
