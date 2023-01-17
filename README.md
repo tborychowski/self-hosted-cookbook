@@ -232,6 +232,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 ### Apps for Youtube
 - [Invidious](apps/media/invidious.md) - Privacy-focused YT Proxy interface
 - [Metube](apps/media/metube.md) - youtube-dl webUI
+- [TubeArchivist](apps/media/tubearchivist.md) - youtube-dlp - based
 - [YoutubeDL-web](apps/media/youtubedl-web.md) - youtube-dl webUI
 - [YoutubeDL-material](apps/media/youtubedl-material.md) - youtube-dl webUI
 
