@@ -305,7 +305,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Penpot](apps/other/penpot.md)
 - [VPN client](apps/other/vpn.md)
 - [OpenSpeedTest](apps/other/openspeedtest.md)
-
+- [Traccar location tracker](apps/other/traccar.md)
 
 # Photos
 - [Comparison table](apps/photos/comparison.md)
