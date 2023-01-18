@@ -1,4 +1,4 @@
-## Jolin-web
+Jolin-web
 
 Joplin-vieweb purpose is to provide an online view of Joplin notes.
 It's running on a "Django server", running beside Joplin terminal app.
