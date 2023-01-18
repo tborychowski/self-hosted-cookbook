@@ -99,6 +99,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [oasis](apps/cloud/oasis.md)
 - [Pydio](apps/cloud/pydio.md)
 - [Seafile](apps/cloud/seafile.md)
+- [Nginx-WebDav](apps/cloud/nginx-webdav.md)
 
 
 
