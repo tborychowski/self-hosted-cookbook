@@ -94,6 +94,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 
 # Cloud & File Sharing
+- [Filebrowser](apps/cloud/filebrowser.md)
 - [FileRun](apps/cloud/filerun.md)
 - [NextCloud](apps/cloud/nextcloud.md)
 - [oasis](apps/cloud/oasis.md)
