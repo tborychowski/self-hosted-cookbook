@@ -361,7 +361,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
  - [Miniflux](rss/../apps/rss/miniflux.md)
  - [Miniflux-filter](rss/../apps/rss/miniflux-filter.md)
  - [FreshRSS](https://www.freshrss.org/) 🔗 - second best :-)
- - [RSS to telegram bot](apps/rss/rrstt.md)
+ - [RSS to telegram bot](apps/rss/rsstt.md)
 
 ### RSS Tools
 - [PolitePol](https://github.com/taroved/pol) 🔗 - Create RSS where there was none
