@@ -368,6 +368,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [FetchRSS](https://fetchrss.com/) 🔗 - Create RSS for FB, Twitter, YT, and websites
 - [rss-bridge](https://github.com/RSS-Bridge/rss-bridge) 🔗 - The RSS feed for websites missing it
 - [rss2full](https://github.com/feedocean/rss2full) 🔗 - Transform summary feeds into full-text
+- [rsshub](apps/rss/rsshub.md) - Create RSS feeds from almost everything
 
 
 
