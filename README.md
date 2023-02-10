@@ -42,6 +42,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 # Analytics
 - [Matomo](apps/analytics/matomo.md)
+- [Plausible](apps/analytics/plausible.md)
 - [Umami](apps/analytics/umami.md)
 
 
