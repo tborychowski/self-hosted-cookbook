@@ -195,7 +195,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 
 # GIT
-- [Gitea](https://docs.gitea.io/en-us/install-with-docker/) 🔗
+- [Gitea](apps/git/gitea.md)
 - [GitLab](https://about.gitlab.com/) 🔗
 - [Gogs](https://gogs.io/) 🔗
 - [Phabricator](https://secure.phabricator.com/book/phabricator/article/configuration_guide/) 🔗
