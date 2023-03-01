@@ -104,6 +104,9 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Nginx-WebDav](apps/cloud/nginx-webdav.md)
 
 
+# Contacts - calendars
+- [Baikal](apps/contacts-calendars/baikal.md)
+
 
 # Cookbook
 - [NextCloud Cookbook](https://apps.nextcloud.com/apps/cookbook) 🔗 - quite good. Can import from URL (some pages), but manually editing longer recipes is a bit of a pain (you need to add and paste every single ingredient & preparation step one-by-one).
