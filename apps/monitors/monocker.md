@@ -23,8 +23,8 @@ services:
       # MESSAGE_PLATFORM: 'pushover@your_user_key@your_app_api_token'
       # MESSAGE_PLATFORM: 'discord@webhook_url'
       LABEL_ENABLE: 'false'
-      ONLY_OFFLINE_STATES: 'false''
-      EXCLUDE_EXITED: 'false'. 
+      ONLY_OFFLINE_STATES: 'false'
+      EXCLUDE_EXITED: 'false'
       PERIOD: 60
       DISABLE_STARTUP_MSG: 'false'
     volumes:
