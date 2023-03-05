@@ -253,6 +253,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Uptime Kuma](apps/monitors/uptime-kuma.md)
 - [PhpServerMonitor](apps/monitors/php-server-monitor.md)
 - [Statping](apps/monitors/statping.md)
+- [Monocker](apps/monitors/monocker.md)
 
 
 ### Other, not-fully tested
