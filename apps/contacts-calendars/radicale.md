@@ -24,7 +24,7 @@ services:
       test: curl -f http://127.0.0.1:5232 || exit 1
       interval: 30s
       retries: 3
-restart: unless-stopped
+....restart: unless-stopped
     volumes:
       - ./data:/data
       - ./config:/config:ro
