@@ -172,9 +172,6 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
   - [Mailcare](https://gitlab.com/mailcare/mailcare) 🔗 - open source disposable email address service.
   - [Poste.io](https://poste.io/doc/getting-started) 🔗 - doesn't allow fetching from other imap servers, keeps pushing the pro version
   - [Wildduck](https://wildduck.email/#/) 🔗 - has app passwords, doesn't seem to have contacts or other stuff (unless you'd use e.g. Roundcube)
-- Hosted e-mail providers:
-  - [Migadu](https://www.migadu.com/) 🔗 - No calendar, just email with a contactbook. Swiss-based. From: $19/year.
-  - [Mailcheap](https://www.mailcheap.co/email-shared.html) 🔗 - Sogo & Afterlogic with calendar. USA based. No "delete account". From: $24/year.
 - SMTP Relays
   - [SMTP2Go](https://www.smtp2go.com/pricing/) 🔗 - Free: 1k/month
   - [Mailgun](https://www.mailgun.com/pricing/) 🔗 - PAYG: $8/10k/month
@@ -263,12 +260,6 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Netdata](https://hub.docker.com/r/netdata/netdata) 🔗 - lots of stuff, nothing relevant
 - [LibreNMS](https://github.com/librenms/docker) 🔗 - ugly
 
-
-### Hosted
-- [statuspage.io](https://www.atlassian.com/software/statuspage) 🔗 - same - manual process!
-- [updown](https://updown.io) 🔗 - doesn't seem to have a page with multiple services' statuses...
-- [healthchecks](https://healthchecks.io) 🔗 - cron-based monitoring, no public status page, just badges
-- [uptimerobot](https://uptimerobot.com) 🔗 - free is very basic, constantly nags for upgrade to paid...
 
 
 ### Useful links
