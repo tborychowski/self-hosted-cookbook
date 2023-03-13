@@ -269,7 +269,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [updown](https://updown.io) 🔗 - doesn't seem to have a page with multiple services' statuses...
 - [healthchecks](https://healthchecks.io) 🔗 - cron-based monitoring, no public status page, just badges
 - [uptimerobot](https://uptimerobot.com) 🔗 - free is very basic, constantly nags for upgrade to paid...
-
+- [statuslist.app](https://statuslist.app) 🔗 - status page, includes debug details when checks fail, paid only
 
 ### Useful links
 - [awesome-sysadmin: monitoring](https://github.com/n1trux/awesome-sysadmin#monitoring)
