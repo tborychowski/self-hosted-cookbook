@@ -300,6 +300,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Crowdsec](apps/other/crowdsec.md)
 - [Firefox](apps/other/firefox.md)
 - [Firefox sync server](apps/other/firefox-sync.md)
+- [Brave sync server](apps/other/brave-sync.md)
 - [LanguageTool server](apps/other/language-tool.md)
 - [Ntfy](apps/other/ntfy.md)
 - [Penpot](apps/other/penpot.md)
