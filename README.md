@@ -307,6 +307,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [VPN client](apps/other/vpn.md)
 - [OpenSpeedTest](apps/other/openspeedtest.md)
 - [Traccar location tracker](apps/other/traccar.md)
+- [Owntracks location tracker](apps/other/owntracks.md)
 
 # Photos
 - [Comparison table](apps/photos/comparison.md)
