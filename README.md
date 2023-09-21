@@ -129,6 +129,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 # Database
 - [baserow](apps/database/baserow.md)
+- [budibase](apps/other/budibase.md)
 - [SeaTable](apps/database/seatable.md)
 - [Dataspread](https://dataspread.github.io) 🔗 - combines the intuitiveness and flexibility of spreadsheets and the scalability and power of databases.
 - [Hue](https://docs.gethue.com/quickstart/) 🔗 - open source SQL Assistant for Databases.
@@ -294,7 +295,6 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 # Other services
 - [bitwarden_rs](apps/other/bitwarden.md)
-- [budibase](apps/other/budibase.md)
 - [change-detection](apps/other/change-detection.md)
 - [Cockpit](apps/other/cockpit.md)
 - [Code server](apps/other/code.md)
