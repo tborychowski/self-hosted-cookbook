@@ -124,6 +124,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [SUI](apps/dashboard/sui.md)
 - [Organizr](https://github.com/causefx/Organizr) 🔗
 - [Heimdall](https://github.com/linuxserver/Heimdall) 🔗
+- [Mafl](apps/dashboard/mafl.md)
 
 
 
