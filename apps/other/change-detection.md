@@ -31,8 +31,6 @@ services:
       - CHROME_REFRESH_TIME=600000
       - DEFAULT_BLOCK_ADS=true
       - DEFAULT_STEALTH=true
-    volumes:
-      - ./data:/datastore
 
   changedetection:
     image: ghcr.io/dgtlmoon/changedetection.io
@@ -44,4 +42,6 @@ services:
       - BASE_URL=https://changedetection.domain.com
     ports:
       - 5000:5000
+    volumes:
+      - ./data:/datastore
 ```
