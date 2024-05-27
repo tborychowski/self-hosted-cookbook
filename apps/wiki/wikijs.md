@@ -9,8 +9,8 @@
 
 <br>
 
-- [Homepage](https://wiki.js.org/)
-- [Github repo](https://wiki.js.org/)
+- [Homepage](https://js.wiki)
+- [Github repo](https://github.com/Requarks/wiki)
 - [Docs](https://docs.requarks.io/install/docker)
 
 
