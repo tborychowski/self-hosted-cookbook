@@ -11,6 +11,10 @@
 - [Docs](https://docs.hoarder.app)
 
 
+![Screenshot](hoarder.png)
+
+
+
 ## .env
 ```ini
 HOARDER_VERSION=latest
@@ -26,14 +30,14 @@ services:
 
   redis:
     image: redis:7.2-alpine
-	container_name: hoarder-redis
+    container_name: hoarder-redis
     restart: unless-stopped
     volumes:
       - ./redis:/data
 
   chrome:
     image: gcr.io/zenika-hub/alpine-chrome:123
-	container_name: hoarder-chrome
+    container_name: hoarder-chrome
     restart: unless-stopped
     command:
       - --no-sandbox
@@ -45,7 +49,7 @@ services:
 
   meilisearch:
     image: getmeili/meilisearch:v1.6
-	container_name: hoarder-meilisearch
+    container_name: hoarder-meilisearch
     restart: unless-stopped
     env_file:
       - .env
@@ -56,7 +60,7 @@ services:
 
   workers:
     image: ghcr.io/hoarder-app/hoarder-workers:latest
-	container_name: hoarder-workers
+    container_name: hoarder-workers
     restart: unless-stopped
     env_file:
       - .env
@@ -74,7 +78,7 @@ services:
 
   web:
     image: ghcr.io/hoarder-app/hoarder-web:latest
-	container_name: hoarder
+    container_name: hoarder
     restart: unless-stopped
     env_file:
       - .env
