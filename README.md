@@ -382,8 +382,9 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 
 # Social
-- [Monica](apps/social/monica.md)
 - [Etesync](apps/social/etesync.md)
+- [Monica](apps/social/monica.md)
+- [Mastodon](apps/social/mastodon.md)
 
 ### Other untested
 - [HumHub](https://www.humhub.com/en) 🔗 - Free social network software and framework.
