@@ -315,6 +315,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 # Photos
 - [Comparison table](apps/photos/comparison.md)
+- [Chevereto](apps/photos/chevereto.md)
 - [LibrePhotos](apps/photos/libre-photos.md)
 - [Lychee](apps/photos/lychee.md)
 - [Pigallery2](apps/photos/pigallery.md)
@@ -325,7 +326,6 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [PhotoView](apps/photos/photoview.md)
 
 ### Other tested
-- [Chevereto](https://chevereto.com/) 🔗 - quite nice. No video support. Requires a paid license (~$60-$75).
 - [PhotoShow](https://github.com/thibaud-rohmer/PhotoShow/) 🔗 - seems dead and doesn't work.
 - [Photosync](https://www.photosync-app.com/home.html) 🔗 - paid, app, not really self-hosted, just sync.
 - [OwnPhotos](https://github.com/hooram/ownphotos) 🔗 - limited features, ugly & dead.

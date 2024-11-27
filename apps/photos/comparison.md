@@ -1,6 +1,7 @@
 
 | App                                              | UI        | Users      | Album Sharing              | Comments | UI upload | Video support                          |
 |--------------------------------------------------|-----------|------------|----------------------------|----------|-----------|----------------------------------------|
+| [Chevereto](chevereto.md)                        | ⭐️⭐️⭐️⭐️⭐️ | admin only  | links, passwords, private  | ✅       | ✅        | ✅                          |
 | [LibrePhotos](libre-photos.md)                   | ⭐️        | ✅         | links, passwords           | ⛔️       | ⛔️        | ⛔️                                     |
 | [Lychee](lychee.md)                              | ⭐️⭐️⭐️⭐️⭐️ | ✅         | links, passwords           | ⛔️       | ✅        | ✅                                     |
 | NextCloud Photos                                 | ⭐️⭐️⭐️⭐️   | ✅         | links, passwords           | ✅       | ✅        | ✅                                     |
