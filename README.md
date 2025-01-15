@@ -298,20 +298,21 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 # Other services
 - [bitwarden_rs](apps/other/bitwarden.md)
+- [Brave sync server](apps/other/brave-sync.md)
 - [change-detection](apps/other/change-detection.md)
 - [Cockpit](apps/other/cockpit.md)
 - [Code server](apps/other/code.md)
 - [Crowdsec](apps/other/crowdsec.md)
-- [Firefox](apps/other/firefox.md)
 - [Firefox sync server](apps/other/firefox-sync.md)
-- [Brave sync server](apps/other/brave-sync.md)
+- [Firefox](apps/other/firefox.md)
 - [LanguageTool server](apps/other/language-tool.md)
 - [Ntfy](apps/other/ntfy.md)
-- [Penpot](apps/other/penpot.md)
-- [VPN client](apps/other/vpn.md)
 - [OpenSpeedTest](apps/other/openspeedtest.md)
-- [Traccar location tracker](apps/other/traccar.md)
 - [Owntracks location tracker](apps/other/owntracks.md)
+- [Penpot](apps/other/penpot.md)
+- [Traccar location tracker](apps/other/traccar.md)
+- [VPN client](apps/other/vpn.md)
+- [Windows](apps/other/windows.md)
 
 # Photos
 - [Comparison table](apps/photos/comparison.md)

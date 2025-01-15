@@ -36,7 +36,6 @@
 
 ## docker-compose.yml
 ```yml
-version: '3'
 services:
   homeassistant:
     container_name: home-assistant

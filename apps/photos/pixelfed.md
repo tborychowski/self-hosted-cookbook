@@ -15,7 +15,6 @@ First create `.env` file like this one: https://github.com/pixelfed/pixelfed/blo
 ## docker-compose.yml
 ```yml
 ---
-version: '3'
 services:
   app:
     image: pixelfed

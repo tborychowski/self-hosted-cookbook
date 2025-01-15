@@ -33,7 +33,6 @@ FILESYSTEM_DRIVER=public
 ## docker-compose.yml
 ```yml
 ---
-version: '3'
 services:
   screenly:
     image: hadogenes/screeenly

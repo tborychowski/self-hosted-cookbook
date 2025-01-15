@@ -27,7 +27,6 @@ It's also good to keep a note with a table of service-port mapping (to quickly s
 
 ## docker-compose.yml
 ```yml
-version: '3'
 services:
   traefik:
     image: traefik:v2.3

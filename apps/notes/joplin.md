@@ -10,7 +10,6 @@ This is the Joplin sync server.
 ## docker-compose.yml
 ```yml
 ---
-version: '3'
 services:
     db:
         image: postgres:13.1

@@ -14,7 +14,6 @@
 
 ## docker-compose.yml
 ```yml
-version: '3'
 services:
   wallabag:
     image: wallabag/wallabag

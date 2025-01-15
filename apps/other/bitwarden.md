@@ -13,7 +13,6 @@ bitwarden_rs is an unofficial Bitwarden compatible server.
 ## docker-compose.yml
 ```yml
 ---
-version: '3'
 services:
   bitwarden:
     image: bitwardenrs/server:latest
