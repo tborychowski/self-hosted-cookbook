@@ -22,7 +22,6 @@ LanguageTool can make use of large n-gram data sets to detect errors with words 
 ## docker-compose.yml
 ```yml
 ---
-version: "3"
 services:
   languagetool:
     image: erikvl87/languagetool

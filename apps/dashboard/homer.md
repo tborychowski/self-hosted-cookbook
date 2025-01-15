@@ -14,7 +14,6 @@
 ## docker-compose.yml
 ```yml
 ---
-version: "2"
 services:
   homer:
   image: b4bz/homer

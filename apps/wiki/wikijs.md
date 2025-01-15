@@ -16,7 +16,6 @@
 
 ## docker-compose.yml
 ```yml
-version: "3"
 services:
   db:
     image: postgres:11-alpine

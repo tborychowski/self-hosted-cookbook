@@ -11,7 +11,6 @@ VSCode in the browser!
 ## docker-compose.yml
 ```yml
 ---
-version: "2.1"
 services:
   code-server:
     image: linuxserver/code-server

@@ -8,7 +8,6 @@
 
 ```yml
 ---
-version: "3"
 services:
   metube:
     image: alexta69/metube

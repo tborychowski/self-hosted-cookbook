@@ -13,7 +13,6 @@ This will allow you to generate calibre library needed for the Calibre Web.
 ### docker-compose.yml
 ```yml
 ---
-version: "2"
 services:
   calibre:
     image: linuxserver/calibre
@@ -48,7 +47,6 @@ Connects to calibre server's database (server does not need to be running).
 ### docker-compose.yml
 ```yml
 ---
-version: "2"
 services:
   calibre-web:
     image: linuxserver/calibre-web
