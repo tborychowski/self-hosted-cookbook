@@ -11,7 +11,6 @@ Probably the best of the ones tested. A good balance between features & complexi
 ## docker-compose.yml
 ```yml
 ---
-version: '2'
 services:
   wekandb:
     image: mongo:latest

@@ -11,7 +11,6 @@ The best RSS reader that I've tested. Simple, extremely fast and minimalistic.
 
 ## docker-compose.yml
 ```yml
-version: '3'
 services:
   miniflux:
     image: miniflux/miniflux:nightly

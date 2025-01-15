@@ -23,7 +23,6 @@ rm docker-compose.yml  # removing this as we're gonna simplify it and let it use
 
 ## docker-compose.yml
 ```yml
-version: '3'
 services:
   postgres:
     image: postgres:10

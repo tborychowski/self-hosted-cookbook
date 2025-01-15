@@ -13,7 +13,6 @@ Full-featured & complicated.
 ## docker-compose.yml
 ```yml
 ---
-version: '3'
 services:
   openproject:
     image: openproject/community

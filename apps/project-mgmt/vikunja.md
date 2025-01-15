@@ -13,7 +13,6 @@
 
 ## docker-compose.yml
 ```yml
-version: '3'
 services:
   api:
     image: vikunja/api

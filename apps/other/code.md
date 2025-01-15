@@ -25,13 +25,13 @@ services:
       - TZ=Europe/Dublin
 #      - PASSWORD=password #optional
 #      - SUDO_PASSWORD=password #optional
-	  - PROXY_DOMAIN=code.example.com #optional
+      - PROXY_DOMAIN=code.example.com #optional
 
-	  # To get extensions from M$ store - add these:
+      # To get extensions from M$ store - add these:
       - SERVICE_URL=https://marketplace.visualstudio.com/_apis/public/gallery
       - ITEM_URL=https://marketplace.visualstudio.com/items
     volumes:
       - ./config:/config
-	  # folder that will show up in the Code file tree
-	  - /var/www/project1:/config/workspace/project1
+      # folder that will show up in the Code file tree
+      - /var/www/project1:/config/workspace/project1
 ```

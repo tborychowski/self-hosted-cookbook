@@ -16,8 +16,6 @@ Open source backup solution based on RSync/RSnapshot.
 
 ## docker-compose.yml
 ```yml
-version: '3'
-
 services:
   elkarbackup:
     image: elkarbackup/elkarbackup

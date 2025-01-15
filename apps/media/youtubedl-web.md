@@ -8,7 +8,6 @@
 ## docker-compose.yml
 ```yml
 ---
-version: '3'
 services:
   youtubedl-web:
     image: franhp/youtubedl-web:latest

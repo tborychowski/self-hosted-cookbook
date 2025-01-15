@@ -16,7 +16,6 @@
 
 ## docker-compose.yml
 ```yml
-version: '2'
 services:
   kanboard:
     image: kanboard/kanboard:latest

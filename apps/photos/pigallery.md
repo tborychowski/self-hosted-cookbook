@@ -14,7 +14,6 @@
 ## docker-compose.yml
 ```yml
 ---
-version: '3'
 services:
   pigallery2:
     image: bpatrik/pigallery2:latest
