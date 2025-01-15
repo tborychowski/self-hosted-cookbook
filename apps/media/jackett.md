@@ -10,7 +10,6 @@ API Support for your favorite torrent trackers.
 ## docker-compose.yml
 ```yml
 ---
-version: "2"
 services:
   jackett:
     image: linuxserver/jackett

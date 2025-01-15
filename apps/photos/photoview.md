@@ -10,7 +10,6 @@ Photo gallery for self-hosted personal servers.
 ## docker-compose.yml
 ```yml
 ---
-version: "3"
 services:
   db:
     image: mariadb

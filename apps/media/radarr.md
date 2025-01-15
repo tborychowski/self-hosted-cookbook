@@ -11,7 +11,6 @@ Movie manager.
 ## docker-compose.yml
 ```yml
 ---
-version: "2"
 services:
   radarr:
     image: linuxserver/radarr

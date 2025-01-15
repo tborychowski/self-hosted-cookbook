@@ -11,7 +11,6 @@ Bazarr is a companion application to Sonarr and Radarr. It manages and downloads
 ## docker-compose.yml
 ```yml
 ---
-version: "2"
 services:
   bazarr:
     image: linuxserver/bazarr

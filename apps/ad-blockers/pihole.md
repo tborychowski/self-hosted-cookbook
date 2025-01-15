@@ -11,7 +11,6 @@
 ## `docker-compose.yml`
 ```yml
 ---
-version: "3"
 services:
   pihole:
     container_name: pihole

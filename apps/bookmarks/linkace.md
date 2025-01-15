@@ -69,7 +69,6 @@ QUEUE_DRIVER=database
 ## docker-compose.yml
 ```yml
 ---
-version: "3"
 services:
   db:
     image: mariadb:10.5
