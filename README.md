@@ -210,6 +210,9 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 # Home Automation
 - [HomeAssistant](apps/home-automation/home-assistant.md)
 - [Homebridge](apps/home-automation/homebridge.md)
+- [n8n](apps/home-automation/n8n.md) - excellent automation platform.
+
+### Other (not tested)
 - [Beehive](https://github.com/muesli/beehive) 🔗 - flexible event/agent & automation system
 - [Huginn](https://github.com/huginn/huginn) 🔗 - Create agents that monitor and act on your behalf.
 - [Node-RED](https://nodered.org/) 🔗 - Low-code programming for event-driven applications
@@ -387,10 +390,11 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Monica](apps/social/monica.md)
 - [Mastodon](apps/social/mastodon.md)
 - [Mattermost](apps/social/mattermost.md)
+- [RocketChat](apps/social/rocketchat.md)
+
 
 ### Other untested
 - [HumHub](https://www.humhub.com/en) 🔗 - Free social network software and framework.
-- [RocketChat](https://docs.rocket.chat/installation/docker-containers/) 🔗 - The Ultimate Communication Hub.
 - [Snikket](https://snikket.org/) 🔗 - Chat that is simple, secure, and private.
 - [Jami](https://jami.net/) 🔗 - Audio & video calls, screen sharing, IM.
 
