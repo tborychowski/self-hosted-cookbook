@@ -98,3 +98,22 @@ services:
     volumes:
       - ./storage:/home/node/.n8n
 ```
+
+
+
+## Tips & Tricks
+When running through a reverse proxy, there's a couple of env vars needed (it's a bit weird):
+- Normally you'd provide a url, that the app should expect and should set when generating links.
+- However, here `N8N_EDITOR_BASE_URL` is not sufficient, and doesn't look like it's working for this, so the host, port and protocol are still required.
+- However 2, if you set the port to 443 (as you will be accessing the app via your reverse proxy & https) - the app itself will run on this port (instead of the default: 5678), so you also need to change the container's internal port to 443.
+
+
+```yml
+     environment:
+       - N8N_HOST=n8n.mydomain.com
+       - N8N_PORT=443
+       - N8N_PROTOCOL=https
+       - N8N_EDITOR_BASE_URL=https://n8n.mydomain.com
+     ports:
+       - 5678:443
+```
