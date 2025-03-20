@@ -17,14 +17,23 @@
 
 ## docker-compose.yml
 ```yml
-version: '3.3'
 services:
-  dashmachine:
-    image: rmountjoy/dashmachine:latest
-    container_name: dashmachine
+  mealie:
+    image: ghcr.io/mealie-recipes/mealie
+    container_name: mealie
     restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 1000M # 
+    environment:
+      ALLOW_SIGNUP: "false"
+      PUID: 1000
+      PGID: 1000
+      TZ: Europe/Dublin
+      BASE_URL: https://mealie.yourdomain.com
     ports:
-      - 4010:5000
+        - "9925:9000" # 
     volumes:
-      - ./data:/dashmachine/dashmachine/user_data
+      - ./data:/app/data/
 ```
