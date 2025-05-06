@@ -16,7 +16,7 @@ Probably the best self-hosted ebook & comic reader.
 ---
 services:
   kavita:
-    image: kizaing/kavita:latest
+    image: jvmilazz0/kavita:latest
     container_name: kavita
     restart: unless-stopped
     ports:
