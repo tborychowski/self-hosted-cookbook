@@ -23,7 +23,6 @@ sudo chown 100:101 cache/ data/
 
 ## docker-compose.yml
 ```yml
----
 services:
   shaarli:
     image: shaarli/shaarli:master

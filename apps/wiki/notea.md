@@ -15,7 +15,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   notea:
     image: cinwell/notea

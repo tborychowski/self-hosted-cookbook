@@ -10,7 +10,6 @@ Measure the speed between your server and your computer.
 
 ## docker-compose.yml
 ```yml
----
 services:
   openspeedtest:
     image: openspeedtest/latest

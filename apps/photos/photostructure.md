@@ -15,8 +15,6 @@
 
 ## docker-compose.yml
 ```yml
----
-version: "3.7"
 services:
   photostructure:
     image: photostructure/server

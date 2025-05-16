@@ -31,7 +31,6 @@ In `traccar.xml` file update the following section:
 ## docker-compose.yml
 
 ```yaml
----
 services:
   traccar-db:
     image: yobasystems/alpine-mariadb

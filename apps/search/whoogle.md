@@ -11,7 +11,6 @@
 
 ## docker-compose.yml
 ```yml
----
 
 services:
   whoogle-search:

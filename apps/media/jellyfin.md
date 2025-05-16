@@ -12,7 +12,6 @@ okdocker run -d -v /srv/jellyfin/config:/config -v /srv/jellyfin/cache:/cache -v
 
 ## docker-compose.yml
 ```yml
----
 services:
   jellyfin:
     image: jellyfin/jellyfin:latest

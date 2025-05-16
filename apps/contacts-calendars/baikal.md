@@ -10,7 +10,6 @@ lightweight CalDAV+CardDAV server. It offers an extensive web interface with eas
 ## docker-compose
 
 ```yml
----
 services:
   baikal:
     image: ckulka/baikal:nginx
@@ -69,6 +68,6 @@ Then create a user
 
 ### Android caldav carddav client
 
-On DAVx5 use Base URL: /dav.php/ 
+On DAVx5 use Base URL: /dav.php/
 
 (e.g. https://server.example/dav.php/)

@@ -13,7 +13,6 @@ The Ultimate Communication Hub. A solid option for self-hosted chat and collabor
 
 ## docker-compose.yml
 ```yml
----
 services:
   mongodb:
     # https://hub.docker.com/r/bitnami/mongodb

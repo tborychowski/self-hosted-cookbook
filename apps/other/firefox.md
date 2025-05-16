@@ -11,7 +11,6 @@ It's a browser inside a browser!
 
 ## docker-compose.yml
 ```yml
----
 services:
   firefox:
     image: lscr.io/linuxserver/firefox:latest

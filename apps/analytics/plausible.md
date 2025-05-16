@@ -32,7 +32,6 @@ SMTP_RETRIES=2
 ## `docker-compose.yml`
 
 ```yml
----
 services:
   mail:
     image: bytemark/smtp

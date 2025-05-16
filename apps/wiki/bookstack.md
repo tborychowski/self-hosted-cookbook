@@ -13,7 +13,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   bookstack:
     image: linuxserver/bookstack

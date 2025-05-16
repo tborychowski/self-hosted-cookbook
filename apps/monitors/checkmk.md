@@ -1,7 +1,7 @@
 # CheckMK
 
 - Pretty complete solution for whole infrastructure monitoring
-- Based on Nagios 
+- Based on Nagios
 - Complex UI (not very intuitive)
 - Requires "some" learning & setup and doesn't do anything out of the box
 
@@ -14,13 +14,11 @@
 
 ## docker-compose.yml
 ```yml
----
-version: '3.6'
 
 services:
   checkmk:
     image: checkmk/check-mk-raw
-    container_name: checkmk    
+    container_name: checkmk
     restart: unless-stopped
     ulimits:
       nofile: 1024
@@ -31,6 +29,6 @@ services:
       - ./monitoring:/omd/sites
 ```
 
-- Open http://localhost:8080/cmk/check_mk/ 
+- Open http://localhost:8080/cmk/check_mk/
 - Username is `cmkadmin`
 - Password is written in the logs when the container starts the first time, so just run `docker-compose logs` after starting the container

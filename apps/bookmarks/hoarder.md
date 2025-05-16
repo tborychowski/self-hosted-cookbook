@@ -25,7 +25,6 @@ NEXTAUTH_URL=http://localhost:3123
 
 ## docker-compose.yml
 ```yml
----
 services:
 
   redis:

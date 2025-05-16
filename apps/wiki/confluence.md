@@ -13,7 +13,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   confluence:
     image: atlassian/confluence-server

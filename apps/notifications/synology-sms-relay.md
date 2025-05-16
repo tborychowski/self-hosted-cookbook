@@ -7,8 +7,6 @@
 
 ## docker-compose.yml
 ```yml
----
-version: '3.7'
 services:
   synology-sms-relay:
     container_name: synology-sms-relay

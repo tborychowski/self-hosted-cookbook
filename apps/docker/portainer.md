@@ -9,7 +9,6 @@ A nice UI for managing docker/kubernetes/swarm containers.
 
 ## docker-compose.yml
 ```yml
----
 services:
   portainer:
     image: portainer/portainer-ce

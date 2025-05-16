@@ -11,7 +11,6 @@ Not terrible, but not great.
 
 ## docker-compose.yml
 ```yml
----
 services:
   etesync:
     image: dsaier/etesync

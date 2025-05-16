@@ -14,7 +14,6 @@
 ## docker-compose.yml
 More examplex [here](https://github.com/nextcloud/docker/tree/master/.examples/docker-compose).
 ```yml
----
 services:
   app:
     image: nextcloud:latest

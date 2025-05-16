@@ -13,8 +13,6 @@
 
 ## docker-compose.yml
 ```yml
----
-version: '3.3'
 services:
   duplicati:
     image: linuxserver/duplicati

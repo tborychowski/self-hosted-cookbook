@@ -10,7 +10,6 @@ RSSHub is an open source, easy to use, and extensible RSS feed generator. It's c
 # docker-compose.yml
 
 ```yml
----
 services:
     rsshub:
         image: diygod/rsshub
@@ -21,18 +20,18 @@ services:
             NODE_ENV: production
             CACHE_TYPE: redis
             REDIS_URL: 'redis://redis:6379/'
-            PUPPETEER_WS_ENDPOINT: 'ws://browserless:3000'  
+            PUPPETEER_WS_ENDPOINT: 'ws://browserless:3000'
         depends_on:
             - redis
-            - browserless  
+            - browserless
 
-    browserless:  
-        image: browserless/chrome  
-        restart: always  
-        ulimits:  
-          core:  
-            hard: 0  
-            soft: 0  
+    browserless:
+        image: browserless/chrome
+        restart: always
+        ulimits:
+          core:
+            hard: 0
+            soft: 0
 
     redis:
         image: redis:alpine

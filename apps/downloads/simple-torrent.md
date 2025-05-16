@@ -13,7 +13,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   cloud-torrent:
     image: boypt/cloud-torrent

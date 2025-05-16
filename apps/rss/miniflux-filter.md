@@ -18,7 +18,6 @@ The new version adds a UI for managing filters. The UI "borrows" the css & javas
 
 ## docker-compose.yml
 ```yml
----
 services:
     miniflux-filter:
     image: tborychowski/miniflux-filter:latest

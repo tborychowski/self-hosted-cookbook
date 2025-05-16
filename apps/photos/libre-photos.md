@@ -68,8 +68,6 @@ workerTimeOut=1800
 
 ## docker-compose.yml
 ```yml
----
-version: '2.1'
 services:
   proxy:
     image: reallibrephotos/librephotos-proxy:${tag}
@@ -144,15 +142,17 @@ services:
     restart: unless-stopped
 ```
 
+
+
 ## Tips & tricks
 
 ### Librephotos backup/restore
 
-Docker offers volumes so /data and /code/protected_media are safely mounted on host. Simply rsync backup of these dirs 
+Docker offers volumes so /data and /code/protected_media are safely mounted on host. Simply rsync backup of these dirs
 
 posstgres db backup
 
-Usefull to avoid a full scan 
+Usefull to avoid a full scan
 
 `docker ps`
 

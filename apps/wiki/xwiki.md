@@ -19,7 +19,6 @@ wget https://raw.githubusercontent.com/xwiki-contrib/docker-xwiki/master/12/mysq
 
 ## docker-compose.yml
 ```yml
----
 services:
   db:
     image: mysql:5.7

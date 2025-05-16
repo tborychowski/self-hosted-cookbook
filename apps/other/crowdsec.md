@@ -94,9 +94,10 @@ labels:
   type: traefik
 ```
 
+
+
 ## docker-compose.yml
 ```yml
----
 services:
   crowdsec:
     image: crowdsecurity/crowdsec

@@ -11,8 +11,6 @@
 
 ## docker-compose.yml
 ```yml
----
-version: '3.3'
 services:
   bluespice:
     image: bluespice/bluespice-free

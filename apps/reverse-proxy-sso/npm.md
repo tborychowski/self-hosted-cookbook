@@ -13,7 +13,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   app:
     image: 'jc21/nginx-proxy-manager:latest'

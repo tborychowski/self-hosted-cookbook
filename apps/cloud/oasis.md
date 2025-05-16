@@ -15,7 +15,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   oasis:
     image: machengim/oasis

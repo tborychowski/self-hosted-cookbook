@@ -9,7 +9,6 @@ RSS-Bridge is a PHP project capable of generating RSS and Atom feeds for website
 # docker-compose.yml
 
 ```yml
----
 services:
   rss-bridge:
     image: rssbridge/rss-bridge:latest

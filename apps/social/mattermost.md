@@ -9,7 +9,6 @@ Collaboration for Mission-Critical Work. Slack alternative.
 
 
 ```yaml
----
 services:
   postgres:
     image: postgres:13-alpine

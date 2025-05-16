@@ -36,7 +36,6 @@ upstream-base-url: "https://ntfy.sh"
 
 ## docker-compose.yml
 ```yml
----
 services:
   ntfy:
     image: binwiederhier/ntfy

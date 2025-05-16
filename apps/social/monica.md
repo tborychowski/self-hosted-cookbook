@@ -74,7 +74,6 @@ DARKSKY_API_KEY=
 
 ## docker-compose.yml
 ```yml
----
 services:
   monicahq:
     image: monica

@@ -20,7 +20,6 @@ Some of the most popular plugins include:
 
 ## docker-compose.yml
 ```yml
----
 services:
   homebridge:
     image: oznu/homebridge:latest

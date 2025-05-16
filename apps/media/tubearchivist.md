@@ -25,7 +25,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   archivist-es:
     image: bbilly1/tubearchivist-es

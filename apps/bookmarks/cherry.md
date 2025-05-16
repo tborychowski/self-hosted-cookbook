@@ -18,7 +18,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   cherry:
     image: haishanh/cherry

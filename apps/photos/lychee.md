@@ -98,7 +98,6 @@ http {
 
 ## docker-compose.yml
 ```yml
----
 services:
   lychee_db:
     container_name: lychee_db

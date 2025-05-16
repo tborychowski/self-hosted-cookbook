@@ -14,7 +14,6 @@ Periodically monitors websites for changes and sends a notification when a chang
 
 ## docker-compose.yml
 ```yml
----
 services:
   playwright-chrome:
     hostname: playwright-chrome

@@ -7,7 +7,6 @@
 ## docker-compose.yml
 
 ```yml
----
 services:
   metube:
     image: alexta69/metube

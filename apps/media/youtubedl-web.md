@@ -7,7 +7,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   youtubedl-web:
     image: franhp/youtubedl-web:latest

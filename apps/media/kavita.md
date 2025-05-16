@@ -13,7 +13,6 @@ Probably the best self-hosted ebook & comic reader.
 
 ## docker-compose.yml
 ```yml
----
 services:
   kavita:
     image: jvmilazz0/kavita:latest

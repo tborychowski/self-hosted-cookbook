@@ -16,7 +16,6 @@
 
 ## docker-compose.yml
 ```yml
----
 statping:
   container_name: statping
   image: hunterlong/statping

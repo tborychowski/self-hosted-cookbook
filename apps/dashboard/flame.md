@@ -13,8 +13,6 @@
 
 ## docker-compose.yml
 ```yml
----
-version: '3.6'
 
 services:
   flame:

@@ -11,7 +11,6 @@ There is no web ui or fancy dashboard.
 ## docker-compose
 
 ```yml
----
 services:
   monocker:
     container_name: monocker

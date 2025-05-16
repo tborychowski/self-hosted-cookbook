@@ -13,7 +13,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   pigallery2:
     image: bpatrik/pigallery2:latest

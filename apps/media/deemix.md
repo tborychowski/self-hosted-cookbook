@@ -5,8 +5,6 @@
 
 ## docker-compose.yml
 ```yml
----
-version: '3.3'
 services:
   deemix:
     image: registry.gitlab.com/bockiii/deemix-docker

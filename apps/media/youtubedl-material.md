@@ -6,7 +6,6 @@
 
 ## docker-compose.yml
 ```yml
----
 
 services:
   metube:

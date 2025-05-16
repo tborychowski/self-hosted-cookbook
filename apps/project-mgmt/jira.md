@@ -11,7 +11,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   jira:
     image: atlassian/jira-software

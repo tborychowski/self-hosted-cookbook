@@ -15,7 +15,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   docmost:
     image: docmost/docmost:latest

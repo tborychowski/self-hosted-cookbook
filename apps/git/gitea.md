@@ -12,7 +12,6 @@ Can easily mirror repos from different sources (periodically re-syncing them), a
 
 ## docker-compose.yml
 ```yml
----
 services:
   db:
     image: postgres:14

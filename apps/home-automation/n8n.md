@@ -56,7 +56,6 @@ fi
 
 ## docker-compose.yml
 ```yml
----
 services:
   postgres:
     image: postgres:16

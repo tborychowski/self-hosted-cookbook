@@ -12,7 +12,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   firefox-sync:
   image: mozilla/syncserver:latest

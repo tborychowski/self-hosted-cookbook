@@ -15,8 +15,6 @@ A Joplin server to that stores your notes
 ## docker-compose.yml
 
 ```yml
----
-version: '3.4'
 
 x-common-variables: &common-variables
    ORIGINS: "'http://localhost', 'http://192.168.1.24' , 'https://my-ddns-domain.com'"
@@ -51,17 +49,17 @@ volumes:
 
 networks:
   joplin-net: {}
-```  
+```
 
 ## Tips & Tricks
 
 ###
 You can access your notebooks: https://your_domain/joplin (⚠ don't forget the /joplin ⚠)
 
-- first you set up url/admin and then login to url/joplin 
+- first you set up url/admin and then login to url/joplin
 mind the /admin and /joplin
 
-- for webdav sync you can select the nextcloud option 
+- for webdav sync you can select the nextcloud option
 
 - To decryt the notes run
 

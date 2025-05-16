@@ -17,7 +17,6 @@
 Original file [here](https://download.seafile.com/d/320e8adf90fa43ad8fee/files/?p=/docker/docker-compose.yml).
 
 ```yml
----
 services:
   db:
     image: mariadb:10.5

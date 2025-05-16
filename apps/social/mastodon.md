@@ -36,7 +36,6 @@ docker compose exec mastodon /tootctl accounts approve admin
 
 
 ```yaml
----
 services:
   redis:
     image: redis:alpine

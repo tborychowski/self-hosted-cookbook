@@ -14,7 +14,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   qbittorrent:
     image: lscr.io/linuxserver/qbittorrent:latest

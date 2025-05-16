@@ -5,7 +5,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   windows:
     image: dockurr/windows

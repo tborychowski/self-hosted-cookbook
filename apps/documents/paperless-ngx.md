@@ -34,7 +34,6 @@ PAPERLESS_OCR_LANGUAGE=eng
 
 ## docker-compose.yml
 ```yml
----
 services:
   broker:
     image: docker.io/library/redis:6.0

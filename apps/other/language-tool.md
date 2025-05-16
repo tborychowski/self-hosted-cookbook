@@ -21,7 +21,6 @@ LanguageTool can make use of large n-gram data sets to detect errors with words 
 
 ## docker-compose.yml
 ```yml
----
 services:
   languagetool:
     image: erikvl87/languagetool
@@ -51,7 +50,6 @@ This is using [libregrammar](https://github.com/TiagoSantos81/libregrammar) vers
 
 
 ```yml
----
 services:
   languagetool:
     image: registry.gitlab.com/py_crash/docker-libregrammar

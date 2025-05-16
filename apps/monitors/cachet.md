@@ -10,7 +10,6 @@
 
 ## docker-compose.yml
 ```yml
-version: '3.3'
 services:
     cachet:
         image: cachethq/docker:latest

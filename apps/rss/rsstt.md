@@ -11,8 +11,6 @@ A Telegram RSS bot that cares about your reading experience
 # docker-compose.yml
 
 ```yml
----
-version: '3.6'
 
 services:
   main:
@@ -31,4 +29,4 @@ services:
 # Tips & Tricks
 
 - first follow [deployment guide](https://github.com/Rongronggg9/RSS-to-Telegram-Bot/blob/dev/docs/deployment-guide.md) to create a new bot,  get it's bot token, bot ID, telegraph api ID and telegraph api hash
-- Uncomment MULTIUSER=0, if you want to be the only user that can interact with the bot and API_ID and API_HASH  if you don't want to use the sample APIs. API_ID_PUBLISHED_FLOOD_ERROR may occur with sample telegraph api's 
+- Uncomment MULTIUSER=0, if you want to be the only user that can interact with the bot and API_ID and API_HASH  if you don't want to use the sample APIs. API_ID_PUBLISHED_FLOOD_ERROR may occur with sample telegraph api's

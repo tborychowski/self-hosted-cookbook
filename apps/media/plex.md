@@ -13,7 +13,6 @@ Audio, Video & Photo manager.<br>
 
 ## docker-compose.yml
 ```yml
----
 services:
   plex:
     image: ghcr.io/linuxserver/plex

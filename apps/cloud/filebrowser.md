@@ -38,7 +38,6 @@ The db file can remain empty (will be used by the app), the config - we need to 
 
 ## docker-compose.yml
 ```yaml
----
 services:
   filebrowser:
     image: filebrowser/filebrowser

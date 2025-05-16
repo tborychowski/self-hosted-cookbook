@@ -13,7 +13,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   piwigo:
     image: linuxserver/piwigo

@@ -14,7 +14,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   root_db:
     image: mysql:5.7

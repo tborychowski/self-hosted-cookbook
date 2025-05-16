@@ -9,7 +9,6 @@ Customizable browser's home page to interact with your homeserver's Docker conta
 
 ## docker-compose.yml
 ```yml
----
 services:
   homarr:
     image: ghcr.io/ajnart/homarr:latest

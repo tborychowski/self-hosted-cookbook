@@ -12,7 +12,6 @@ Full-featured & complicated.
 
 ## docker-compose.yml
 ```yml
----
 services:
   openproject:
     image: openproject/community

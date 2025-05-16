@@ -7,7 +7,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   shiori:
     image: radhifadlillah/shiori

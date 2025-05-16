@@ -12,7 +12,6 @@ Monitor for Plex Media Server.
 
 ## docker-compose.yml
 ```yml
----
 services:
   tautuli:
     image: tautulli/tautulli

@@ -6,7 +6,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   planka:
     image: meltyshev/planka:latest

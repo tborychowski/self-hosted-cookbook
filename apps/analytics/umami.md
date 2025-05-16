@@ -100,7 +100,6 @@ INSERT INTO account (username, password, is_admin) values ('admin', '$2b$10$BUli
 Original here: [docker-compose.yml](https://github.com/umami-software/umami/blob/master/docker-compose.yml).
 
 ```yml
----
 services:
   db:
     image: postgres:12-alpine

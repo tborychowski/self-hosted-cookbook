@@ -10,7 +10,6 @@ Personal Photo Management powered by Go and Google TensorFlow.
 
 ## docker-compose.yml
 ```yml
-version: '3.3'
 
 services:
   photoprism:

@@ -17,7 +17,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   db:
     image: mariadb:10.1

@@ -10,8 +10,6 @@
 
 ## `docker-compose.yml`
 ```yml
----
-version: '3.7'
 services:
   adguard:
     container_name: adguard

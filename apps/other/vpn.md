@@ -9,7 +9,6 @@ An account with a compatible VPN provider is required.
 
 ## docker-compose.yml
 ```yml
----
 services:
   gluetun:
     image: qmcgaw/gluetun
@@ -37,7 +36,6 @@ services:
 
 and then - in the corresponding service `docker-compose.yml`, e.g.:
 ```yml
----
 services:
   jackett:
     image: ghcr.io/linuxserver/jackett

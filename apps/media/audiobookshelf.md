@@ -13,8 +13,6 @@ Self-hosted Audiobook Server.
 
 ## docker-compose.yml
 ```yml
----
-version: '3.3'
 services:
   audiobookshelf:
     image: advplyr/audiobookshelf

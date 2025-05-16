@@ -12,8 +12,6 @@ A very good self-hosted comic books reader.
 
 ## docker-compose.yml
 ```yml
----
-version: '3.3'
 services:
     komga:
         image: gotson/komga

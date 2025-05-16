@@ -13,7 +13,6 @@ Music streaming service.
 
 ## docker-compose.yml
 ```yml
----
 services:
   navidrome:
     image: deluan/navidrome:latest

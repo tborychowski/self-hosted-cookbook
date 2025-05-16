@@ -15,7 +15,6 @@
 
 ## `docker-compose.yml`
 ```yml
----
 services:
   db:
     image: mariadb

@@ -1,6 +1,6 @@
-## docker-nginx-webdav-nononsense 
+## docker-nginx-webdav-nononsense
 
-aims to be a Docker image that enables a no-nonsense WebDAV system on the latest available nginx, stable and mainline. Serves a file server 
+aims to be a Docker image that enables a no-nonsense WebDAV system on the latest available nginx, stable and mainline. Serves a file server
 
 <br>
 
@@ -9,7 +9,6 @@ aims to be a Docker image that enables a no-nonsense WebDAV system on the latest
 ## docker-compose-yml
 
 ```yml
----
 services:
     nginxwebdav:
         container_name: nginxwebdav
@@ -29,7 +28,7 @@ services:
             - CLIENT_MAX_BODY_SIZE=120M # must end with M(egabytes) or G(igabytes)
         ports:
             - 32080:80
-```            
+```
 
 ## Tips & Tricks
 

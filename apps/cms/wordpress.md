@@ -13,8 +13,6 @@ The ultimate CMS/blogging platform.
 
 ## docker-compose.yml
 ```yml
----
-version: '3.1'
 services:
   wordpress:
     image: wordpress

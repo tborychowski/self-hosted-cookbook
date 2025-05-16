@@ -10,7 +10,6 @@
 
 ## `docker-compose.yml`
 ```yml
----
 services:
   pihole:
     container_name: pihole

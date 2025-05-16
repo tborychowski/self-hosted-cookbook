@@ -9,8 +9,6 @@ Flat file cms/blogging platform.
 
 ## docker-compose.yml
 ```yml
----
-version: '3.1'
 services:
   ghost:
     image: ghost:4-alpine

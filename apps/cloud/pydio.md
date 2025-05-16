@@ -12,7 +12,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   cells:
     image: pydio/cells:latest

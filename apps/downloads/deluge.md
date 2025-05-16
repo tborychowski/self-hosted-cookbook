@@ -12,8 +12,6 @@
 
 ## docker-compose.yml
 ```yml
----
-version: "2.1"
 services:
   deluge:
     image: linuxserver/deluge

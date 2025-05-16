@@ -14,7 +14,6 @@ An open-source, self-hosted memo hub with knowledge management and collaboration
 
 ## docker-compose.yml
 ```yaml
----
 services:
   memos:
     image: neosmemo/memos:latest

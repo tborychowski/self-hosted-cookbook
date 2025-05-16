@@ -11,7 +11,6 @@ The config files below, will use a file-storage for users, because it's simpler 
 
 ## docker-compose.yml
 ```yml
-version: '3.3'
 networks:
   net:
     driver: bridge

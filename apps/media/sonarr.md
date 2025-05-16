@@ -10,7 +10,6 @@ TV show manager.
 
 ## docker-compose.yml
 ```yml
----
 services:
   sonarr:
     image: linuxserver/sonarr

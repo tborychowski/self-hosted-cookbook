@@ -13,7 +13,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   homer:
   image: b4bz/homer
@@ -27,7 +26,6 @@ services:
 
 ## config.yml
 ```yml
----
 title: "Home"
 subtitle: "start.example.com"
 logo: false

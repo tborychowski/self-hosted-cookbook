@@ -9,7 +9,6 @@
 
 ## docker-compose.yml
 ```yml
----
 services:
   baserow:
     image: baserow/baserow:latest

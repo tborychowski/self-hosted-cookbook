@@ -14,8 +14,6 @@
 
 ## docker-compose.yml
 ```yml
----
-version: "2.1"
 services:
   transmission:
     image: linuxserver/transmission

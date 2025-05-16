@@ -12,8 +12,6 @@ Minimalistic flexible homepage.
 
 ## docker-compose.yml
 ```yml
----
-version: '3.8'
 
 services:
   mafl:

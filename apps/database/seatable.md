@@ -11,8 +11,6 @@
  ## docker-compose.yml
  That this didn't work for me at the time of testing.
 ```yml
----
-version: '2.0'
 services:
   db:
     image: mariadb:10.5

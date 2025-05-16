@@ -11,7 +11,6 @@ Doku is a web-based Docker disk usage monitor.
 
 ## docker-compose.yml
 ```yml
----
 services:
   doku:
     image: amerkurev/doku
