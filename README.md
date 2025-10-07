@@ -98,6 +98,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 
 # Cloud & File Sharing
+- [CloudCmd](apps/cloud/cloudcmd.md)
 - [Filebrowser](apps/cloud/filebrowser.md)
 - [FileRun](apps/cloud/filerun.md)
 - [NextCloud](apps/cloud/nextcloud.md)
