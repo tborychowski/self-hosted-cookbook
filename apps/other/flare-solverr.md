@@ -9,6 +9,7 @@ Proxy server to bypass Cloudflare protection. Can be used by other apps (e.g. Ja
 
 ## docker-compose.yml
 ```yml
+services:
   flaresolverr:
     image: ghcr.io/flaresolverr/flaresolverr:latest
     container_name: flaresolverr
