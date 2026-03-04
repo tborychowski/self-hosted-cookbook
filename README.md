@@ -101,6 +101,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [CloudCmd](apps/cloud/cloudcmd.md)
 - [Filebrowser](apps/cloud/filebrowser.md)
 - [FileRun](apps/cloud/filerun.md)
+- [FileShot](apps/cloud/fileshot.md)
 - [NextCloud](apps/cloud/nextcloud.md)
 - [oasis](apps/cloud/oasis.md)
 - [Pydio](apps/cloud/pydio.md)
