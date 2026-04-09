@@ -190,6 +190,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
   - [simplelogin.io](https://simplelogin.io/) 🔗
   - [simplelogin.io github repo](https://github.com/simple-login/app) 🔗
   - [Forward Email](https://forwardemail.net/en) 🔗 - Unlimited email addresses, custom domain, catch-all, wildcard, and disposable aliases (has free and paid plans).
+  - [KaiMail](https://kaimail.net) 🔗 - Email forwarding for custom domains with ARC/DKIM signing, SMTP sending, and webhook delivery (has free and paid plans).
 - Tools
   - [verify domain for google](https://postmaster.google.com/managedomains) 🔗
   - [remove IP from spam house](https://www.spamhaus.org/lookup/) 🔗
