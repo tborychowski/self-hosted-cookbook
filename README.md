@@ -98,6 +98,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 
 
 # Cloud & File Sharing
+- [CloudCmd](apps/cloud/cloudcmd.md)
 - [Filebrowser](apps/cloud/filebrowser.md)
 - [FileRun](apps/cloud/filerun.md)
 - [NextCloud](apps/cloud/nextcloud.md)
@@ -189,6 +190,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
   - [simplelogin.io](https://simplelogin.io/) 🔗
   - [simplelogin.io github repo](https://github.com/simple-login/app) 🔗
   - [Forward Email](https://forwardemail.net/en) 🔗 - Unlimited email addresses, custom domain, catch-all, wildcard, and disposable aliases (has free and paid plans).
+  - [KaiMail](https://kaimail.net) 🔗 - Email forwarding for custom domains with ARC/DKIM signing, SMTP sending, and webhook delivery (has free and paid plans).
 - Tools
   - [verify domain for google](https://postmaster.google.com/managedomains) 🔗
   - [remove IP from spam house](https://www.spamhaus.org/lookup/) 🔗
@@ -308,6 +310,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Crowdsec](apps/other/crowdsec.md)
 - [Firefox sync server](apps/other/firefox-sync.md)
 - [Firefox](apps/other/firefox.md)
+- [FlareSolverr](apps/other/flare-solverr.md)
 - [LanguageTool server](apps/other/language-tool.md)
 - [Ntfy](apps/other/ntfy.md)
 - [OpenSpeedTest](apps/other/openspeedtest.md)
@@ -316,6 +319,8 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Traccar location tracker](apps/other/traccar.md)
 - [VPN client](apps/other/vpn.md)
 - [Windows](apps/other/windows.md)
+
+
 
 # Photos
 - [Comparison table](apps/photos/comparison.md)
