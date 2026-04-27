@@ -344,6 +344,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 # Project Management
 - [Jira](apps/project-mgmt/jira.md)
 - [Kanboard](apps/project-mgmt/kanboard.md)
+- [Kaneo](apps/project-mgmt/kaneo.md)
 - [OpenProject](apps/project-mgmt/open-project.md)
 - [Planka](apps/project-mgmt/planka.md)
 - [Vikunja](apps/project-mgmt/vikunja.md)
