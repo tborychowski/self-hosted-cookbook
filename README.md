@@ -228,6 +228,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Bazarr](apps/media/bazarr.md) - subtitles
 - [Calibre](apps/media/calibre.md) - e-books
 - [Deemix](apps/media/deemix.md) - music
+- [Issued](https://useissued.com/) 🔗 - comic reader & manager
 - [Jackett](apps/media/jackett.md) - search engine proxy/adapter
 - [Jellyfin](apps/media/jellyfin.md) - watch movies & shows almost everywhere!
 - [Kavita](apps/media/kavita.md) - like plex for ebooks & comics
