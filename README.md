@@ -198,6 +198,14 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
   - [reverse-dns-check](https://www.debouncer.com/reverse-dns-check) 🔗
   - [DNS Records checker](https://www.digwebinterface.com/) 🔗
   - [Domain security checker](https://www.hardenize.com/) 🔗
+  - [ImmuniWeb - Email Security Test](https://www.immuniweb.com/email/) 🔗
+  - [ImmuniWeb - Website Security Test](https://www.immuniweb.com/websec/) 🔗
+  - [ImmuniWeb - SSL Security Test](https://www.immuniweb.com/ssl/) 🔗
+  - [ScanTower - Website Security Test](https://scantower.io/website-security-checker) 🔗
+  - [Qualys - SSL Server Test](https://ssllabs.com/ssltest) 🔗
+  - [Mozilla - HTTP Observatory](https://developer.mozilla.org/en-US/observatory) 🔗
+  - [HTTP Security Report](https://httpsecurityreport.com/) 🔗
+  - [WebCheck](https://web-check.xyz/) 🔗
 
 
 
