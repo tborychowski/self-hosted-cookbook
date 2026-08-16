@@ -10,35 +10,34 @@ This is the Joplin sync server.
 ## docker-compose.yml
 ```yml
 services:
-    db:
-        image: postgres:13.1
-        container_name: joplin-db
-        ports:
-            - "5432:5432"
-        restart: unless-stopped
-        environment:
-            - POSTGRES_DB=joplin
-            - POSTGRES_USER=joplin
-			- POSTGRES_PASSWORD=joplin
-        volumes:
-		    - ./data:/var/lib/postgresql/data
-    app:
-        image: joplin/server:latest
-        container_name: joplin
-        depends_on:
-            - db
-        ports:
-            - "22300:22300"
-        restart: unless-stopped
-        environment:
-            - APP_BASE_URL=https://joplin.example.com
-            - APP_PORT=22300
-            - DB_CLIENT=pg
-            - POSTGRES_HOST=db
-            - POSTGRES_DATABASE=joplin
-            - POSTGRES_USER=joplin
-            - POSTGRES_PASSWORD=joplin
-            - POSTGRES_PORT=5432
+  db:
+    image: postgres:18
+    container_name: joplin-db
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=joplin
+      - POSTGRES_USER=joplin
+      - POSTGRES_PASSWORD=your_secure_password
+    volumes:
+      - ./data:/var/lib/postgresql/data
+
+  app:
+    image: joplin/server:latest
+    container_name: joplin
+    depends_on:
+      - db
+    ports:
+      - "127.0.0.1:22300:22300"
+    restart: unless-stopped
+    environment:
+      - APP_BASE_URL=https://joplin.example.com
+      - APP_PORT=22300
+      - DB_CLIENT=pg
+      - POSTGRES_HOST=db
+      - POSTGRES_DATABASE=joplin
+      - POSTGRES_USER=joplin
+      - POSTGRES_PASSWORD=your_secure_password
+      - POSTGRES_PORT=5432
 
 ```
 
