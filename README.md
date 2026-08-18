@@ -235,6 +235,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Audiobookshelf](apps/media/audiobookshelf.md) - audiobooks
 - [Bazarr](apps/media/bazarr.md) - subtitles
 - [Calibre](apps/media/calibre.md) - e-books
+- [Calibre-Web Automated](apps/media/calibre-web-automated.md) - e-books
 - [Deemix](apps/media/deemix.md) - music
 - [Issued](https://useissued.com/) 🔗 - comic reader & manager
 - [Jackett](apps/media/jackett.md) - search engine proxy/adapter
