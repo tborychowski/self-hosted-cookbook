@@ -197,6 +197,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
   - [check dns & reverse dns](https://mxtoolbox.com/) 🔗
   - [reverse-dns-check](https://www.debouncer.com/reverse-dns-check) 🔗
   - [DNS Records checker](https://www.digwebinterface.com/) 🔗
+  - [Email Spam Tester](https://email-spam-tester.com/) 🔗 - Send a test mail and get SPF/DKIM/DMARC, blocklist checks and the folder it was filed under (free, no signup).
   - [Domain security checker](https://www.hardenize.com/) 🔗
   - [ImmuniWeb - Email Security Test](https://www.immuniweb.com/email/) 🔗
   - [ImmuniWeb - Website Security Test](https://www.immuniweb.com/websec/) 🔗
