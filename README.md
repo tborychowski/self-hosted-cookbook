@@ -197,6 +197,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
   - [check dns & reverse dns](https://mxtoolbox.com/) 🔗
   - [reverse-dns-check](https://www.debouncer.com/reverse-dns-check) 🔗
   - [DNS Records checker](https://www.digwebinterface.com/) 🔗
+  - [Email Spam Tester](https://email-spam-tester.com/) 🔗 - Send a test mail and get SPF/DKIM/DMARC, blocklist checks and the folder it was filed under (free, no signup).
   - [Domain security checker](https://www.hardenize.com/) 🔗
   - [ImmuniWeb - Email Security Test](https://www.immuniweb.com/email/) 🔗
   - [ImmuniWeb - Website Security Test](https://www.immuniweb.com/websec/) 🔗
@@ -280,6 +281,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Glances](https://glances.readthedocs.io/en/stable/install.html) 🔗 - resource hog
 - [Netdata](https://hub.docker.com/r/netdata/netdata) 🔗 - lots of stuff, nothing relevant
 - [LibreNMS](https://github.com/librenms/docker) 🔗 - ugly
+- [SolidPing](https://github.com/fclairamb/solidping) 🔗 - Uptime and synthetic monitoring in one Go binary or Docker image (SQLite by default), with status pages and alerts.
 
 
 

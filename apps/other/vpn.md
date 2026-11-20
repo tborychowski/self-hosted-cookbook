@@ -1,7 +1,7 @@
 # Gluetun VPN client
 A VPN client to tunnel to Cyberghost, ExpressVPN, FastestVPN, HideMyAss, IPVanish, IVPN, Mullvad, NordVPN, Perfect Privacy, Privado, Private Internet Access, PrivateVPN, ProtonVPN, PureVPN, Surfshark, TorGuard, VPNUnlimited, VyprVPN, WeVPN and Windscribe VPN servers using Go, OpenVPN or Wireguard, iptables, DNS over TLS, ShadowSocks and an HTTP proxy.<br>
 
-- [Github repo](https://github.com/qdm12/gluetun)
+- [Github repo](https://github.com/passteque/gluetun)
 - [Docker Hub](https://hub.docker.com/r/qmcgaw/gluetun)
 
 ## Requirements
