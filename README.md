@@ -242,6 +242,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Jellyfin](apps/media/jellyfin.md) - watch movies & shows almost everywhere!
 - [Kavita](apps/media/kavita.md) - like plex for ebooks & comics
 - [Komga](apps/media/komga.md) - comics
+- [Lidarr](apps/media/lidarr.md) - music manager
 - [Navidrome](apps/media/navidrome.md) - music streaming server
 - [Plex](apps/media/plex.md) - watch movies & shows everywhere!
 - [Radarr](apps/media/radarr.md) - movies

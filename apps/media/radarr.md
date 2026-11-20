@@ -19,7 +19,6 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Dublin
-      - UMASK_SET=022 #optional
     ports:
       - 7878:7878
     volumes:
