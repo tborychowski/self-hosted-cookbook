@@ -282,6 +282,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Netdata](https://hub.docker.com/r/netdata/netdata) 🔗 - lots of stuff, nothing relevant
 - [LibreNMS](https://github.com/librenms/docker) 🔗 - ugly
 - [SolidPing](https://github.com/fclairamb/solidping) 🔗 - Uptime and synthetic monitoring in one Go binary or Docker image (SQLite by default), with status pages and alerts.
+- [SiteWatcher](https://github.com/NikKurkov/sitewatcher) 🔗 - Website uptime, TLS and domain expiry monitoring with public status pages. Runs from source with Docker Compose.
 
 
 
