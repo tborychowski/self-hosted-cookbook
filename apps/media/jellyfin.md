@@ -7,8 +7,6 @@ Audio, Video & Photo manager.<br>
 
 - [Homepage](https://jellyfin.org/)
 
-okdocker run -d -v /srv/jellyfin/config:/config -v /srv/jellyfin/cache:/cache -v /media:/media --net=host jellyfin/jellyfin:latest
-
 
 ## docker-compose.yml
 ```yml
