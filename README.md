@@ -250,6 +250,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Radarr](apps/media/radarr.md) - movies
 - [Readerr](apps/media/readerr.md) - ebooks & comics
 - [Sonarr](apps/media/sonarr.md) - tv shows
+- [SwingMusic](apps/media/swing.md) - music streaming server
 - [Tautulli](apps/media/tautulli.md) - dashboard for Plex
 - [Ubooquity](http://vaemendis.net/ubooquity) 🔗 - another Ebook & Comics server. Didn't work properly.
 
