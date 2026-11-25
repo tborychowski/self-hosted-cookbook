@@ -242,6 +242,7 @@ The aims is to provide a ready-to-run recipes that you can just copy, paste and 
 - [Jackett](apps/media/jackett.md) - search engine proxy/adapter
 - [Jellyfin](apps/media/jellyfin.md) - watch movies & shows almost everywhere!
 - [Kavita](apps/media/kavita.md) - like plex for ebooks & comics
+- [Koel](apps/media/koel.md) - music streaming server with mobile apps
 - [Komga](apps/media/komga.md) - comics
 - [Lidarr](apps/media/lidarr.md) - music manager
 - [Navidrome](apps/media/navidrome.md) - music streaming server
